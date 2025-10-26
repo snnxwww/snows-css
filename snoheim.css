@@ -869,7 +869,7 @@ form[action="/account-link.php"] button {
 form[action="/account-link.php"]:after {
 	content: "Switch Account ⟶";
 	position: absolute !important;
-	margin-top: -30px !important;
+	margin-top: -35px !important;
 	left: 35% !important;
 	display: inline-block !important;
 	transition: 0.5s !important;
@@ -1166,6 +1166,13 @@ form[action="/account-link.php"]:hover:after {
 	}
 }
 
+/* LAYOUT FIXES / FEBRUARY / THOUGHTS */
+
+
+
+/* LAYOUT FIXES / SEPTEMBER / LOCUST SWARMS */
+
+
 /* LAYOUT FIXES / OCTOBER / TRICK OR TREATING */
 *:has(img[src*="icon_beetleblood.png"]):has(img[src*="pumpkin"]) .feature.auto {
 	position: absolute !important;
@@ -1200,6 +1207,9 @@ form[action="/account-link.php"]:hover:after {
 	top: 1235px !important;
 }
 
+/* LAYOUT FIXES / DECEMBER / GIFTING OR POOPING */
+
+
 
 /* LAYOUT FIXES / SCREEN SIZE */
 @media (max-width: 992px) {
@@ -1218,6 +1228,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):hover:after {
 		transform: translateX(285px) translateY(2.5px);
+	}
+	form[action="/account-link.php"]:after {
+		left: 45% !important;
 	}
 }
 
