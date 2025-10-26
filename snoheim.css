@@ -63,6 +63,7 @@
 	background-size: cover !important;
 }
 
+
 /* TOPBAR */
 .topbar {
 	height: 35px !important;
@@ -115,6 +116,7 @@
 	left: -2px !important; 
 }
 
+
 /* NAVBAR */
 .navbar {
 	font-family: var(--navbar-font) !important;
@@ -150,6 +152,7 @@ button.navbar-toggle:hover {
   background-color: transparent !important; 
   border: none !important; 
 }
+
 
 /* ALERTS */
 .alert {
@@ -235,6 +238,7 @@ center .alert ~ .alert ~ .alert {
 center .alert ~ .alert ~ .alert ~ .alert {
 	transform: translateY(-330%) !important;
 }
+
 
 /* FEATURE LION */
 h1 {
@@ -345,6 +349,7 @@ h1 {
 .table .bottom a {
 	text-decoration: none !important;
 }
+
 
 /* ABOUT */
 .about-table {
@@ -605,6 +610,7 @@ h1 {
 	transform: translateX(5px) !important;
 }
 
+
 /* CAVES AND MOUNDS */
 #fraOrganizationBlock {
 	position: absolute !important;
@@ -735,6 +741,7 @@ h1 {
 	line-height: 15px !important;
 }
 
+
 /* ATTACK */
 #attack {
 	position: absolute !important;
@@ -764,15 +771,18 @@ h1 {
 	display: none !important;
 }
 
+
 /* ALLIES */
 #allies {
 	display: none !important;
 }
 
+
 /* CLANS */
 #clans {
 	display: none !important;
 }
+
 
 /* DYNASTY */
 .dynastycollection {
@@ -797,10 +807,8 @@ h1 {
 	overflow-y: hidden !important;
 }
 
+
 /* SIDEBAR */
-.row:nth-child(2){
-	
-}
 .panel-body {
 	font-size: var(--sidebarpanels-fontsize) !important;
 	font-family: var(--sidebarpanels-font) !important;
@@ -1181,6 +1189,7 @@ form[action="/account-link.php"]:hover:after {
 	}
 }
 
+
 /* LAYOUT FIXES / FEBRUARY / THOUGHTS */
 
 
@@ -1222,8 +1231,8 @@ form[action="/account-link.php"]:hover:after {
 	top: 1235px !important;
 }
 
-/* LAYOUT FIXES / DECEMBER / GIFTING OR POOPING */
 
+/* LAYOUT FIXES / DECEMBER / GIFTING OR POOPING */
 
 
 /* LAYOUT FIXES / SCREEN SIZE */
@@ -1248,7 +1257,6 @@ form[action="/account-link.php"]:hover:after {
 		left: 45% !important;
 	}
 }
-
 @media (max-width: 768px) {
 	.navbar a {
 		padding-right: 12px !important;
@@ -1277,3 +1285,4 @@ form[action="/account-link.php"]:hover:after {
 		top: 1235px !important;
 	}
 }
+
