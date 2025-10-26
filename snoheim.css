@@ -319,6 +319,9 @@ h1 {
 #about.table .top {
 	background-color: transparent !important;
 }
+#about.table .bottom {
+	z-index: 100 !important;
+}
 #about {
 	position: absolute !important;
 	top: 525px !important;
@@ -1180,6 +1183,7 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_beetleblood.png"]):has(img[src*="pumpkin"]) .feature.auto form {
 	left: 5% !important;
 	top: 150px !important;
+	z-index: 200 !important;
 }
 *:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) .feature.auto {
 	top: 14% !important;
