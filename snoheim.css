@@ -550,7 +550,7 @@ h1 {
 	text-decoration: none !important;
 }
 .link-box a:hover {
-	font-size: calc(var(--about-fontsize)*1.1) !important;
+	padding-left: 5px !important;
 }
 .comment-container {
 	display: flex !important;
@@ -751,12 +751,6 @@ h1 {
 	content: "⟶";
 	margin-left: -40px !important;
 }
-#attack .right a {
-	font-size: 0;
-}
-#attacking {
-	display: none !important;
-}
 
 /* ALLIES */
 #allies {
@@ -883,6 +877,9 @@ form[action="/account-link.php"]:after {
 }
 form[action="/account-link.php"]:hover:after {
 	margin-left: 5px !important;
+}
+.panel-body a:hover {
+	padding-left: 5px !important;
 }
 
 
