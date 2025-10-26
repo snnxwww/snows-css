@@ -757,6 +757,12 @@ h1 {
 	content: "⟶";
 	margin-left: -40px !important;
 }
+#attack .right a {
+	font-size: 0;
+}
+#attacking {
+	display: none !important;
+}
 
 /* ALLIES */
 #allies {
