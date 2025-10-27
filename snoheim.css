@@ -34,7 +34,7 @@
 	--comments-fontsize: 14px;
 	--about-fontsize: 16px;
 	--caves-fontsize: 18px;
-	--tables-headingfontsize: 24px;
+	--tables-headingfontsize: 22px;
 	--tables-fontsize: 14px;
 	--sidebarpanels-headingfontsize: 24px;
 	--sidebarpanels-fontsize: 14px;
@@ -74,6 +74,12 @@
 	--lcomment-commentbarbgclr: #95afc4;
 	--lcomment-fontclr: #2c343b;
 	--lcomment-userfontclr: #344552;
+	--lcaves-bgclr: #95afc4;
+	--lcaves-fontclr: #4a535b;
+	--ltable-headingbgclr: #7d95a8;
+	--ltable-bgclr: #bbccd9;
+	--ltable-headingfontclr: #e5ebef;
+	--ltable-fontclr: #fff
 
 	/* LIGHT MODE / NIGHT TIME */
 
@@ -274,7 +280,7 @@ center .alert {
 	padding: 4px !important;
 	padding-left: 10px !important;
 	z-index: 25 !important;
-	top: 23.5% !important;
+	top: 23.35% !important;
 	text-align: center !important;
 	border-radius: 0px !important;
 	width: 90% !important;
@@ -816,6 +822,23 @@ h1 {
 	top: 2025px !important;
 	width: 95% !important;
 	left: 2.5% !important;
+	font-size: var(--tables-fontsize) !important;
+	font-family: var(--tables-font) !important;
+}
+#attack .right {
+	height: 140px !important;
+}
+#attack th {
+	font-size: var(--tables-headingfontsize) !important;
+	font-family: var(--tables-headingfont) !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+#attack .bottom {
+	font-size: var(--tables-fontsize) !important;
+	font-family: var(--tables-headingfont) !important;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
 }
 #attack input {
 	background: transparent !important;
@@ -837,6 +860,9 @@ h1 {
 }
 #attacking {
 	display: none !important;
+}
+#attack .bottom a {
+	text-decoration: none !important;
 }
 
 
@@ -1270,7 +1296,7 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_beetleblood.png"]):has(img[src*="pumpkin"]) .feature.auto {
 	position: absolute !important;
 	width: 95% !important;
-	top: 17.5% !important;
+	top: 14.85% !important;
 	background: transparent !important;
 	z-index: 50 !important;
 	color: transparent !important;
@@ -1497,6 +1523,27 @@ form[action="/account-link.php"]:hover:after {
 	#comment::placeholder {
 		color: var(--lcomment-fontclr);
 		opacity: 0.5;
+	} /* CAVES AND MOUNDS */
+	#fraCaveList > div.col-md-4.col-xs-6.center {
+		background-color: var(--lmainpanel-bgclr) !important;
+	}
+	#fraOrganizationBlock .cave-grid {
+		background-color: var(--lcaves-bgclr) !important;
+		color: var(--lcaves-fontclr) !important;
+	}
+	#fraMoundList .mound-grid {
+		background-color: var(--lcaves-bgclr) !important;
+		color: var(--lcaves-fontclr) !important;
+	} /* ATTACK */
+	#attack {
+		background-color: var(--ltable-bgclr)
+	}
+	#attack th, #attack .bottom {
+		background: var(--ltable-headingbgclr) !important;
+		color: var(--ltable-headingfontclr) !important;
+	}
+	#attack .bottom a {
+		color: var(--ltable-headingfontclr) !important;
 	}
 
 }
