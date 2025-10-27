@@ -79,7 +79,7 @@
 	--ltable-headingbgclr: #7d95a8;
 	--ltable-bgclr: #bbccd9;
 	--ltable-headingfontclr: #e5ebef;
-	--ltable-fontclr: #fff
+	--ltable-fontclr: #3c444a;
 
 	/* LIGHT MODE / NIGHT TIME */
 
@@ -1536,7 +1536,8 @@ form[action="/account-link.php"]:hover:after {
 		color: var(--lcaves-fontclr) !important;
 	} /* ATTACK */
 	#attack {
-		background-color: var(--ltable-bgclr)
+		background-color: var(--ltable-bgclr) !important;
+		color: var(--ltable-fontclr) !important;
 	}
 	#attack th, #attack .bottom {
 		background: var(--ltable-headingbgclr) !important;
@@ -1544,7 +1545,6 @@ form[action="/account-link.php"]:hover:after {
 	}
 	#attack .bottom a {
 		color: var(--ltable-headingfontclr) !important;
-	}
-
+	} 
 }
 /* *:has(img[alt="day Time"]) */
