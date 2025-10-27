@@ -29,7 +29,7 @@
 	--featurelion-fontsize: 16px;
 	--alert-fontsize: 16px;
 	--playercard-headingfontsize: 32px;
-	--playercard-fontsize: 15px;
+	--playercard-fontsize: 18px;
 	--about-headingfontsize: 26px;
 	--comments-fontsize: 14px;
 	--about-fontsize: 16px;
@@ -41,10 +41,50 @@
 	--chatbox-headingfontsize: 22px;
 	--chatbox-fontsize: 16px;
 
+	/* LIGHT MODE */
+	--l-bgclr: #97b0c5;
+	--l-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestday.png?raw=true');
+	--lmainpanel-bgclr: #a5bccf;
+	--lsidepanel-bgclr: #c3d2de;
+	--ltopbar-bgclr: #afc2d2;
+	--ltopbar-bgimg: url('');
+	--ltopbar-fontclr: #eaf0f5;
+	--lnavbar-bgclr: #a0b3c3;
+	--lnavbar-bgimg: url('');
+	--lnavbar-fontclr: #5c6770;
+	--lalert-bgclr: #b7c9d9;
+	--lalert-fontclr: #4f5961;
+	--lfeaturelion-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/frozenvallyday.png?raw=true');
+	--lfeaturelion-headingfontclr: #dce3ea;
+	--lfeaturelion-fontclr: #cedae4;
+	--lfeaturelion-lefttableclr: #bccede;
+	--lfeaturelion-righttableclr: #c5d3e0;
+	--lfeaturelion-tablefontclr: #4f5962;
+	--lplayercard-bgclr: #7d95a8;
+	--lplayercard-headingfontclr: #4b5966;
+	--lplayercard-fontclr: #6c7a87;
+	--lplayercard-onlinebadgeclr: #c2cdd6;
+	--lplayercard-offlinebadgeclr: #92a5b6;
+	--linfo-infoboxbgclr: #9bb2c5;
+	--linfo-linkboxbgclr: #8aa2b6;
+	--linfo-headingfontclr: #4e575e;
+	--linfo-fontclr: #5e666c;
+	--lcomment-imageboxbgclr: #8aa2b6;
+	--lcomment-commentboxbgclr: #7d95a8;
+	--lcomment-commentbarbgclr: #95afc4;
+	--lcomment-fontclr: #2c343b;
+	--lcomment-userfontclr: #344552;
+
+	/* LIGHT MODE / NIGHT TIME */
+
+	/* DARK MODE / DAY TIME */
+
+	/* DARK MODE / NIGHT TIME */
+
 }
 	
 
-*::-webkit-scrollbar {
+*:-webkit-scrollbar {
     display: none !important;
 }
 * {
@@ -62,6 +102,10 @@
 	padding: 0px !important;
 	background-size: cover !important;
 }
+body {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
 
 
 /* TOPBAR */
@@ -75,8 +119,16 @@
 }
 .welcomeback {
 	font-size: 0 !important;
-	}
+}
 .welcomeback a {
+	font-size: var(--topbar-fontsize) !important;
+}
+.welcomeback:before {
+	content: "Halt! You dare tread on these frozen grounds, ";
+	font-size: var(--topbar-fontsize) !important;
+}
+.welcomeback:after {
+	content: "?";
 	font-size: var(--topbar-fontsize) !important;
 }
 @keyframes shake {
@@ -131,7 +183,7 @@
 	font-size: calc(var(--navbar-fontsize)*1.15) !important;
 	transition: 0.5s !important;
 }
-.navbar a:not(:has(img[src*="logo-full-2.png"]))::before {
+.navbar a:not(:has(img[src*="logo-full-2.png"])):before {
 	content: "";
 	position: absolute !important;
 	width: 0 !important;
@@ -140,9 +192,10 @@
 	left: 50% !important;
 	transition: 0.5s !important;
 }
-.navbar a:not(:has(img[src*="logo-full-2.png"])):hover::before {
-	width: 95% !important;
+.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+	width: 87.5% !important;
 	left: 5% !important;
+	height: 2px !important;
 }
 button.navbar-toggle {
   background-color: transparent !important;
@@ -152,7 +205,6 @@ button.navbar-toggle:hover {
   background-color: transparent !important; 
   border: none !important; 
 }
-
 
 /* ALERTS */
 .alert {
@@ -246,8 +298,9 @@ h1 {
 }
 .breadcrumb {
 	height: 600px !important;
+	background-size: cover !important;
 }
-.breadcrumb li::before {
+.breadcrumb li:before {
 	content: none;
 	color: transparent !important;
 }
@@ -373,18 +426,22 @@ h1 {
 }
 #player {
 	position: absolute !important;
-	top: 820px !important;
+	top: 815px !important;
 	border: none !important;
 	left: 5% !important;
 	width: 90% !important;
+}
+#player hr {
+	margin-top: 10px !important;
+	height: 2px !important;
 }
 #player.table .top small {
 	display: none !important;
 }
 #player.table .top .floatright {
 	position: relative !important;
-	left: -40% !important;
-	margin: -15px !important;
+	left: -25% !important;
+	margin-bottom: -20px !important;
 	font-size: calc(var(--playercard-headingfontsize)*0.8) !important;
 	font-family: var(--playercard-headingfont) !important;
 	top: 48px !important;
@@ -401,20 +458,20 @@ h1 {
 #player .center.h3 {
 	padding-bottom: 10px !important;
 	margin-bottom: -20px !important;
-	margin-top: 10px !important;
+	margin-top: 15px !important;
 	font-family: var(--playercard-headingfont) !important;
 	font-size: var(--playercard-headingfontsize) !important;
 }
-.member-online {
+.member-online, .member-offline {
 	background-color: transparent !important;
 }
-.member-online::before, .member-offline::before {
+.member-online:before, .member-offline:before {
 	font-size: calc(var(--playercard-headingfontsize)*0.6) !important;
 	font-family: var(--playercard-font) !important;
     margin-left: -85px !important; 
 	padding-right: 10px !important;
 }
-.member-online::after, .member-offline::after {
+.member-online:after, .member-offline:after {
     content: "";
     display: inline-block !important;
     width: 15px !important;
@@ -422,13 +479,10 @@ h1 {
     border-radius: 50% !important; 
     margin-right: 0px !important;
 }
-.member-offline {
-	background-color: transparent !important;
-}
-.member-online::before {
+.member-online:before {
     content: "[ONLINE]" !important;
 }
-.member-offline::before {
+.member-offline:before {
     content: "[OFFLINE]" !important;
 }
 #player span {
@@ -463,66 +517,74 @@ h1 {
 	position: relative !important;
 	color: transparent !important;
 }
-.center a:after {
+.xlarge a:before, center a:before {
 	font-size: var(--playercard-fontsize) !important;
+	font-family: var(--playercard-font) !important;
 }
 .right_odd a {
 	position: relative !important;
 	color: transparent !important;
 }
-.xlarge a[href^="/compose.php"]::after {
+.xlarge a[href^="/compose.php"]:after {
     content: "Leave a Whisper";
-    margin-left: -65px !important;
+	margin-left: -70px !important;
+    margin-right: 15px !important;
+	transition: 0.5s !important;
 }
 .xlarge a[href^="/compose.php"]:hover:after {
-    margin-left: -60px !important;
-	margin: 5px;
+	margin-right: 25px !important;
 } 
-.xlarge a[href^="/transfers.php"]::after {
+.xlarge a[href^="/transfers.php"]:after {
     content: "Send a Parcel";
-    margin-left: -70px !important;
+    margin-left: -65px !important;
+	margin-right: 15px !important;
+	transition: 0.5s !important;
 }
 .xlarge a[href^="/transfers.php"]:hover:after {
-    margin-left: -65px !important;
-	margin: 5px;
+    margin-left: -55px !important;
+	margin-right: 25px !important;
 } 
-.xlarge a[href^="/trading_center.php?p=create"]::after {
+.xlarge a[href^="/trading_center.php?p=create"]:before {
     content: "Propose a Deal";
-    margin-left: -95px !important;
+	margin-left: 20px !important;
+    margin-right: -100px !important;
+	transition: 0.5s !important;
 }
-.xlarge a[href^="/trading_center.php?p=create"]:hover:after {
-    margin-left: -90px !important;
-	margin: 5px;
+.xlarge a[href^="/trading_center.php?p=create"]:hover:before {
+    margin-left: 30px !important;
 } 
-.center a[href^="/wishlist.php"]::after {
+.center a[href^="/wishlist.php"]:after {
     content: "View Bounties";
     margin-left: -95px !important;
+	margin-right: 15px !important;
+	transition: 0.5s !important;
 }
 .center a[href^="/wishlist.php"]:hover:after {
-    margin-left: -90px !important;
-	margin: 5px;
+    margin-right: 25px !important;
 }
-.center a[href^="/trading_center.php?s=users"]::after {
+.center a[href^="/trading_center.php?s=users"]:after {
     content: "View Listings";
-    margin-left: -90px !important;
+    margin-left: -85px !important;
+	transition: 0.5s !important;
 }
 .center a[href^="/trading_center.php?s=users"]:hover:after {
-    margin-left: -85px !important;
-	margin: 5px;
+    margin-left: -75px !important;
 } 
-.right_odd a[href^="/allies.php?p=blocked"]::after {
+.right_odd a[href^="/allies.php?p=blocked"]:after {
     content: "Banish";
     margin-left: -110px !important; 
+	transition: 0.5s !important;
 }
 .right_odd a[href^="/allies.php?p=blocked"]:hover:after {
-	font-size: calc(var(--pc-fontsize)*1.025);
+    padding-left: 5px;
 } 
-.right_odd a[href^="/territory.php"]::after {
+.right_odd a[href^="/territory.php"]:after {
     content: "Offer an Alliance";
     margin-left: -110px !important;
+	transition: 0.5s !important;
 }
-.right_odd a[href^="/territory.php"]:hover::after {
-    font-size: calc(var(--pc-fontsize)*1.025) !important;
+.right_odd a[href^="/territory.php"]:hover:after {
+    padding-right: 5px;
 }
 .info-container {
 	display: flex !important;
@@ -587,6 +649,9 @@ h1 {
 	font-size: var(--comments-fontsize) !important;
 	font-family: var(--comments-font) !important;
 }
+#commentBox input {
+	background: transparent !important;
+}
 #makeComment {
 	position: absolute !important;
 	top: 1682.5px !important;
@@ -608,6 +673,9 @@ h1 {
 }
 #makeComment:hover:after {
 	transform: translateX(5px) !important;
+}
+.comment {
+	background: transparent !important;
 }
 
 
@@ -911,25 +979,26 @@ form[action="/account-link.php"]:hover:after {
 	margin-top: 30px !important;
 }
 *:has(a[href*="refer.php"]) #player.table .top .floatright {
-	top: 68px !important;
+	top: 62px !important;
 }
-*:has(a[href*="refer.php"]) .center a[href^="/wishlist.php"]::after {
+*:has(a[href*="refer.php"]) .center a[href^="/wishlist.php"]:after {
     content: "View Bounties";
-	margin-left: -125px !important;
+	margin-left: -140px !important;
 	transition: 0.5s !important;
 }
 *:has(a[href*="refer.php"]) .center a[href^="/wishlist.php"]:hover:after {
-	margin-left: -120px !important;
+	margin-left: -130px !important;
 	margin: 5px;
 }
-*:has(a[href*="refer.php"]) .center a[href^="/refer.php"]::after {
+*:has(a[href*="refer.php"]) .center a[href^="/refer.php"]:after {
 	content: "Recruit an Ally";
 	margin-left: -110px !important;
+	margin-right: 10px !important;
 	transition: 0.5s !important;
 }
 *:has(a[href*="refer.php"]) .center a[href^="/refer.php"]:hover:after {
-	margin-left: -105px !important;
-	margin: 5px;
+	margin-left: -100px !important;
+	margin-right: 20px !important;
 }
 *:has(a[href*="refer.php"]) b:has(span)  {
 	display: none !important;
@@ -1286,3 +1355,149 @@ form[action="/account-link.php"]:hover:after {
 	}
 }
 
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--l-bgclr);
+		background-image: var(--l-bgimg);
+	}
+	.col-md-9 {
+		background-color: var(--lmainpanel-bgclr) !important;
+	}
+	.row:nth-child(2) {
+		background-color: var(--lsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	.topbar {
+		background-color: var(--ltopbar-bgclr) !important;
+		background-image: var(--ltopbar-bgimg) !important;
+		color: var(--ltopbar-fontclr) !important;
+	}
+	.topbar a {
+		color: var(--ltopbar-fontclr) !important;
+	} /* NAVBAR */
+	.navbar {
+		background-color: var(--lnavbar-bgclr) !important;
+		background-image: var(--lnavbar-bgimg) !important;
+	}
+	.navbar a {
+		color: var(--lnavbar-fontclr) !important;
+	}
+	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--lnavbar-fontclr) !important;
+	} /* ALERTS */
+	.alert {
+		background-color: var(--lalert-bgclr) !important;
+		color: var(--lalert-fontclr) !important;
+	}
+	.alert a {
+		color: var(--lalert-fontclr) !important;
+	} /* FEATURE LION */
+	.breadcrumb {
+		background-image: var(--lfeaturelion-bgimg) !important;
+	}
+	.top.center .xlarge.b {
+		color: var(--lfeaturelion-headingfontclr) !important;
+	}
+	.top.center .xlarge.b a {
+		color: var(--lfeaturelion-headingfontclr) !important;
+	}
+	.top.center .xlarge.b a:hover {
+		text-shadow: 0px 0px 10px var(--lfeaturelion-headingfontclr) !important;
+	}
+	.floatright form {
+		color: var(--lfeaturelion-fontclr) !important;
+	}
+	#about table .left {
+		background-color: var(--lfeaturelion-lefttableclr) !important;
+	}
+	#about table .right {
+		background-color: var(--lfeaturelion-righttableclr) !important;
+	}
+	#about table {
+		color: var(--lfeaturelion-tablefontclr) !important;
+	}
+	#about table a {
+		color: var(--lfeaturelion-tablefontclr) !important;
+	} /* ABOUT */
+	.player-card {
+		background-color: var(--lplayercard-bgclr) !important;
+	}
+	#player {
+		color: var(--lplayercard-headingfontclr)
+	}
+	#player.table .top .floatright {
+		color: var(--lplayercard-headingfontclr) !important;
+	}
+	.member-online:after {
+	    background-color: var(--lplayercard-onlinebadgeclr) !important;
+	}
+	.member-offline:after {
+	    background-color: var(--lplayercard-offlinebadgeclr) !important;
+	}
+	#player span:after {
+		color: var(--lplayercard-fontclr)
+	}
+	#player a:before, #player a:after {
+		font-size: var(--playercard-fontsize) !important;
+		font-family: var(--playercard-font) !important;
+		color: var(--lplayercard-fontclr) !important
+	}
+	.right_odd a {
+		position: relative !important;
+		color: transparent !important;
+	}
+	#player hr {
+		background-color: var(--lplayercard-headingfontclr) !important
+	}
+	.info-box {
+		background-color: var(--linfo-infoboxbgclr) !important
+	}
+	.info-box h2 {
+		color: var(--linfo-headingfontclr) !important;
+	}
+	.info-box p {
+		color: var(--linfo-fontclr) !important;
+	}
+	.link-box {
+		background-color: var(--linfo-linkboxbgclr) !important;
+	}
+	.link-box h3 {
+		color: var(--linfo-headingfontclr) !important;
+	}
+	.link-box a {
+		color: var(--linfo-fontclr) !important;
+	}
+	.link-box p {
+		color: var(--linfo-fontclr) !important;
+	}
+	.image-box {
+		background-color: var(--lcomment-imageboxbgclr) !important;
+	}
+	.comment-box {
+		background-color: var(--lcomment-commentboxbgclr) !important;
+	}
+	.comment {
+		color: var(--lcomment-fontclr) !important
+	}
+	.comment small {
+		color: var(--lcomment-fontclr) !important
+	}
+	.comment a {
+		color: var(--lcomment-userfontclr) !important
+	}
+	#makeComment input {
+		background-color: var(--lcomment-commentbarbgclr) !important;
+	}
+	#makeComment:after {
+		color: var(--lcomment-fontclr) !important;
+	}
+	#commentBox input {
+		color: var(--lcomment-userfontclr) !important;
+	}
+	#comment::placeholder {
+		color: var(--lcomment-fontclr);
+		opacity: 0.5;
+	}
+
+}
+/* *:has(img[alt="day Time"]) */
