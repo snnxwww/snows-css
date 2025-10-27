@@ -1851,9 +1851,11 @@ form[action="/account-link.php"]:hover:after {
 	#modalClaimList button {
 		color: var(--lchatbox-headingfontclr) !important;
 	}
+	#fraInputMessage {
+		background-color: var(--lchatbox-headingbgclr) !important;
+		color: var(--lchatbox-fontclr) !important;
+	}
+	
 }
 
 /* *:has(img[alt="day Time"]) */
-
-
-
