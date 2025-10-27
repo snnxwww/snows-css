@@ -1827,6 +1827,9 @@ form[action="/account-link.php"]:hover:after {
 	.chatMenu-container button:hover {
 		background-color: var(--lchatbox-settingsactiveclr) !important;
 	}
+	#txtChatInput {
+		background-color: var(--lchatbox-bgclr) !important;
+	}
 	.s-chat-message_claim {
 		color: var(--lchatbox-fontclr) !important;
 		background-color: var(--lchatbox-claimclr) !important
