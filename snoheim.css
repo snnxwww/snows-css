@@ -45,7 +45,6 @@
 	--l-bgclr: #97b0c5;
 	--l-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestday.png?raw=true');
 	--lmainpanel-bgclr: #a5bccf;
-	--lsidepanel-bgclr: #c3d2de;
 	--ltopbar-bgclr: #afc2d2;
 	--ltopbar-bgimg: url('');
 	--ltopbar-fontclr: #eaf0f5;
@@ -80,9 +79,36 @@
 	--ltable-bgclr: #bbccd9;
 	--ltable-headingfontclr: #e5ebef;
 	--ltable-fontclr: #3c444a;
+	--ltable-dropdownclr: #a5b8c7;
+	--lfapa-bgclr: #7d95a8;
+	--lfapa-headingfontclr: #38434b;
+	--lfapa-fontclr: #425d72;
+	--lfapa-dropdownclr: #a5b8c7;
+	--ldynasty-bgclr: #7d95a8;
+	--lusersettings-bgclr: #657a8b;
+	--lusersettings-headingbgclr: #526473;
+	--lusersettings-subheadingbgclr: #465867;
+	--lusersettings-headingfontclr: #dae2e9;
+	--lusersettings-subheadingfontclr: #b5c6d5;
+	--lusersettings-fontclr: #23282c;
+	--lusersettings-dropdownclr: #a5b8c7;
+	
+	--lsidepanel-bgclr: #c3d2de;
+	--lsidepanel-panelbgclr: #e7eff6;
+	--lsidepanel-headingfontclr: #373e44;
+	--lsidepanel-fontclr: #647786;
+	--lsidepanel-energybarclr: #aec0cd;
+	--lsidepanel-hungerbarclr: #8fb0cb;
+	--lsidepanel-experiencebarclr: #99b3c8;
+	--lsidepanel-impressionbarclr: #b5bec6;
+	--lsidepanel-achievementbarclr: #8398a8;
+
+	/* LIGHT MODE / DAY TIME */
 
 	/* LIGHT MODE / NIGHT TIME */
 
+	/* DARK MODE */
+	
 	/* DARK MODE / DAY TIME */
 
 	/* DARK MODE / NIGHT TIME */
@@ -914,9 +940,14 @@ h1 {
 .col-md-12 h3 .floatright {
 	color: transparent !important;
 }
+.col-md-12 h3:hover {
+	margin-right: -5px !important;
+	padding-left: 2.5px !important;
+}
 .col-md-12 h3 .floatright:after {
 	content: "⟶";
 	pointer-events: none !important; 
+	transition: 0.5s !important
 }
 a[href="./chat.php"] {
 	color: transparent !important;
@@ -1047,7 +1078,6 @@ form[action="/account-link.php"]:hover:after {
 	color: transparent !important;
 }
 *:has(a[href*="refer.php"]) .sparring {
-	height: 150px !important;
 	position: absolute !important;
 	top: 2255px !important;
 	width: 95% !important;
@@ -1079,6 +1109,14 @@ form[action="/account-link.php"]:hover:after {
 }
 *:has(a[href*="refer.php"]) *:has(#reclaim) .reclaim:after {
 	color: transparent !important;
+}
+*:has(a[href*="refer.php"]) #reclaim .left {
+	background: transparent !important;
+	color: transparent !important;
+}
+*:has(a[href*="refer.php"]) #reclaim .right {
+	position: relative !important;
+	top: -20px !important;
 }
 *:has(a[href*="refer.php"]) form:has(input[name="feedall"]) .feature {
 	position: absolute !important;
@@ -1545,6 +1583,134 @@ form[action="/account-link.php"]:hover:after {
 	}
 	#attack .bottom a {
 		color: var(--ltable-headingfontclr) !important;
-	} 
+	} /* FEED ALL, PLAY ALL */
+	.col-sm-6 .feature {
+		background-color: var(--lfapa-bgclr) !important;
+		color: var(--lfapa-fontclr) !important;
+	}
+	.col-sm-6 .feature h3 {
+		color: var(--lfapa-headingfontclr) !important
+	}
+	.col-sm-6 .feature select {
+		background-color: var(--lfapa-dropdownclr) !important;
+		color: var(--lfapa-fontclr) !important; 
+	} /* SPARRING */
+	#sparring {
+		background-color: var(--ltable-bgclr) !important;
+		color: var(--ltable-fontclr) !important;
+	}
+	#sparring .right_odd {
+		background-color: var(--ltable-bgclr) !important;
+		color: var(--ltable-fontclr) !important;
+	}
+	#sparring th {
+		background: var(--ltable-headingbgclr) !important;
+		color: var(--ltable-headingfontclr) !important;
+	}
+	#sparring select {
+		background-color: var(--ltable-dropdownclr) !important;
+		color: var(--ltable-fontclr) !important; 
+	} /* RECLAIM */
+	#reclaim {
+		background-color: var(--ltable-bgclr) !important;
+		color: var(--ltable-fontclr) !important;
+	}
+	#reclaim th, #reclaim .bottom {
+		background: var(--ltable-headingbgclr) !important;
+		color: var(--ltable-headingfontclr) !important;
+	}
+	#reclaim select {
+		background-color: var(--ltable-dropdownclr) !important;
+		color: var(--ltable-fontclr) !important; 
+	} /* DYNASTY */
+	.dynastylist .left {
+		background-color: var(--ldynasty-bgclr) !important;
+	} /* USER SETTINGS */
+	.col-sm-4 div {
+		background-color: var(--lusersettings-bgclr) !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	#editdetailspanel table {
+		background-color: #000 !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	th:has(a[onclick*="toggle_visibility('editdetailspanel')"]) {
+		background-color: var(--lusersettings-headingbgclr) !important;
+	}
+	a[onclick*="toggle_visibility('editdetailspanel')"] {
+		color: var(--lusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table td {
+		background-color: var(--lusersettings-bgclr) !important;
+		color: var(--lusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table td.bottom {
+		background-color: var(--lusersettings-headingbgclr) !important;
+		color: var(--lusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table select {
+		background-color: var(--lusersettings-dropdownclr) !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	#editdetailspanel table textarea {
+		background-color: var(--lusersettings-dropdownclr) !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	#editdetailspanel table input:not([name="update"]) {
+		background-color: var(--lusersettings-dropdownclr) !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	#editdetailspanel table a {
+		color: var(--lusersettings-fontclr) !important;
+	}
+	#editdetailspanel table .left {
+		background-color: var(--lusersettings-subheadingbgclr) !important;
+		color: var(--lusersettings-subheadingfontclr) !important
+	}
+	form:has(input[name="atid"]) > div.left {
+		background: var(--lusersettings-bgclr) !important;
+		color: var(--lusersettings-fontclr) !important;
+	}
+	form:has(input[name="atid"]) > div.left a {
+		color: var(--lusersettings-fontclr) !important;
+	} /* SIDE PANEL */
+	.panel-body {
+		background-color: var(--lsidepanel-panelbgclr) !important;
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.panel-body a {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.sidebar h3 {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	.col-md-12 h3 .floatright:after {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	a[href="./chat.php"]:after {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	.col-xs-6 .progress div {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.col-xs-6 .progress-bar {
+		background-color: var(--lsidepanel-impressionbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-warning {
+		background-color: var(--lsidepanel-energybarclr) !important;
+	}
+	.col-xs-6 .progress-bar-danger {
+		background-color: var(--lsidepanel-hungerbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-success {
+		background-color: var(--lsidepanel-experiencebarclr) !important;
+	}
+	.col-xs-5 .progress-bar {
+		background-color: var(--lsidepanel-achievementbarclr) !important
+	}
 }
+
 /* *:has(img[alt="day Time"]) */
+
+
+
