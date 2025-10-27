@@ -109,6 +109,8 @@
 	--lchatbox-dropdownactiveclr: #bfccd7;
 	--lchatbox-settingsclr: #c6d5e1;
 	--lchatbox-settingsactiveclr: #a5b3be;
+	--lchatbox-claimclr: #a5b3be;
+	--lchatbox-claimmenubgclr: #fff;
 	--lchatbox-headingfontclr: #5e656a;
 	--lchatbox-fontclr: #3c4953;
 	--lchatbox-subtextfontclr: #a1a5a8;
@@ -453,7 +455,7 @@ h1 {
 	padding: 0px !important;
 	height: 900px !important;
 	position: absolute !important;
-	top: 820px !important;
+	top: 825px !important;
 	width: 95%;
 	left: 2.5% !important;
 	text-align: left !important;
@@ -472,6 +474,10 @@ h1 {
 	border: none !important;
 	left: 5% !important;
 	width: 90% !important;
+}
+.right_odd a {
+	position: relative !important;
+	color: transparent !important;
 }
 #player hr {
 	margin-top: 10px !important;
@@ -1519,10 +1525,6 @@ form[action="/account-link.php"]:hover:after {
 		font-family: var(--playercard-font) !important;
 		color: var(--lplayercard-fontclr) !important
 	}
-	.right_odd a {
-		position: relative !important;
-		color: transparent !important;
-	}
 	#player hr {
 		background-color: var(--lplayercard-headingfontclr) !important
 	}
@@ -1809,6 +1811,10 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.chatMenu-container button:hover {
 		background-color: var(--lchatbox-settingsactiveclr) !important;
+	}
+	.s-chat-message_claim {
+		color: var(--lchatbox-fontclr) !important;
+		background-color: var(--lchatbox-claimclr) !important
 	}
 }
 
