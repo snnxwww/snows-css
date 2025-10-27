@@ -38,7 +38,7 @@
 	--tables-fontsize: 14px;
 	--sidebarpanels-headingfontsize: 24px;
 	--sidebarpanels-fontsize: 14px;
-	--chatbox-headingfontsize: 22px;
+	--chatbox-headingfontsize: 16px;
 	--chatbox-fontsize: 16px;
 
 	/* LIGHT MODE */
@@ -92,7 +92,6 @@
 	--lusersettings-subheadingfontclr: #b5c6d5;
 	--lusersettings-fontclr: #23282c;
 	--lusersettings-dropdownclr: #a5b8c7;
-	
 	--lsidepanel-bgclr: #c3d2de;
 	--lsidepanel-panelbgclr: #e7eff6;
 	--lsidepanel-headingfontclr: #373e44;
@@ -100,8 +99,19 @@
 	--lsidepanel-energybarclr: #aec0cd;
 	--lsidepanel-hungerbarclr: #8fb0cb;
 	--lsidepanel-experiencebarclr: #99b3c8;
-	--lsidepanel-impressionbarclr: #b5bec6;
+	--lsidepanel-impressionbarclr: #bdcddb;
 	--lsidepanel-achievementbarclr: #8398a8;
+	--lchatbox-headingbgclr: #8b9faf;
+	--lchatbox-bgclr: #e7eff6;
+	--lchatbox-activebgclr: #bbccd9;
+	--lchatbox-activeclr: #a3b4c1;
+	--lchatbox-dropdownclr: #a5b8c7;
+	--lchatbox-dropdownactiveclr: #bfccd7;
+	--lchatbox-settingsclr: #c6d5e1;
+	--lchatbox-settingsactiveclr: #a5b3be;
+	--lchatbox-headingfontclr: #5e656a;
+	--lchatbox-fontclr: #3c4953;
+	--lchatbox-subtextfontclr: #a1a5a8;
 
 	/* LIGHT MODE / DAY TIME */
 
@@ -985,12 +995,15 @@ a[href="./chat.php"]:after {
 }
 #fraChatSettingsMenu {
 	display: inline-block !important;
-	width: 160px !important;
-	transform: translateX(27.5px) !important;
+	width: 180px !important;
+	transform: translateX(17.5px) !important;
 }
 #btnChatSend {
     background: transparent !important;
     color: transparent !important;
+}
+#chatMessagePinned {
+	margin-top: 10px !important;
 }
 #txtChatContainer:after {
     content: "⟶"; 
@@ -1707,6 +1720,95 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.col-xs-5 .progress-bar {
 		background-color: var(--lsidepanel-achievementbarclr) !important
+	} /* CHATBOX */
+	.col-md-12 input {
+		background: transparent !important;
+		font-family: var(--sidebarpanels-font) !important;
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	#label_currentChannel {
+		background-color: var(--lchatbox-dropdownclr) !important;
+		color: var(--lchatbox-fontclr) !important;
+	}
+	#label_currentChannel:after {
+		color: var(--lchatbox-fontclr) !important;
+	}
+	#fraChatChannelMenu {
+		background-color: var(--lchatbox-dropdownclr) !important;
+	}
+	#fraChatChannelMenu button {
+		color: var(--lchatbox-fontclr) !important;
+		background-color: var(--lchatbox-dropdownclr) !important;
+	}
+	#fraChatChannelMenu .active {
+		background-color: var(--lchatbox-dropdownactiveclr) !important;
+	}
+	#fraChatChannelMenu button:hover {
+		background-color: var(--lchatbox-dropdownactiveclr) !important;
+	}
+	#chatMessagePinned {
+		background-color: var(--lchatbox-headingbgclr) !important;
+		color: var(--lchatbox-headingfontclr) !important;
+	}
+	#chatMessagePinned a {
+		background-color: var(--lchatbox-headingbgclr) !important;
+		color: var(--lchatbox-headingfontclr) !important;
+	}
+	.s-chat-message {
+		background-color: var(--lchatbox-bgclr) !important;
+		color: var(--lchatbox-fontclr) !important;
+		border-bottom: 1px solid var(--lchatbox-fontclr) !important;
+	}
+	.s-chat-message a {
+		color: var(--lchatbox-headingfontclr) !important;
+	}
+	.s-chat-message_timestamp {
+		color: var(--lchatbox-subtextfontclr) !important;
+	}
+	.s-chat-message.hasContext {
+		background-color: var(--lchatbox-activebgclr) !important;
+		border-left-color: var(--lchatbox-activeclr) !important
+	}
+	#fraChatSettingsMenu {
+		background-color: var(--lchatbox-settingsclr) !important;
+		color: var(--lchatbox-fontclr) !important;
+	}
+	#fraChatSettingsMenu button {
+		background-color: var(--lchatbox-settingsclr) !important
+	}
+	#fraChatSettingsMenu:after {
+		border-bottom-color: var(--lchatbox-settingsclr) !important;
+	}
+	#txtChatContainer a {
+		color: var(--lchatbox-fontclr) !important
+	}
+	#txtChatContainer:after {
+		color: var(--lchatbox-fontclr) !important
+	}
+	.emoteList {
+		background-color: var(--lchatbox-settingsclr) !important;
+	}
+	.emoteList:before {
+		border-top-color: var(--lchatbox-settingsclr) !important;
+	}
+	.emoteList:aftter {
+		border-top-color: var(--lchatbox-settingsclr) !important;
+	}
+	#context-chatMenu {
+		background-color: var(--lchatbox-settingsclr) !important;
+	}
+	#context-chatMenu:after {
+		border-left-color: var(--lchatbox-settingsclr) !important;
+	}
+	.chatMenu-container button {
+		background-color: var(--lchatbox-settingsclr) !important;
+		color: var(--lchatbox-fontclr) !important;
+	}
+	.chatMenu-container:before {
+		border-right-color: var(--lchatbox-settingsclr) !important;
+	}
+	.chatMenu-container button:hover {
+		background-color: var(--lchatbox-settingsactiveclr) !important;
 	}
 }
 
