@@ -110,7 +110,7 @@
 	--lchatbox-settingsclr: #c6d5e1;
 	--lchatbox-settingsactiveclr: #a5b3be;
 	--lchatbox-claimclr: #a5b3be;
-	--lchatbox-claimmenubgclr: #fff;
+	--lchatbox-claimmenubgclr: #c3d2de80;
 	--lchatbox-headingfontclr: #5e656a;
 	--lchatbox-fontclr: #3c4953;
 	--lchatbox-subtextfontclr: #a1a5a8;
@@ -1022,6 +1022,21 @@ a[href="./chat.php"]:after {
 #txtChatContainer:hover:after {
 	right: 0px !important;
 }
+.s-chat-message_claim {
+	transition: 0.5s !important
+}
+#modalClaimList {
+	font-size: var(--chatbox-fontsize) !important;
+	font-family: var(--chatbox-font) !important;
+	transition: 0.5s !important;
+}
+#modalClaimList a:hover {
+	padding-left: 2.5px !important;
+}
+#modalClaimList h3 {
+	font-size: var(--chatbox-headingfontsize) !important;
+	font-family: var(--chatbox-headingfont) !important;
+}
 form[action="/account-link.php"] {
 	font-size: var(--chatbox-gfontsize) !important;
 	font-family: var(--chatbox-font) !important;
@@ -1815,6 +1830,23 @@ form[action="/account-link.php"]:hover:after {
 	.s-chat-message_claim {
 		color: var(--lchatbox-fontclr) !important;
 		background-color: var(--lchatbox-claimclr) !important
+	}
+	#modalClaimBG {
+		background-color: var(--lchatbox-claimmenubgclr) !important;
+	}
+	#modalClaimList {
+		background-color: var(--lchatbox-bgclr); !important;
+		color: var(--lchatbox-fontclr) !important;
+	}
+	#modalClaimList a {
+		color: var(--lchatbox-fontclr) !important;
+	}
+	#modalClaimList h3 {
+		background-color: var(--lchatbox-headingbgclr); !important;
+		color: var(--lchatbox-headingfontclr) !important;
+	}
+	#modalClaimList button {
+		color: var(--lchatbox-headingfontclr) !important;
 	}
 }
 
