@@ -334,22 +334,6 @@ center .alert ~ .alert ~ .alert {
 center .alert ~ .alert ~ .alert ~ .alert {
 	transform: translateY(-330%) !important;
 }
-.alert-success a[href="/hunting.php"] {
-	color: transparent !important;
-}
-.alert-success a[href="/patrol.php"] {
-	color: transparent !important;
-}
-.alert-success a[href="/hunting.php"]:after {
-	content: "Go and see what they've brought back ⟶";
-	margin-left: -50% !important;
-	pointer-events: none !important;
-}
-.alert-success a[href="/patrol.php"]:after {
-	content: "Go and see what they've found ⟶";
-	margin-left: -55% !important;
-	pointer-events: none !important;
-}
 
 
 /* FEATURE LION */
@@ -1408,7 +1392,7 @@ form[action="/account-link.php"]:hover:after {
 	top: 12.25% !important;
 }
 *:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) .feature.auto form {
-	left: 70px !important;
+	left: 9% !important;
 	top: 150px !important;
 }
 *:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) form:has(input[name="feedall"]) .feature {
@@ -1473,6 +1457,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) form:has(input[name="playall"]) .feature {
 		top: 1235px !important;
 	}
+	#player.table .top .floatright {
+		left: -32.4% !important;
+	}
 }
 
 @media (prefers-color-scheme: light) {
@@ -1509,7 +1496,10 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lalert-bgclr) !important;
 		color: var(--lalert-fontclr) !important;
 	}
-	.alert a:after {
+	.alert a {
+		color: var(--lalert-fontclr) !important;
+	}
+	.alert a:hover {
 		color: var(--lalert-fontclr) !important;
 	} /* FEATURE LION */
 	.breadcrumb {
