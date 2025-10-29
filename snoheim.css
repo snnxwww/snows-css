@@ -689,7 +689,7 @@ h1 {
 }
 #commentBox {
 	position: absolute !important;
-	top: 1480px !important;
+	top: 1475px !important;
 	width: 70% !important;
 	left: 27.5% !important;
 	height: 210px !important;
@@ -702,7 +702,7 @@ h1 {
 }
 #makeComment {
 	position: absolute !important;
-	top: 1692.5px !important;
+	top: 1682.5px !important;
 	width: 70% !important;
 	left: 27.5% !important;
 	font-size: var(--comments-fontsize) !important;
@@ -1383,6 +1383,11 @@ form[action="/account-link.php"]:hover:after {
 	top: 150px !important;
 	z-index: 200 !important;
 }
+*:has(img[src*="icon_beetleblood.png"]):has(img[src*="pumpkin"]) .feature.auto input {
+	background: transparent !important;
+	font-size: calc(var(--featurelion-fontsize)*1.2) !important;
+	font-family: var(--featurelion-font) !important;
+}
 *:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) .feature.auto {
 	top: 12.25% !important;
 }
@@ -1397,6 +1402,7 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) form:has(input[name="playall"]) .feature {
 	top: 1235px !important;
 }
+
 
 
 /* LAYOUT FIXES / DECEMBER / GIFTING OR POOPING */
@@ -1450,6 +1456,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) form:has(input[name="playall"]) .feature {
 		top: 1235px !important;
+	}
+	#player.table .top .floatright {
+		left: -32.4% !important;
 	}
 }
 
@@ -1737,6 +1746,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.col-xs-5 .progress-bar {
 		background-color: var(--lsidepanel-achievementbarclr) !important
+	}
+	.sidebar input:hover {
+		text-shadow: 0px 0px 2.5px var(--lsidepanel-fontclr) !important;
 	} /* CHATBOX */
 	.col-md-12 input {
 		background: transparent !important;
@@ -1854,7 +1866,15 @@ form[action="/account-link.php"]:hover:after {
 	#fraInputMessage {
 		background-color: var(--lchatbox-headingbgclr) !important;
 		color: var(--lchatbox-fontclr) !important;
+	} /* FEBRUARY / THOUGHTS */
+	/* SEPTEMBER / LOCUST SWARMS */
+	/* OCTOBER / TRICK OR TREATING */
+	.feature.auto input {
+		color: var(--lfeaturelion-fontclr) !important;
 	}
+	.feature.auto input:hover {
+		text-shadow: 0px 0px 2.5px var(--lfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
+	} /* DECEMBER / GIFTING */
 	
 }
 
