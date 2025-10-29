@@ -689,7 +689,7 @@ h1 {
 }
 #commentBox {
 	position: absolute !important;
-	top: 1475px !important;
+	top: 1485px !important;
 	width: 70% !important;
 	left: 27.5% !important;
 	height: 210px !important;
@@ -702,7 +702,7 @@ h1 {
 }
 #makeComment {
 	position: absolute !important;
-	top: 1682.5px !important;
+	top: 1692.5px !important;
 	width: 70% !important;
 	left: 27.5% !important;
 	font-size: var(--comments-fontsize) !important;
