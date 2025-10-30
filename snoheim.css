@@ -169,61 +169,61 @@
 	--ldsidepanel-achievementbarclr: #bdd4d9;
 	
 	/* LIGHT MODE / NIGHT TIME */
-	--ln-bgclr: #fff;
-	--lnmainpanel-bgclr: #fff;
-	--lntopbar-bgclr: #fff;
-	--lndtopbar-fontclr: #fff;
-	--lnnavbar-bgclr: #fff;
-	--lnnavbar-fontclr: #fff;
-	--lnalert-bgclr: #fff;
-	--lnalert-fontclr: #fff;
-	--lnfeaturelion-headingfontclr: #fff;
-	--lnfeaturelion-fontclr: #fff;
-	--lnfeaturelion-lefttableclr: #fff;
-	--lnfeaturelion-righttableclr: #fff;
-	--lnfeaturelion-tablefontclr: #fff;
-	--lnplayercard-bgclr: #fff;
-	--lnplayercard-headingfontclr: #fff;
-	--lnplayercard-fontclr: #fff;
-	--lnplayercard-onlinebadgeclr: #fff;
-	--lnplayercard-offlinebadgeclr: #fff;
-	--lninfo-infoboxbgclr: #fff;
-	--lninfo-linkboxbgclr: #fff;
-	--lninfo-headingfontclr: #fff;
-	--lninfo-fontclr: #fff;
-	--lncomment-imageboxbgclr: #fff;
-	--lncomment-commentboxbgclr: #fff;
-	--lncomment-commentbarbgclr: #fff;
-	--lncomment-fontclr: #fff;
-	--lncomment-userfontclr: #fff;
-	--lncaves-bgclr: #fff;
-	--lncaves-fontclr: #fff;
-	--lntable-headingbgclr: #fff;
-	--lntable-bgclr: #fff;
-	--lntable-headingfontclr: #fff;
-	--lntable-fontclr: #fff;
-	--lntable-dropdownclr: #fff;
-	--lnfapa-bgclr: #fff;
-	--lnfapa-headingfontclr: #fff;
-	--lnfapa-fontclr: #fff;
-	--lnfapa-dropdownclr: #fff;
-	--lndynasty-bgclr: #fff;
-	--lnusersettings-bgclr: #fff;
-	--lnusersettings-headingbgclr: #fff;
-	--lnusersettings-subheadingbgclr: #fff;
-	--lnusersettings-headingfontclr: #fff;
-	--lnusersettings-subheadingfontclr: #fff;
-	--lnusersettings-fontclr: #fff;
-	--lnusersettings-dropdownclr: #fff;
-	--lnsidepanel-bgclr: #fff;
-	--lnsidepanel-panelbgclr: #fff;
-	--lnsidepanel-headingfontclr: #fff;
-	--lnsidepanel-fontclr: #fff;
-	--lnsidepanel-energybarclr: #fff;
-	--lnsidepanel-hungerbarclr: #fff;
-	--lnsidepanel-experiencebarclr: #fff;
-	--lnsidepanel-impressionbarclr: #fff;
-	--lnsidepanel-achievementbarclr: #fff;
+	--ln-bgclr: #464d54;
+	--lnmainpanel-bgclr: #556164;
+	--lntopbar-bgclr: #656c6f;
+	--lntopbar-fontclr: #b3c2c9;
+	--lnnavbar-bgclr: #728086;
+	--lnnavbar-fontclr: #2d383d;
+	--lnalert-bgclr: #7a8489;
+	--lnalert-fontclr: #bdc9ce;
+	--lnfeaturelion-headingfontclr: #7d8a90;
+	--lnfeaturelion-fontclr: #697980;
+	--lnfeaturelion-lefttableclr: #7c8f98;
+	--lnfeaturelion-righttableclr: #8c9fa8;
+	--lnfeaturelion-tablefontclr: #c4cbce;
+	--lnplayercard-bgclr: #7e95a0;
+	--lnplayercard-headingfontclr: #c0d7e2;
+	--lnplayercard-fontclr: #a2bac6;
+	--lnplayercard-onlinebadgeclr: #a0b1b9;
+	--lnplayercard-offlinebadgeclr: #515e64;
+	--lninfo-infoboxbgclr: #6c7d85;
+	--lninfo-linkboxbgclr: #788d97;
+	--lninfo-headingfontclr: #dde5e9;
+	--lninfo-fontclr: #c8d5db;
+	--lncomment-imageboxbgclr: #788d97;
+	--lncomment-commentboxbgclr: #7e95a0;
+	--lncomment-commentbarbgclr: #8aa8b6;
+	--lncomment-fontclr: #cbd9df;
+	--lncomment-userfontclr: #9bb3be;
+	--lncaves-bgclr: #71868f;
+	--lncaves-fontclr: #dde6ea;
+	--lntable-headingbgclr: #71868f;
+	--lntable-bgclr: #93adb8;
+	--lntable-headingfontclr: #dce4e7;
+	--lntable-fontclr: #475358;
+	--lntable-dropdownclr: #77909a;
+	--lnfapa-bgclr: #71868f;
+	--lnfapa-headingfontclr: #1d282d;
+	--lnfapa-fontclr: #3f5058;
+	--lnfapa-dropdownclr: #77909a;
+	--lndynasty-bgclr: #71868f;
+	--lnusersettings-bgclr: #607077;
+	--lnusersettings-headingbgclr: #475c65;
+	--lnusersettings-subheadingbgclr: #5a727c;
+	--lnusersettings-headingfontclr: #ced9de;
+	--lnusersettings-subheadingfontclr: #bfd0d7;
+	--lnusersettings-fontclr: #2a353a;
+	--lnusersettings-dropdownclr: #86979d;
+	--lnsidepanel-bgclr: #6c7779;
+	--lnsidepanel-panelbgclr: #556164;
+	--lnsidepanel-headingfontclr: #bfcdd0;
+	--lnsidepanel-fontclr: #a9b4b7;
+	--lnsidepanel-energybarclr: #899ca1;
+	--lnsidepanel-hungerbarclr: #7f9ca4;
+	--lnsidepanel-experiencebarclr: #627a80;
+	--lnsidepanel-impressionbarclr: #596f75;
+	--lnsidepanel-achievementbarclr: #5a6a6f;
 	
 	/* DARK MODE */
 	--d-bgclr: #fff;
@@ -1429,7 +1429,6 @@ form[action="/account-link.php"]:hover:after {
 	padding-top: 90px !important;
 	font-size: var(--tables-fontsize) !important;
 	font-family: var(--tables-font) !important;
-	background: #000 
 }
 *:has(a[href*="refer.php"]) .fapa:after {
 	content: "You do not have feed all, play all active" !important;
@@ -2064,6 +2063,9 @@ form[action="/account-link.php"]:hover:after {
 	.col-xs-6 .progress div {
 		color: var(--lsidepanel-fontclr) !important;
 	}
+	.col-xs-5 .progress div {
+		color: var(--lsidepanel-fontclr) !important;
+	}
 	.col-xs-6 .progress-bar {
 		background-color: var(--lsidepanel-impressionbarclr) !important;
 	}
@@ -2077,7 +2079,8 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lsidepanel-experiencebarclr) !important;
 	}
 	.col-xs-5 .progress-bar {
-		background-color: var(--lsidepanel-achievementbarclr) !important
+		background-color: var(--lsidepanel-achievementbarclr) !important;
+		color: var(--lsidepanel-fontclr) !important;
 	}
 	.sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--lsidepanel-fontclr) !important;
@@ -2486,6 +2489,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="day Time"]) .col-xs-6 .progress div {
 		color: var(--ldsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="day Time"]) .col-xs-5 .progress div {
+		color: var(--ldsidepanel-fontclr) !important;
+	}
 	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar {
 		background-color: var(--ldsidepanel-impressionbarclr) !important;
 	}
@@ -2499,28 +2505,333 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--ldsidepanel-experiencebarclr) !important;
 	}
 	*:has(img[alt="day Time"]) .col-xs-5 .progress-bar {
-		background-color: var(--ldsidepanel-achievementbarclr) !important
+		background-color: var(--ldsidepanel-achievementbarclr) !important;
+		color: var(--ldsidepanel-fontclr) !important;
 	}
 	*:has(img[alt="day Time"]) .sidebar input:hover {
-		text-shadow: 0px 0px 2.5px var(--lsidepanel-fontclr) !important;
+		text-shadow: 0px 0px 2.5px var(--ldsidepanel-fontclr) !important;
 	}
 	/* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
 	*:has(img[alt="day Time"]) .feature.auto input {
-		color: var(--lfeaturelion-fontclr) !important;
+		color: var(--ldfeaturelion-fontclr) !important;
 	}
 	*:has(img[alt="day Time"]) .feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--ldfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
+
+	*:has(img[alt="night Time"]) body {
+		background-color: var(--ln-bgclr);
+		 background-image: linear-gradient(#00000099, #00000099), var(--l-bgimg);
+	}
+	*:has(img[alt="night Time"]) .col-md-9 {
+		background-color: var(--lnmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .row:nth-child(2) {
+		background-color: var(--lnsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	*:has(img[alt="night Time"]) .topbar {
+		background-color: var(--lntopbar-bgclr) !important;
+		background-image: var(--lntopbar-bgimg) !important;
+		color: var(--lntopbar-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .topbar a {
+		color: var(--lntopbar-fontclr) !important;
+	} /* NAVBAR */
+	*:has(img[alt="night Time"]) .navbar {
+		background-color: var(--lnnavbar-bgclr) !important;
+		background-image: var(--lnnavbar-bgimg) !important;
+	}
+	*:has(img[alt="night Time"]) .navbar a {
+		color: var(--lnnavbar-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--lnnavbar-fontclr) !important;
+	} /* ALERTS */
+	*:has(img[alt="night Time"]) .alert {
+		background-color: var(--lnalert-bgclr) !important;
+		color: var(--lnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert a {
+		color: var(--lnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert a:after {
+		color: var(--lnalert-fontclr) !important;
+	} /* FEATURE LION */
+	*:has(img[alt="night Time"]) .breadcrumb {
+		background-image: var(--featurelion-nightbgimg) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b {
+		color: var(--lnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b a {
+		color: var(--lnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b a:hover {
+		text-shadow: 0px 0px 10px var(--lnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .floatright form {
+		color: var(--lnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table .left {
+		background-color: var(--lnfeaturelion-lefttableclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table .right {
+		background-color: var(--lnfeaturelion-righttableclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table {
+		color: var(--lnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table a {
+		color: var(--lnfeaturelion-tablefontclr) !important;
+	} 
+	*:has(img[alt="night Time"]) #about .bottom a {
+		color: var(--lnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about .bottom a:hover {
+		text-shadow: 0px 0px 5px var(--lnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about .bottom a:hover b {
+		text-shadow: 0px 0px 5px var(--lnfeaturelion-tablefontclr) !important;
+	}
+	/* ABOUT */
+	*:has(img[alt="night Time"]) .player-card {
+		background-color: var(--lnplayercard-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #player {
+		color: var(--lnplayercard-headingfontclr)
+	}
+	*:has(img[alt="night Time"]) #player.table .top .floatright {
+		color: var(--lnplayercard-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .member-online:after {
+	    background-color: var(--lnplayercard-onlinebadgeclr) !important;
+	}
+	*:has(img[alt="night Time"]) .member-offline:after {
+	    background-color: var(--lnplayercard-offlinebadgeclr) !important;
+	}
+	*:has(img[alt="night Time"]) #player span:after {
+		color: var(--lnplayercard-fontclr)
+	}
+	*:has(img[alt="night Time"]) #player a:before, #player a:after {
+		color: var(--lnplayercard-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) #player hr {
+		background-color: var(--lnplayercard-headingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) .info-box {
+		background-color: var(--lninfo-infoboxbgclr) !important
+	}
+	*:has(img[alt="night Time"]) .info-box h2 {
+		color: var(--lninfo-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .info-box p {
+		color: var(--lninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box {
+		background-color: var(--lninfo-linkboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box h3 {
+		color: var(--lninfo-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box a {
+		color: var(--lninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box p {
+		color: var(--lninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .image-box {
+		background-color: var(--lncomment-imageboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .comment-box {
+		background-color: var(--lncomment-commentboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .comment {
+		color: var(--lncomment-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) .comment small {
+		color: var(--lncomment-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) .comment a {
+		color: var(--lncomment-userfontclr) !important
+	}
+	*:has(img[alt="night Time"]) #makeComment input {
+		background-color: var(--lncomment-commentbarbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #makeComment:after {
+		color: var(--lncomment-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #commentBox input {
+		color: var(--lncomment-userfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #comment::placeholder {
+		color: var(--lncomment-fontclr);
+		opacity: 0.5;
+	} /* CAVES AND MOUNDS */
+	*:has(img[alt="night Time"]) #fraCaveList > div.col-md-4.col-xs-6.center {
+		background-color: var(--lnmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #fraOrganizationBlock .cave-grid {
+		background-color: var(--lncaves-bgclr) !important;
+		color: var(--lncaves-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #fraMoundList .mound-grid {
+		background-color: var(--lncaves-bgclr) !important;
+		color: var(--lncaves-fontclr) !important;
+	} /* ATTACK */
+	*:has(img[alt="night Time"]) #attack {
+		background-color: var(--lntable-bgclr) !important;
+		color: var(--lncaves-bgclrtable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #attack th, #attack .bottom {
+		background: var(--lntable-headingbgclr) !important;
+		color: var(--lntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #attack .bottom a {
+		color: var(--lntable-headingfontclr) !important;
+	} /* FEED ALL, PLAY ALL */
+	*:has(img[alt="night Time"]) .col-sm-6 .feature {
+		background-color: var(--lnfapa-bgclr) !important;
+		color: var(--lnfapa-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-sm-6 .feature h3 {
+		color: var(--lnfapa-headingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) .col-sm-6 .feature select {
+		background-color: var(--lnfapa-dropdownclr) !important;
+		color: var(--lnfapa-fontclr) !important; 
+	} /* SPARRING */
+	*:has(img[alt="night Time"]) #sparring {
+		background-color: var(--lntable-bgclr) !important;
+		color: var(--lntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring .right_odd {
+		background-color: var(--lntable-bgclr) !important;
+		color: var(--lntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring th {
+		background: var(--lntable-headingbgclr) !important;
+		color: var(--lntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring select {
+		background-color: var(--lntable-dropdownclr) !important;
+		color: var(--lntable-fontclr) !important; 
+	} /* RECLAIM */
+	*:has(img[alt="night Time"]) #reclaim {
+		background-color: var(--lntable-bgclr) !important;
+		color: var(--lntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #reclaim th, #reclaim .bottom {
+		background: var(--lntable-headingbgclr) !important;
+		color: var(--lntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #reclaim select {
+		background-color: var(--lntable-dropdownclr) !important;
+		color: var(--lntable-fontclr) !important; 
+	} /* DYNASTY */
+	*:has(img[alt="night Time"]) .dynastylist .left {
+		background-color: var(--lndynasty-bgclr) !important;
+	} /* USER SETTINGS */
+	*:has(img[alt="night Time"]) .col-sm-4 div {
+		background-color: var(--lnusersettings-bgclr) !important;
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table {
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) th:has(a[onclick*="toggle_visibility('editdetailspanel')"]) {
+		background-color: var(--lnusersettings-headingbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) a[onclick*="toggle_visibility('editdetailspanel')"] {
+		color: var(--lnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table td {
+		background-color: var(--lnusersettings-bgclr) !important;
+		color: var(--lnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table td.bottom {
+		background-color: var(--lnusersettings-headingbgclr) !important;
+		color: var(--lnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table select {
+		background-color: var(--lnusersettings-dropdownclr) !important;
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table textarea {
+		background-color: var(--lnusersettings-dropdownclr) !important;
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table input:not([name="update"]) {
+		background-color: var(--lnusersettings-dropdownclr) !important;
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table a {
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table .left {
+		background-color: var(--lnusersettings-subheadingbgclr) !important;
+		color: var(--lnusersettings-subheadingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) form:has(input[name="atid"]) > div.left {
+		background: var(--lnusersettings-bgclr) !important;
+		color: var(--lnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) form:has(input[name="atid"]) > div.left a {
+		color: var(--lnusersettings-fontclr) !important;
+	} /* SIDE PANEL */
+	*:has(img[alt="night Time"]) .panel-body {
+		background-color: var(--lnsidepanel-panelbgclr) !important;
+		color: var(--lnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .panel-body a {
+		color: var(--lnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .sidebar h3 {
+		color: var(--lnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-md-12 h3 .floatright:after {
+		color: var(--lnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) a[href="./chat.php"]:after {
+		color: var(--lnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress div {
+		color: var(--lnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-5 .progress div {
+		color: var(--lnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar {
+		background-color: var(--lnsidepanel-impressionbarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-warning {
+		background-color: var(--lnsidepanel-energybarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-danger {
+		background-color: var(--lnsidepanel-hungerbarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-success {
+		background-color: var(--lnsidepanel-experiencebarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-5 .progress-bar {
+		background-color: var(--lnsidepanel-achievementbarclr) !important;
+		color: var(--lnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .sidebar input:hover {
+		text-shadow: 0px 0px 2.5px var(--lnsidepanel-fontclr) !important;
+	}
+	/* FEBRUARY / THOUGHTS */
+	/* SEPTEMBER / LOCUST SWARMS */
+	/* OCTOBER / TRICK OR TREATING */
+	*:has(img[alt="night Time"]) .feature.auto input {
+		color: var(--lnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .feature.auto input:hover {
+		text-shadow: 0px 0px 2.5px var(--lnfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
+	} /* DECEMBER / GIFTING */
 }
 
 /* *:has(img[alt="day Time"]) */
-.sidebar:has(img[alt="day Time"]) {
-	.s-chat-message {
-		background-color: var(--ldchatbox-bgclr) !important;
-		color: var(--ldchatbox-fontclr) !important;
-		border-bottom: 1px solid var(--ldchatbox-fontclr) !important;
-	}
-}
 
