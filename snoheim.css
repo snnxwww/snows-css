@@ -2096,6 +2096,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--lsidepanel-fontclr) !important;
+	}
+	form {
+		color: var(--lsidepanel-fontclr) !important;
 	} /* CHATBOX */
 	.col-md-12 input {
 		background: transparent !important;
@@ -2529,6 +2532,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="day Time"]) .sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--ldsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="day Time"]) form {
+		color: var(--ldsidepanel-fontclr) !important;
+	}
 	/* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
@@ -2849,6 +2855,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="night Time"]) .sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--lnsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="night Time"]) form {
+		color: var(--lnsidepanel-fontclr) !important;
+	}
 	/* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
@@ -3149,7 +3158,7 @@ form[action="/account-link.php"]:hover:after {
 	.col-xs-5 .progress div {
 		color: var(--dsidepanel-fontclr) !important;
 	}
-	 .progress {
+	.progress {
 		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
 	}
 	.col-xs-6 .progress-bar {
@@ -3170,6 +3179,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--dsidepanel-fontclr) !important;
+	}
+	form {
+		color: var(--dsidepanel-fontclr) !important;
 	} /* CHATBOX */
 	.col-md-12 input {
 		background: transparent !important;
@@ -3607,6 +3619,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="day Time"]) .sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--ddsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="day Time"]) form {
+		color: var(--ddsidepanel-fontclr) !important;
+	}
 	/* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
@@ -3923,6 +3938,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[alt="night Time"]) .sidebar input:hover {
 		text-shadow: 0px 0px 2.5px var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) form {
+		color: var(--dnsidepanel-fontclr) !important;
 	}
 	/* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
