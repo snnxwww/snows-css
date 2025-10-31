@@ -3676,6 +3676,7 @@ form[action="/account-link.php"]:hover:after {
 	} /* FEATURE LION */
 	*:has(img[alt="night Time"]) .breadcrumb {
 		background-image: var(--featurelion-nightbgimg) !important;
+		filter: brightness(0.5) !important;
 	}
 	*:has(img[alt="night Time"]) .top.center .xlarge.b {
 		color: var(--dnfeaturelion-headingfontclr) !important;
@@ -3688,6 +3689,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[alt="night Time"]) .floatright form {
 		color: var(--dnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .lion-container {
+		filter: brightness(0.5) !important;
 	}
 	*:has(img[alt="night Time"]) #about table .left {
 		background-color: var(--dnfeaturelion-lefttableclr) !important;
