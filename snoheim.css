@@ -1823,7 +1823,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lalert-bgclr) !important;
 		color: var(--lalert-fontclr) !important;
 	}
-	.alert a {
+	.alert-danger a, .alert-warning {
 		color: var(--lalert-fontclr) !important;
 	}
 	.alert a:after {
@@ -2258,7 +2258,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--ldalert-bgclr) !important;
 		color: var(--ldalert-fontclr) !important;
 	}
-	*:has(img[alt="day Time"]) .alert a {
+	*:has(img[alt="day Time"]) .alert-danger a, .alert-warning {
 		color: var(--ldalert-fontclr) !important;
 	}
 	*:has(img[alt="day Time"]) .alert a:after {
@@ -2578,7 +2578,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lnalert-bgclr) !important;
 		color: var(--lnalert-fontclr) !important;
 	}
-	*:has(img[alt="night Time"]) .alert a {
+	*:has(img[alt="night Time"]) .alert-danger a, .alert-warning {
 		color: var(--lnalert-fontclr) !important;
 	}
 	*:has(img[alt="night Time"]) .alert a:after {
@@ -2906,7 +2906,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--dalert-bgclr) !important;
 		color: var(--dalert-fontclr) !important;
 	}
-	.alert a {
+	.alert-danger a, .alert-warning {
 		color: var(--dalert-fontclr) !important;
 	}
 	.alert a:after {
@@ -3341,7 +3341,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--ddalert-bgclr) !important;
 		color: var(--ddalert-fontclr) !important;
 	}
-	*:has(img[alt="day Time"]) .alert a {
+	*:has(img[alt="day Time"]) .alert-danger a, .alert-warning {
 		color: var(--ddalert-fontclr) !important;
 	}
 	*:has(img[alt="day Time"]) .alert a:after {
@@ -3665,7 +3665,7 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--dnalert-bgclr) !important;
 		color: var(--dnalert-fontclr) !important;
 	}
-	*:has(img[alt="night Time"]) .alert a {
+	*:has(img[alt="night Time"]) .alert-danger a, .alert-warning {
 		color: var(--dnalert-fontclr) !important;
 	}
 	*:has(img[alt="night Time"]) .alert a:after {
