@@ -170,13 +170,13 @@
 	
 	/* LIGHT MODE / NIGHT TIME */
 	--ln-bgclr: #464d54;
-	--lnmainpanel-bgclr: #556164;
-	--lntopbar-bgclr: #656c6f;
+	--lnmainpanel-bgclr: #5e717a;
+	--lntopbar-bgclr: #5e717a;
 	--lntopbar-fontclr: #b3c2c9;
-	--lnnavbar-bgclr: #728086;
+	--lnnavbar-bgclr: #5e747d;
 	--lnnavbar-fontclr: #2d383d;
-	--lnalert-bgclr: #7a8489;
-	--lnalert-fontclr: #bdc9ce;
+	--lnalert-bgclr: #6d828b;
+	--lnalert-fontclr: #b7c0c4;
 	--lnfeaturelion-headingfontclr: #7d8a90;
 	--lnfeaturelion-fontclr: #697980;
 	--lnfeaturelion-lefttableclr: #7c8f98;
@@ -187,7 +187,7 @@
 	--lnplayercard-fontclr: #a2bac6;
 	--lnplayercard-onlinebadgeclr: #a0b1b9;
 	--lnplayercard-offlinebadgeclr: #515e64;
-	--lninfo-infoboxbgclr: #6c7d85;
+	--lninfo-infoboxbgclr: #6f838c;
 	--lninfo-linkboxbgclr: #788d97;
 	--lninfo-headingfontclr: #dde5e9;
 	--lninfo-fontclr: #c8d5db;
@@ -208,206 +208,206 @@
 	--lnfapa-fontclr: #3f5058;
 	--lnfapa-dropdownclr: #77909a;
 	--lndynasty-bgclr: #71868f;
-	--lnusersettings-bgclr: #607077;
-	--lnusersettings-headingbgclr: #475c65;
+	--lnusersettings-bgclr: #718892;
+	--lnusersettings-headingbgclr: #677c85;
 	--lnusersettings-subheadingbgclr: #5a727c;
 	--lnusersettings-headingfontclr: #ced9de;
 	--lnusersettings-subheadingfontclr: #bfd0d7;
 	--lnusersettings-fontclr: #2a353a;
 	--lnusersettings-dropdownclr: #86979d;
-	--lnsidepanel-bgclr: #6c7779;
-	--lnsidepanel-panelbgclr: #556164;
+	--lnsidepanel-bgclr: #6b848f;
+	--lnsidepanel-panelbgclr: #5c727b;
 	--lnsidepanel-headingfontclr: #bfcdd0;
 	--lnsidepanel-fontclr: #a9b4b7;
 	--lnsidepanel-energybarclr: #899ca1;
 	--lnsidepanel-hungerbarclr: #7f9ca4;
 	--lnsidepanel-experiencebarclr: #627a80;
 	--lnsidepanel-impressionbarclr: #596f75;
-	--lnsidepanel-achievementbarclr: #5a6a6f;
+	--lnsidepanel-achievementbarclr: #6a848c;
 	
 	/* DARK MODE */
-	--d-bgclr: #fff;
-	--dmainpanel-bgclr: #fff;
-	--dtopbar-bgclr: #fff;
-	--dtopbar-fontclr: #fff;
-	--dnavbar-bgclr: #fff;
-	--dnavbar-fontclr: #fff;
-	--dalert-bgclr: #fff;
-	--dalert-fontclr: #fff;
-	--dfeaturelion-headingfontclr: #fff;
-	--dfeaturelion-fontclr: #fff;
-	--dfeaturelion-lefttableclr: #fff;
-	--dfeaturelion-righttableclr: #fff;
-	--dfeaturelion-tablefontclr: #fff;
-	--dplayercard-bgclr: #fff;
-	--dplayercard-headingfontclr: #fff;
-	--dplayercard-fontclr: #fff;
-	--dplayercard-onlinebadgeclr: #fff;
-	--dplayercard-offlinebadgeclr: #fff;
-	--dinfo-infoboxbgclr: #fff;
-	--dinfo-linkboxbgclr: #fff;
-	--dinfo-headingfontclr: #fff;
-	--dinfo-fontclr: #fff;
-	--dcomment-imageboxbgclr: #fff;
-	--dcomment-commentboxbgclr: #fff;
-	--dcomment-commentbarbgclr: #fff;
-	--dcomment-fontclr: #fff;
-	--dcomment-userfontclr: #fff;
-	--dcaves-bgclr: #fff;
-	--dcaves-fontclr: #fff;
-	--dtable-headingbgclr: #fff;
-	--dtable-bgclr: #fff;
-	--dtable-headingfontclr: #fff;
-	--dtable-fontclr: #fff;
-	--dtable-dropdownclr: #fff;
-	--dfapa-bgclr: #fff;
-	--dfapa-headingfontclr: #fff;
-	--dfapa-fontclr: #fff;
-	--dfapa-dropdownclr: #fff;
-	--ddynasty-bgclr: #fff;
-	--dusersettings-bgclr: #fff;
-	--dusersettings-headingbgclr: #fff;
-	--dusersettings-subheadingbgclr: #fff;
-	--dusersettings-headingfontclr: #fff;
-	--dusersettings-subheadingfontclr: #fff;
-	--dusersettings-fontclr: #fff;
-	--dusersettings-dropdownclr: #fff;
-	--dsidepanel-bgclr: #fff;
-	--dsidepanel-panelbgclr: #fff;
-	--dsidepanel-headingfontclr: #fff;
-	--dsidepanel-fontclr: #fff;
-	--dsidepanel-energybarclr: #fff;
-	--dsidepanel-hungerbarclr: #fff;
-	--dsidepanel-experiencebarclr: #fff;
-	--dsidepanel-impressionbarclr: #fff;
-	--dsidepanel-achievementbarclr: #fff;
-	--dchatbox-headingbgclr: #fff;
-	--dchatbox-bgclr: #fff;
-	--dchatbox-activebgclr: #fff;
-	--dchatbox-activeclr: #fff;
-	--dchatbox-dropdownclr: #fff;
-	--dchatbox-dropdownactiveclr: #fff;
-	--dchatbox-settingsclr: #fff;
-	--dchatbox-settingsactiveclr: #fff;
-	--dchatbox-claimclr: #fff;
-	--dchatbox-claimmenubgclr: #fff;
-	--dchatbox-headingfontclr: #fff;
-	--dchatbox-fontclr: #fff;
-	--dchatbox-subtextfontclr: #fff;
+	--d-bgclr: #464d57;
+	--dmainpanel-bgclr: #2e3641;
+	--dtopbar-bgclr: #1c2128;
+	--dtopbar-fontclr: #727a85;
+	--dnavbar-bgclr: #1e252d;
+	--dnavbar-fontclr: #858e99;
+	--dalert-bgclr: #272e37;
+	--dalert-fontclr: #8e96a1;
+	--dfeaturelion-headingfontclr: #1e242c;
+	--dfeaturelion-fontclr: #282d34;
+	--dfeaturelion-lefttableclr: #1e2227;
+	--dfeaturelion-righttableclr: #282e36;
+	--dfeaturelion-tablefontclr: #6b6e72;
+	--dplayercard-bgclr: #272e37;
+	--dplayercard-headingfontclr: #687280;
+	--dplayercard-fontclr: #687688;
+	--dplayercard-onlinebadgeclr: #38414f;
+	--dplayercard-offlinebadgeclr: #14181e;
+	--dinfo-infoboxbgclr: #313943;
+	--dinfo-linkboxbgclr: #2b323c;
+	--dinfo-headingfontclr: #94989f;
+	--dinfo-fontclr: #7b8089;
+	--dcomment-imageboxbgclr: #2b323c;
+	--dcomment-commentboxbgclr: #272e37;
+	--dcomment-commentbarbgclr: #3d434f;
+	--dcomment-fontclr: #b2b9c6;
+	--dcomment-userfontclr: #828790;
+	--dcaves-bgclr: #272e37;
+	--dcaves-fontclr: #828992;
+	--dtable-headingbgclr: #272e37;
+	--dtable-bgclr: #3e4651;
+	--dtable-headingfontclr: #9da3ab;
+	--dtable-fontclr: #828d9c;
+	--dtable-dropdownclr: #4c5663;
+	--dfapa-bgclr: #272e37;
+	--dfapa-headingfontclr: #afb8c4;
+	--dfapa-fontclr: #8996a7;
+	--dfapa-dropdownclr: #4c5663;
+	--ddynasty-bgclr: #272e37;
+	--dusersettings-bgclr: #22262b;
+	--dusersettings-headingbgclr: #191c20;
+	--dusersettings-subheadingbgclr: #2e333b;
+	--dusersettings-headingfontclr: #a5abb3;
+	--dusersettings-subheadingfontclr: #8f9296;
+	--dusersettings-fontclr: #768291;
+	--dusersettings-dropdownclr: #2b343f;
+	--dsidepanel-bgclr: #272f3a;
+	--dsidepanel-panelbgclr: #323c49;
+	--dsidepanel-headingfontclr: #a7afba;
+	--dsidepanel-fontclr: #8d939b;
+	--dsidepanel-energybarclr: #637082;
+	--dsidepanel-hungerbarclr: #575e67;
+	--dsidepanel-experiencebarclr: #4d5e75;
+	--dsidepanel-impressionbarclr: #415066;
+	--dsidepanel-achievementbarclr: #495463;
+	/*--dchatbox-headingbgclr: #495463;
+	--dchatbox-bgclr: #565f6c;
+	--dchatbox-activebgclr: #2f3845;
+	--dchatbox-activeclr: #141c27;
+	--dchatbox-dropdownclr: #334051;
+	--dchatbox-dropdownactiveclr: #687b95;
+	--dchatbox-settingsclr: #353f4c;
+	--dchatbox-settingsactiveclr: #a5b6cf;
+	--dchatbox-claimclr: #495463;
+	--dchatbox-claimmenubgclr: #49546380;
+	--dchatbox-headingfontclr: #d1dae6;
+	--dchatbox-fontclr: #d3dde8;
+	--dchatbox-subtextfontclr: #848f9d;*/
 	
 	/* DARK MODE / DAY TIME */
-	--dl-bgclr: #fff;
-	--dlmainpanel-bgclr: #fff;
-	--dltopbar-bgclr: #fff;
-	--dltopbar-fontclr: #fff;
-	--dlnavbar-bgclr: #fff;
-	--dlnavbar-fontclr: #fff;
-	--dlalert-bgclr: #fff;
-	--dlalert-fontclr: #fff;
-	--dlfeaturelion-headingfontclr: #fff;
-	--dlfeaturelion-fontclr: #fff;
-	--dlfeaturelion-lefttableclr: #fff;
-	--dlfeaturelion-righttableclr: #fff;
-	--dlfeaturelion-tablefontclr: #fff;
-	--dlplayercard-bgclr: #fff;
-	--dlplayercard-headingfontclr: #fff;
-	--dlplayercard-fontclr: #fff;
-	--dlplayercard-onlinebadgeclr: #fff;
-	--dlplayercard-offlinebadgeclr: #fff;
-	--dlinfo-infoboxbgclr: #fff;
-	--dlinfo-linkboxbgclr: #fff;
-	--dlinfo-headingfontclr: #fff;
-	--dlinfo-fontclr: #fff;
-	--dlcomment-imageboxbgclr: #fff;
-	--dlcomment-commentboxbgclr: #fff;
-	--dlcomment-commentbarbgclr: #fff;
-	--dlcomment-fontclr: #fff;
-	--dlcomment-userfontclr: #fff;
-	--dlcaves-bgclr: #fff;
-	--dlcaves-fontclr: #fff;
-	--dltable-headingbgclr: #fff;
-	--dltable-bgclr: #fff;
-	--dltable-headingfontclr: #fff;
-	--dltable-fontclr: #fff;
-	--dltable-dropdownclr: #fff;
-	--dlfapa-bgclr: #fff;
-	--dlfapa-headingfontclr: #fff;
-	--dlfapa-fontclr: #fff;
-	--dlfapa-dropdownclr: #fff;
-	--dldynasty-bgclr: #fff;
-	--dlusersettings-bgclr: #fff;
-	--dlusersettings-headingbgclr: #fff;
-	--dlusersettings-subheadingbgclr: #fff;
-	--dlusersettings-headingfontclr: #fff;
-	--dlusersettings-subheadingfontclr: #fff;
-	--dlusersettings-fontclr: #fff;
-	--dlusersettings-dropdownclr: #fff;
-	--dlsidepanel-bgclr: #fff;
-	--dlsidepanel-panelbgclr: #fff;
-	--dlsidepanel-headingfontclr: #fff;
-	--dlsidepanel-fontclr: #fff;
-	--dlsidepanel-energybarclr: #fff;
-	--dlsidepanel-hungerbarclr: #fff;
-	--dlsidepanel-experiencebarclr: #fff;
-	--dlsidepanel-impressionbarclr: #fff;
-	--dlsidepanel-achievementbarclr: #fff;
+	--dd-bgclr: #232a33;
+	--ddmainpanel-bgclr: #556170;
+	--ddtopbar-bgclr: #556170;
+	--ddtopbar-fontclr: #c7d0dc;
+	--ddnavbar-bgclr: #626d7c;
+	--ddnavbar-fontclr: #2b2e32;
+	--ddalert-bgclr: #525e6d;
+	--ddalert-fontclr: #b9c4d3;
+	--ddfeaturelion-headingfontclr: #d2dbe6;
+	--ddfeaturelion-fontclr: #c6cbd1;
+	--ddfeaturelion-lefttableclr: #637080;
+	--ddfeaturelion-righttableclr: #707e8f;
+	--ddfeaturelion-tablefontclr: #1d1f21;
+	--ddplayercard-bgclr: #3a444e;
+	--ddplayercard-headingfontclr: #a6b0bc;
+	--ddplayercard-fontclr: #8994a2;
+	--ddplayercard-onlinebadgeclr: #8692a1;
+	--ddplayercard-offlinebadgeclr: #2e3339;
+	--ddinfo-infoboxbgclr: #525b67;
+	--ddinfo-linkboxbgclr: #434d59;
+	--ddinfo-headingfontclr: #a7afba;
+	--ddinfo-fontclr: #99a0a8;
+	--ddcomment-imageboxbgclr: #4b545d;
+	--ddcomment-commentboxbgclr: #3a444e;
+	--ddcomment-commentbarbgclr: #48535e;
+	--ddcomment-fontclr: #c2cad3;
+	--ddcomment-userfontclr: #9ca6b3;
+	--ddcaves-bgclr: #343f4b;
+	--ddcaves-fontclr: #fff;
+	--ddtable-headingbgclr: #343f4b;
+	--ddtable-bgclr: #45515e;
+	--ddtable-headingfontclr: #c4cdd7;
+	--ddtable-fontclr: #929da8;
+	--ddtable-dropdownclr: #373f47;
+	--ddfapa-bgclr: #343f4b;
+	--ddfapa-headingfontclr: #c9d4e0;
+	--ddfapa-fontclr: #9eabb8;
+	--ddfapa-dropdownclr: #373f47;
+	--dddynasty-bgclr: #343f4b;
+	--ddusersettings-bgclr: #2c343d;
+	--ddusersettings-headingbgclr: #232a32;
+	--ddusersettings-subheadingbgclr: #2c343d;
+	--ddusersettings-headingfontclr: #d3dae2;
+	--ddusersettings-subheadingfontclr: #aebbc9;
+	--ddusersettings-fontclr: #cad2dc;
+	--ddusersettings-dropdownclr: #364351;
+	--ddsidepanel-bgclr: #475360;
+	--ddsidepanel-panelbgclr: #535f6c;
+	--ddsidepanel-headingfontclr: #c3ced9;
+	--ddsidepanel-fontclr: #b3bdc9;
+	--ddsidepanel-energybarclr: #65778b;
+	--ddsidepanel-hungerbarclr: #667585;
+	--ddsidepanel-experiencebarclr: #495b6f;
+	--ddsidepanel-impressionbarclr: #3c434b;
+	--ddsidepanel-achievementbarclr: #475360;
 	
 	/* DARK MODE / NIGHT TIME */
-	--dn-bgclr: #fff;
-	--dnmainpanel-bgclr: #fff;
-	--dntopbar-bgclr: #fff;
-	--dntopbar-fontclr: #fff;
-	--dnnavbar-bgclr: #fff;
-	--dnnavbar-fontclr: #fff;
-	--dnalert-bgclr: #fff;
-	--dnalert-fontclr: #fff;
-	--dnfeaturelion-headingfontclr: #fff;
-	--dnfeaturelion-fontclr: #fff;
-	--dnfeaturelion-lefttableclr: #fff;
-	--dnfeaturelion-righttableclr: #fff;
-	--dnfeaturelion-tablefontclr: #fff;
-	--dnplayercard-bgclr: #fff;
-	--dnplayercard-headingfontclr: #fff;
-	--dnplayercard-fontclr: #fff;
-	--dnplayercard-onlinebadgeclr: #fff;
-	--dnplayercard-offlinebadgeclr: #fff;
-	--dninfo-infoboxbgclr: #fff;
-	--dninfo-linkboxbgclr: #fff;
-	--dninfo-headingfontclr: #fff;
-	--dninfo-fontclr: #fff;
-	--dncomment-imageboxbgclr: #fff;
-	--dncomment-commentboxbgclr: #fff;
-	--dncomment-commentbarbgclr: #fff;
-	--dncomment-fontclr: #fff;
-	--dncomment-userfontclr: #fff;
-	--dncaves-bgclr: #fff;
-	--dncaves-fontclr: #fff;
-	--dntable-headingbgclr: #fff;
-	--dntable-bgclr: #fff;
-	--dntable-headingfontclr: #fff;
-	--dntable-fontclr: #fff;
-	--dntable-dropdownclr: #fff;
-	--dnfapa-bgclr: #fff;
-	--dnfapa-headingfontclr: #fff;
-	--dnfapa-fontclr: #fff;
-	--dnfapa-dropdownclr: #fff;
-	--dndynasty-bgclr: #fff;
-	--dnusersettings-bgclr: #fff;
-	--dnusersettings-headingbgclr: #fff;
-	--dnusersettings-subheadingbgclr: #fff;
-	--dnusersettings-headingfontclr: #fff;
-	--dnusersettings-subheadingfontclr: #fff;
-	--dnusersettings-fontclr: #fff;
-	--dnusersettings-dropdownclr: #fff;
-	--dnsidepanel-bgclr: #fff;
-	--dnsidepanel-panelbgclr: #fff;
-	--dnsidepanel-headingfontclr: #fff;
-	--dnsidepanel-fontclr: #fff;
-	--dnsidepanel-energybarclr: #fff;
-	--dnsidepanel-hungerbarclr: #fff;
-	--dnsidepanel-experiencebarclr: #fff;
-	--dnsidepanel-impressionbarclr: #fff;
-	--dnsidepanel-achievementbarclr: #fff;
+	--dn-bgclr: #20262e;
+	--dnmainpanel-bgclr: #20262e;
+	--dntopbar-bgclr: #2a333f;
+	--dntopbar-fontclr: #9ea8b6;
+	--dnnavbar-bgclr: #313a45;
+	--dnnavbar-fontclr: #b2bac4;
+	--dnalert-bgclr: #2a333f;
+	--dnalert-fontclr: #b0bed0;
+	--dnfeaturelion-headingfontclr: #717c8a;
+	--dnfeaturelion-fontclr: #6c7a8e;
+	--dnfeaturelion-lefttableclr: #2a333f;
+	--dnfeaturelion-righttableclr: #303b48;
+	--dnfeaturelion-tablefontclr: #9caabe;
+	--dnplayercard-bgclr: #2a333f;
+	--dnplayercard-headingfontclr: #889bb3;
+	--dnplayercard-fontclr: #6a788a;
+	--dnplayercard-onlinebadgeclr: #8792a2;
+	--dnplayercard-offlinebadgeclr: #3e4754;
+	--dninfo-infoboxbgclr: #37404d;
+	--dninfo-linkboxbgclr: #333d4a;
+	--dninfo-headingfontclr: #aab6c8;
+	--dninfo-fontclr: #939eae;
+	--dncomment-imageboxbgclr: #333d4a;
+	--dncomment-commentboxbgclr: #2a333f;
+	--dncomment-commentbarbgclr: #3a4451;
+	--dncomment-fontclr: #98a7bb;
+	--dncomment-userfontclr: #768394;
+	--dncaves-bgclr: #303b49;
+	--dncaves-fontclr: #a0b0c5;
+	--dntable-headingbgclr: #303b49;
+	--dntable-bgclr: #434f5d;
+	--dntable-headingfontclr: #acb8c9;
+	--dntable-fontclr: #a0afc1;
+	--dntable-dropdownclr: #525c68;
+	--dnfapa-bgclr: #303b49;
+	--dnfapa-headingfontclr: #b1bdcb;
+	--dnfapa-fontclr: #919ba8;
+	--dnfapa-dropdownclr: #525c68;
+	--dndynasty-bgclr: #303b49;
+	--dnusersettings-bgclr: #2c333d;
+	--dnusersettings-headingbgclr: #363e48;
+	--dnusersettings-subheadingbgclr: #47505d;
+	--dnusersettings-headingfontclr: #d5dbe4;
+	--dnusersettings-subheadingfontclr: #b4bdc9;
+	--dnusersettings-fontclr: #9faaba;
+	--dnusersettings-dropdownclr: #3d4651;
+	--dnsidepanel-bgclr: #2c333d;
+	--dnsidepanel-panelbgclr: #353d49;
+	--dnsidepanel-headingfontclr: #9aa3b0;
+	--dnsidepanel-fontclr: #838d9c;
+	--dnsidepanel-energybarclr: #2c3541;
+	--dnsidepanel-hungerbarclr: #3e4957;
+	--dnsidepanel-experiencebarclr: #2d3b4d;
+	--dnsidepanel-impressionbarclr: #252b32;
+	--dnsidepanel-achievementbarclr: #3a4656;
 	
 	/* IMAGES */
 	--logoimg: url('');
@@ -601,6 +601,12 @@ button.navbar-toggle:hover {
 }
 .alert br {
 	display: none !important;
+}
+.alert button {
+	background: transparent !important;
+}
+.alert button:hover {
+	transform: translateY(-1.5px) !important
 }
 h1 + br {
 	display: none !important;
@@ -1822,6 +1828,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.alert a:after {
 		color: var(--lalert-fontclr) !important;
+	}
+	.alert button {
+		color: var(--lalert-fontclr) !important;
 	} /* FEATURE LION */
 	.breadcrumb {
 		background-image: var(--featurelion-daybgimg) !important;
@@ -2066,6 +2075,9 @@ form[action="/account-link.php"]:hover:after {
 	.col-xs-5 .progress div {
 		color: var(--lsidepanel-fontclr) !important;
 	}
+	.progress {
+		background-color: color-mix(in srgb, var(--lsidepanel-panelbgclr), #fff 25%) !important;
+	}
 	.col-xs-6 .progress-bar {
 		background-color: var(--lsidepanel-impressionbarclr) !important;
 	}
@@ -2247,6 +2259,9 @@ form[action="/account-link.php"]:hover:after {
 		color: var(--ldalert-fontclr) !important;
 	}
 	*:has(img[alt="day Time"]) .alert a:after {
+		color: var(--ldalert-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .alert button {
 		color: var(--ldalert-fontclr) !important;
 	} /* FEATURE LION */
 	*:has(img[alt="day Time"]) .breadcrumb {
@@ -2492,6 +2507,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="day Time"]) .col-xs-5 .progress div {
 		color: var(--ldsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="day Time"]) .progress {
+		background-color: color-mix(in srgb, var(--ldsidepanel-panelbgclr), #fff 25%) !important;
+	}
 	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar {
 		background-color: var(--ldsidepanel-impressionbarclr) !important;
 	}
@@ -2559,6 +2577,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[alt="night Time"]) .alert a:after {
 		color: var(--lnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert button {
+		color: var(--lnalert-fontclr) !important;
 	} /* FEATURE LION */
 	*:has(img[alt="night Time"]) .breadcrumb {
 		background-image: var(--featurelion-nightbgimg) !important;
@@ -2574,6 +2595,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[alt="night Time"]) .floatright form {
 		color: var(--lnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .lion-container {
+		filter: brightness(0.8) !important;
 	}
 	*:has(img[alt="night Time"]) #about table .left {
 		background-color: var(--lnfeaturelion-lefttableclr) !important;
@@ -2803,6 +2827,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[alt="night Time"]) .col-xs-5 .progress div {
 		color: var(--lnsidepanel-fontclr) !important;
 	}
+	*:has(img[alt="night Time"]) .progress {
+		background-color: color-mix(in srgb, var(--lnsidepanel-panelbgclr), #fff 25%) !important;
+	}
 	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar {
 		background-color: var(--lnsidepanel-impressionbarclr) !important;
 	}
@@ -2833,5 +2860,1077 @@ form[action="/account-link.php"]:hover:after {
 	} /* DECEMBER / GIFTING */
 }
 
-/* *:has(img[alt="day Time"]) */
 
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--d-bgclr);
+		background-image: var(--d-bgimg);
+	}
+	.col-md-9 {
+		background-color: var(--dmainpanel-bgclr) !important;
+	}
+	.row:nth-child(2) {
+		background-color: var(--dsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	.topbar {
+		background-color: var(--dtopbar-bgclr) !important;
+		background-image: var(--dtopbar-bgimg) !important;
+		color: var(--dtopbar-fontclr) !important;
+	}
+	.topbar a {
+		color: var(--dtopbar-fontclr) !important;
+	} /* NAVBAR */
+	.navbar {
+		background-color: var(--dnavbar-bgclr) !important;
+		background-image: var(--dnavbar-bgimg) !important;
+	}
+	.navbar a {
+		color: var(--dnavbar-fontclr) !important;
+	}
+	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--dnavbar-fontclr) !important;
+	} /* ALERTS */
+	.alert {
+		background-color: var(--dalert-bgclr) !important;
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert a {
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert a:after {
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert button {
+		color: var(--dalert-fontclr) !important;
+	} /* FEATURE LION */
+	.breadcrumb {
+		background-image: var(--featurelion-daybgimg) !important;
+	}
+	.top.center .xlarge.b {
+		color: var(--dfeaturelion-headingfontclr) !important;
+	}
+	.top.center .xlarge.b a {
+		color: var(--dfeaturelion-headingfontclr) !important;
+	}
+	.top.center .xlarge.b a:hover {
+		text-shadow: 0px 0px 10px var(--dfeaturelion-headingfontclr) !important;
+	}
+	.floatright form {
+		color: var(--dfeaturelion-fontclr) !important;
+	}
+	#about table .left {
+		background-color: var(--dfeaturelion-lefttableclr) !important;
+	}
+	#about table .right {
+		background-color: var(--dfeaturelion-righttableclr) !important;
+	}
+	#about table {
+		color: var(--dfeaturelion-tablefontclr) !important;
+	}
+	#about table a {
+		color: var(--dfeaturelion-tablefontclr) !important;
+	} 
+	#about .bottom a {
+		color: var(--dfeaturelion-tablefontclr) !important;
+	}
+	#about .bottom a:hover {
+		text-shadow: 0px 0px 5px var(--dfeaturelion-tablefontclr) !important;
+	}
+	#about .bottom a:hover b {
+		text-shadow: 0px 0px 5px var(--dfeaturelion-tablefontclr) !important;
+	}
+	/* ABOUT */
+	.player-card {
+		background-color: var(--dplayercard-bgclr) !important;
+	}
+	#player {
+		color: var(--dplayercard-headingfontclr)
+	}
+	#player.table .top .floatright {
+		color: var(--dplayercard-headingfontclr) !important;
+	}
+	.member-online:after {
+	    background-color: var(--dplayercard-onlinebadgeclr) !important;
+	}
+	.member-offline:after {
+	    background-color: var(--dplayercard-offlinebadgeclr) !important;
+	}
+	#player span:after {
+		color: var(--dplayercard-fontclr)
+	}
+	#player a:before, #player a:after {
+		color: var(--dplayercard-fontclr) !important
+	}
+	#player hr {
+		background-color: var(--dplayercard-headingfontclr) !important
+	}
+	.info-box {
+		background-color: var(--dinfo-infoboxbgclr) !important
+	}
+	.info-box h2 {
+		color: var(--dinfo-headingfontclr) !important;
+	}
+	.info-box p {
+		color: var(--dinfo-fontclr) !important;
+	}
+	.link-box {
+		background-color: var(--dinfo-linkboxbgclr) !important;
+	}
+	.link-box h3 {
+		color: var(--dinfo-headingfontclr) !important;
+	}
+	.link-box a {
+		color: var(--dinfo-fontclr) !important;
+	}
+	.link-box p {
+		color: var(--dinfo-fontclr) !important;
+	}
+	.image-box {
+		background-color: var(--dcomment-imageboxbgclr) !important;
+	}
+	.comment-box {
+		background-color: var(--dcomment-commentboxbgclr) !important;
+	}
+	.comment {
+		color: var(--dcomment-fontclr) !important
+	}
+	.comment small {
+		color: var(--dcomment-fontclr) !important
+	}
+	.comment a {
+		color: var(--dcomment-userfontclr) !important
+	}
+	#makeComment input {
+		background-color: var(--dcomment-commentbarbgclr) !important;
+	}
+	#makeComment:after {
+		color: var(--dcomment-fontclr) !important;
+	}
+	#commentBox input {
+		color: var(--dcomment-userfontclr) !important;
+	}
+	#comment::placeholder {
+		color: var(--dcomment-fontclr);
+		opacity: 0.5;
+	} /* CAVES AND MOUNDS */
+	#fraCaveList > div.col-md-4.col-xs-6.center {
+		background-color: var(--dmainpanel-bgclr) !important;
+	}
+	#fraOrganizationBlock .cave-grid {
+		background-color: var(--dcaves-bgclr) !important;
+		color: var(--dcaves-fontclr) !important;
+	}
+	#fraMoundList .mound-grid {
+		background-color: var(--dcaves-bgclr) !important;
+		color: var(--dcaves-fontclr) !important;
+	} /* ATTACK */
+	#attack {
+		background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	#attack th, #attack .bottom {
+		background: var(--dtable-headingbgclr) !important;
+		color: var(--dtable-headingfontclr) !important;
+	}
+	#attack .bottom a {
+		color: var(--dtable-headingfontclr) !important;
+	} /* FEED ALL, PLAY ALL */
+	.col-sm-6 .feature {
+		background-color: var(--dfapa-bgclr) !important;
+		color: var(--dfapa-fontclr) !important;
+	}
+	.col-sm-6 .feature h3 {
+		color: var(--dfapa-headingfontclr) !important
+	}
+	.col-sm-6 .feature select {
+		background-color: var(--dfapa-dropdownclr) !important;
+		color: var(--dfapa-fontclr) !important; 
+	} /* SPARRING */
+	#sparring {
+		background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	#sparring .right_odd {
+		background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	#sparring th {
+		background: var(--dtable-headingbgclr) !important;
+		color: var(--dtable-headingfontclr) !important;
+	}
+	#sparring select {
+		background-color: var(--dtable-dropdownclr) !important;
+		color: var(--dtable-fontclr) !important; 
+	} /* RECLAIM */
+	#reclaim {
+		background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	#reclaim th, #reclaim .bottom {
+		background: var(--dtable-headingbgclr) !important;
+		color: var(--dtable-headingfontclr) !important;
+	}
+	#reclaim select {
+		background-color: var(--dtable-dropdownclr) !important;
+		color: var(--dtable-fontclr) !important; 
+	} /* DYNASTY */
+	.dynastylist .left {
+		background-color: var(--ddynasty-bgclr) !important;
+	} /* USER SETTINGS */
+	.col-sm-4 div {
+		background-color: var(--dusersettings-bgclr) !important;
+		color: var(--dusersettings-fontclr) !important;
+	}
+	#editdetailspanel table {
+		color: var(--dusersettings-fontclr) !important;
+	}
+	th:has(a[onclick*="toggle_visibility('editdetailspanel')"]) {
+		background-color: var(--dusersettings-headingbgclr) !important;
+	}
+	a[onclick*="toggle_visibility('editdetailspanel')"] {
+		color: var(--dusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table td {
+		background-color: var(--dusersettings-bgclr) !important;
+		color: var(--dusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table td.bottom {
+		background-color: var(--dusersettings-headingbgclr) !important;
+		color: var(--dusersettings-headingfontclr) !important;
+	}
+	#editdetailspanel table select {
+		background-color: var(--dusersettings-dropdownclr) !important;
+		color: var(--dusersettings-fontclr) !important;
+	}
+	#editdetailspanel table textarea {
+		background-color: var(--dusersettings-dropdownclr) !important;
+		color: var(--dusersettings-fontclr) !important;
+	}
+	#editdetailspanel table input:not([name="update"]) {
+		background-color: var(--dusersettings-dropdownclr) !important;
+		color: var(--dusersettings-fontclr) !important;
+	}
+	#editdetailspanel table a {
+		color: var(--dusersettings-fontclr) !important;
+	}
+	#editdetailspanel table .left {
+		background-color: var(--dusersettings-subheadingbgclr) !important;
+		color: var(--dusersettings-subheadingfontclr) !important
+	}
+	form:has(input[name="atid"]) > div.left {
+		background: var(--dusersettings-bgclr) !important;
+		color: var(--dusersettings-fontclr) !important;
+	}
+	form:has(input[name="atid"]) > div.left a {
+		color: var(--dusersettings-fontclr) !important;
+	} /* SIDE PANEL */
+	.panel-body {
+		background-color: var(--dsidepanel-panelbgclr) !important;
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.panel-body a {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.sidebar h3 {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	.col-md-12 h3 .floatright:after {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	a[href="./chat.php"]:after {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	.col-xs-6 .progress div {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.col-xs-5 .progress div {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	 .progress {
+		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
+	}
+	.col-xs-6 .progress-bar {
+		background-color: var(--dsidepanel-impressionbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-warning {
+		background-color: var(--dsidepanel-energybarclr) !important;
+	}
+	.col-xs-6 .progress-bar-danger {
+		background-color: var(--dsidepanel-hungerbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-success {
+		background-color: var(--dsidepanel-experiencebarclr) !important;
+	}
+	.col-xs-5 .progress-bar {
+		background-color: var(--dsidepanel-achievementbarclr) !important;
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.sidebar input:hover {
+		text-shadow: 0px 0px 2.5px var(--dsidepanel-fontclr) !important;
+	} /* CHATBOX */
+	.col-md-12 input {
+		background: transparent !important;
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	#label_currentChannel {
+		background-color: var(--dchatbox-dropdownclr) !important;
+		color: var(--dchatbox-fontclr) !important;
+	}
+	#label_currentChannel:after {
+		color: var(--dchatbox-fontclr) !important;
+	}
+	#fraChatChannelMenu {
+		background-color: var(--dchatbox-dropdownclr) !important;
+	}
+	#fraChatChannelMenu button {
+		color: var(--dchatbox-fontclr) !important;
+		background-color: var(--dchatbox-dropdownclr) !important;
+	}
+	#fraChatChannelMenu .active {
+		background-color: var(--dchatbox-dropdownactiveclr) !important;
+	}
+	#fraChatChannelMenu button:hover {
+		background-color: var(--dchatbox-dropdownactiveclr) !important;
+	}
+	#chatMessagePinned {
+		background-color: var(--dchatbox-headingbgclr) !important;
+		color: var(--dchatbox-headingfontclr) !important;
+	}
+	#chatMessagePinned a {
+		background-color: var(--dchatbox-headingbgclr) !important;
+		color: var(--dchatbox-headingfontclr) !important;
+	}
+	.s-chat-message {
+		background-color: var(--dchatbox-bgclr) !important;
+		color: var(--dchatbox-fontclr) !important;
+		border-bottom: 1px solid var(--dchatbox-fontclr) !important;
+	}
+	.s-chat-message a {
+		color: var(--dchatbox-headingfontclr) !important;
+	}
+	.s-chat-message_timestamp {
+		color: var(--dchatbox-subtextfontclr) !important;
+	}
+	.s-chat-message.hasContext {
+		background-color: var(--dchatbox-activebgclr) !important;
+		border-left-color: var(--dchatbox-activeclr) !important
+	}
+	#fraChatSettingsMenu {
+		background-color: var(--dchatbox-settingsclr) !important;
+		color: var(--dchatbox-fontclr) !important;
+	}
+	#fraChatSettingsMenu button {
+		background-color: var(--dchatbox-settingsclr) !important
+	}
+	#fraChatSettingsMenu:after {
+		border-bottom-color: var(--dchatbox-settingsclr) !important;
+	}
+	#txtChatContainer a {
+		color: var(--dchatbox-fontclr) !important
+	}
+	#txtChatContainer:after {
+		color: var(--dchatbox-fontclr) !important
+	}
+	.emoteList {
+		background-color: var(--dchatbox-settingsclr) !important;
+	}
+	.emoteList:before {
+		border-top-color: var(--dchatbox-settingsclr) !important;
+	}
+	.emoteList:aftter {
+		border-top-color: var(--dchatbox-settingsclr) !important;
+	}
+	#context-chatMenu {
+		background-color: var(--dchatbox-settingsclr) !important;
+	}
+	#context-chatMenu:after {
+		border-left-color: var(--dchatbox-settingsclr) !important;
+	}
+	.chatMenu-container button {
+		background-color: var(--dchatbox-settingsclr) !important;
+		color: var(--dchatbox-fontclr) !important;
+	}
+	.chatMenu-container:before {
+		border-right-color: var(--dchatbox-settingsclr) !important;
+	}
+	.chatMenu-container button:hover {
+		background-color: var(--dchatbox-settingsactiveclr) !important;
+	}
+	#txtChatInput {
+		background-color: var(--dchatbox-bgclr) !important;
+	}
+	.s-chat-message_claim {
+		color: var(--dchatbox-fontclr) !important;
+		background-color: var(--dchatbox-claimclr) !important
+	}
+	#modalClaimBG {
+		background-color: var(--dchatbox-claimmenubgclr) !important;
+	}
+	#modalClaimList {
+		background-color: var(--dchatbox-bgclr); !important;
+		color: var(--dchatbox-fontclr) !important;
+	}
+	#modalClaimList a {
+		color: var(--dchatbox-fontclr) !important;
+	}
+	#modalClaimList h3 {
+		background-color: var(--dchatbox-headingbgclr); !important;
+		color: var(--dchatbox-headingfontclr) !important;
+	}
+	#modalClaimList button {
+		color: var(--dchatbox-headingfontclr) !important;
+	}
+	#fraInputMessage {
+		background-color: var(--dchatbox-headingbgclr) !important;
+		color: var(--dchatbox-fontclr) !important;
+	} /* FEBRUARY / THOUGHTS */
+	/* SEPTEMBER / LOCUST SWARMS */
+	/* OCTOBER / TRICK OR TREATING */
+	.feature.auto input {
+		color: var(--dfeaturelion-fontclr) !important;
+	}
+	.feature.auto input:hover {
+		text-shadow: 0px 0px 2.5px var(--dfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
+	} /* DECEMBER / GIFTING */
+
+	*:has(img[alt="day Time"]) body {
+		background-color: var(--dd-bgclr);
+		background-image: var(--d-bgimg);
+	}
+	*:has(img[alt="day Time"]) .col-md-9 {
+		background-color: var(--ddmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="day Time"]) .row:nth-child(2) {
+		background-color: var(--ddsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	*:has(img[alt="day Time"]) .topbar {
+		background-color: var(--ddtopbar-bgclr) !important;
+		background-image: var(--ddtopbar-bgimg) !important;
+		color: var(--ddtopbar-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .topbar a {
+		color: var(--ddtopbar-fontclr) !important;
+	} /* NAVBAR */
+	*:has(img[alt="day Time"]) .navbar {
+		background-color: var(--ddnavbar-bgclr) !important;
+		background-image: var(--ddnavbar-bgimg) !important;
+	}
+	*:has(img[alt="day Time"]) .navbar a {
+		color: var(--ddnavbar-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--ddnavbar-fontclr) !important;
+	} /* ALERTS */
+	*:has(img[alt="day Time"]) .alert {
+		background-color: var(--ddalert-bgclr) !important;
+		color: var(--ddalert-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .alert a {
+		color: var(--ddalert-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .alert a:after {
+		color: var(--ddalert-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .alert button {
+		color: var(--ddalert-fontclr) !important;
+	} /* FEATURE LION */
+	*:has(img[alt="day Time"]) .breadcrumb {
+		background-image: var(--featurelion-daybgimg) !important;
+		filter: brightness(0.6) !important;
+	}
+	*:has(img[alt="day Time"]) .top.center .xlarge.b {
+		color: var(--ddfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .top.center .xlarge.b a {
+		color: var(--ddfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .top.center .xlarge.b a:hover {
+		text-shadow: 0px 0px 10px var(--ddfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .floatright form {
+		color: var(--ddfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .lion-container {
+		filter: brightness(0.6) !important;
+	}
+	*:has(img[alt="day Time"]) #about table .left {
+		background-color: var(--ddfeaturelion-lefttableclr) !important;
+	}
+	*:has(img[alt="day Time"]) #about table .right {
+		background-color: var(--ddfeaturelion-righttableclr) !important;
+	}
+	*:has(img[alt="day Time"]) #about table {
+		color: var(--ddfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #about table a {
+		color: var(--ddfeaturelion-tablefontclr) !important;
+	} 
+	*:has(img[alt="day Time"]) #about .bottom a {
+		color: var(--ddfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #about .bottom a:hover {
+		text-shadow: 0px 0px 5px var(--ddfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #about .bottom a:hover b {
+		text-shadow: 0px 0px 5px var(--ddfeaturelion-tablefontclr) !important;
+	}
+	/* ABOUT */
+	*:has(img[alt="day Time"]) .player-card {
+		background-color: var(--ddplayercard-bgclr) !important;
+	}
+	*:has(img[alt="day Time"]) #player {
+		color: var(--ddplayercard-headingfontclr)
+	}
+	*:has(img[alt="day Time"]) #player.table .top .floatright {
+		color: var(--ddplayercard-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .member-online:after {
+	    background-color: var(--ddplayercard-onlinebadgeclr) !important;
+	}
+	*:has(img[alt="day Time"]) .member-offline:after {
+	    background-color: var(--ddplayercard-offlinebadgeclr) !important;
+	}
+	*:has(img[alt="day Time"]) #player span:after {
+		color: var(--ddplayercard-fontclr)
+	}
+	*:has(img[alt="day Time"]) #player a:before, #player a:after {
+		color: var(--ddplayercard-fontclr) !important
+	}
+	*:has(img[alt="day Time"]) #player hr {
+		background-color: var(--ddplayercard-headingfontclr) !important
+	}
+	*:has(img[alt="day Time"]) .info-box {
+		background-color: var(--ddinfo-infoboxbgclr) !important
+	}
+	*:has(img[alt="day Time"]) .info-box h2 {
+		color: var(--ddinfo-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .info-box p {
+		color: var(--ddinfo-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .link-box {
+		background-color: var(--ddinfo-linkboxbgclr) !important;
+	}
+	*:has(img[alt="day Time"]) .link-box h3 {
+		color: var(--ddinfo-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .link-box a {
+		color: var(--ddinfo-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .link-box p {
+		color: var(--ddinfo-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .image-box {
+		background-color: var(--ddcomment-imageboxbgclr) !important;
+	}
+	*:has(img[alt="day Time"]) .comment-box {
+		background-color: var(--ddcomment-commentboxbgclr) !important;
+	}
+	*:has(img[alt="day Time"]) .comment {
+		color: var(--ddcomment-fontclr) !important
+	}
+	*:has(img[alt="day Time"]) .comment small {
+		color: var(--ddcomment-fontclr) !important
+	}
+	*:has(img[alt="day Time"]) .comment a {
+		color: var(--ddcomment-userfontclr) !important
+	}
+	*:has(img[alt="day Time"]) #makeComment input {
+		background-color: var(--ddcomment-commentbarbgclr) !important;
+	}
+	*:has(img[alt="day Time"]) #makeComment:after {
+		color: var(--ddcomment-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #commentBox input {
+		color: var(--ddcomment-userfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #comment::placeholder {
+		color: var(--ddcomment-fontclr);
+		opacity: 0.5;
+	} /* CAVES AND MOUNDS */
+	*:has(img[alt="day Time"]) #fraCaveList > div.col-md-4.col-xs-6.center {
+		background-color: var(--ddmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="day Time"]) #fraOrganizationBlock .cave-grid {
+		background-color: var(--ddcaves-bgclr) !important;
+		color: var(--ddcaves-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #fraMoundList .mound-grid {
+		background-color: var(--ddcaves-bgclr) !important;
+		color: var(--ddcaves-fontclr) !important;
+	} /* ATTACK */
+	*:has(img[alt="day Time"]) #attack {
+		background-color: var(--ddtable-bgclr) !important;
+		color: var(--ddcaves-bgclrtable-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #attack th, #attack .bottom {
+		background: var(--ddtable-headingbgclr) !important;
+		color: var(--ddtable-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #attack .bottom a {
+		color: var(--ddtable-headingfontclr) !important;
+	} /* FEED ALL, PLAY ALL */
+	*:has(img[alt="day Time"]) .col-sm-6 .feature {
+		background-color: var(--ddfapa-bgclr) !important;
+		color: var(--ddfapa-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-sm-6 .feature h3 {
+		color: var(--ddfapa-headingfontclr) !important
+	}
+	*:has(img[alt="day Time"]) .col-sm-6 .feature select {
+		background-color: var(--ddfapa-dropdownclr) !important;
+		color: var(--ddfapa-fontclr) !important; 
+	} /* SPARRING */
+	*:has(img[alt="day Time"]) #sparring {
+		background-color: var(--ddtable-bgclr) !important;
+		color: var(--ddtable-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #sparring .right_odd {
+		background-color: var(--ddtable-bgclr) !important;
+		color: var(--ddtable-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #sparring th {
+		background: var(--ddtable-headingbgclr) !important;
+		color: var(--ddtable-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #sparring select {
+		background-color: var(--ddtable-dropdownclr) !important;
+		color: var(--ddtable-fontclr) !important; 
+	} /* RECLAIM */
+	*:has(img[alt="day Time"]) #reclaim {
+		background-color: var(--ddtable-bgclr) !important;
+		color: var(--ddtable-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #reclaim th, #reclaim .bottom {
+		background: var(--ddtable-headingbgclr) !important;
+		color: var(--ddtable-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #reclaim select {
+		background-color: var(--ddtable-dropdownclr) !important;
+		color: var(--ddtable-fontclr) !important; 
+	} /* DYNASTY */
+	*:has(img[alt="day Time"]) .dynastylist .left {
+		background-color: var(--dddynasty-bgclr) !important;
+	} /* USER SETTINGS */
+	*:has(img[alt="day Time"]) .col-sm-4 div {
+		background-color: var(--ddusersettings-bgclr) !important;
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table {
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) th:has(a[onclick*="toggle_visibility('editdetailspanel')"]) {
+		background-color: var(--ddusersettings-headingbgclr) !important;
+	}
+	*:has(img[alt="day Time"]) a[onclick*="toggle_visibility('editdetailspanel')"] {
+		color: var(--ddusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table td {
+		background-color: var(--ddusersettings-bgclr) !important;
+		color: var(--ddusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table td.bottom {
+		background-color: var(--ddusersettings-headingbgclr) !important;
+		color: var(--ddusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table select {
+		background-color: var(--ddusersettings-dropdownclr) !important;
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table textarea {
+		background-color: var(--ddusersettings-dropdownclr) !important;
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table input:not([name="update"]) {
+		background-color: var(--ddusersettings-dropdownclr) !important;
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table a {
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) #editdetailspanel table .left {
+		background-color: var(--ddusersettings-subheadingbgclr) !important;
+		color: var(--ddusersettings-subheadingfontclr) !important
+	}
+	*:has(img[alt="day Time"]) form:has(input[name="atid"]) > div.left {
+		background: var(--ddusersettings-bgclr) !important;
+		color: var(--ddusersettings-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) form:has(input[name="atid"]) > div.left a {
+		color: var(--ddusersettings-fontclr) !important;
+	} /* SIDE PANEL */
+	*:has(img[alt="day Time"]) .panel-body {
+		background-color: var(--ddsidepanel-panelbgclr) !important;
+		color: var(--ddsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .panel-body a {
+		color: var(--ddsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .sidebar h3 {
+		color: var(--ddsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-md-12 h3 .floatright:after {
+		color: var(--ddsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) a[href="./chat.php"]:after {
+		color: var(--ddsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-6 .progress div {
+		color: var(--ddsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-5 .progress div {
+		color: var(--ddsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .progress {
+		background-color: color-mix(in srgb, var(--ddsidepanel-panelbgclr), #fff 25%) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar {
+		background-color: var(--ddsidepanel-impressionbarclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar-warning {
+		background-color: var(--ddsidepanel-energybarclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar-danger {
+		background-color: var(--ddsidepanel-hungerbarclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-6 .progress-bar-success {
+		background-color: var(--ddsidepanel-experiencebarclr) !important;
+	}
+	*:has(img[alt="day Time"]) .col-xs-5 .progress-bar {
+		background-color: var(--ddsidepanel-achievementbarclr) !important;
+		color: var(--ddsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .sidebar input:hover {
+		text-shadow: 0px 0px 2.5px var(--ddsidepanel-fontclr) !important;
+	}
+	/* FEBRUARY / THOUGHTS */
+	/* SEPTEMBER / LOCUST SWARMS */
+	/* OCTOBER / TRICK OR TREATING */
+	*:has(img[alt="day Time"]) .feature.auto input {
+		color: var(--ddfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="day Time"]) .feature.auto input:hover {
+		text-shadow: 0px 0px 2.5px var(--ddfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
+	} /* DECEMBER / GIFTING */
+
+	*:has(img[alt="night Time"]) body {
+		background-color: var(--d-bgclr);
+		background-image: linear-gradient(#00000010, #00000010), var(--d-bgimg);
+	}
+	*:has(img[alt="night Time"]) .col-md-9 {
+		background-color: var(--dnmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .row:nth-child(2) {
+		background-color: var(--dnsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	*:has(img[alt="night Time"]) .topbar {
+		background-color: var(--dntopbar-bgclr) !important;
+		background-image: var(--dntopbar-bgimg) !important;
+		color: var(--dntopbar-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .topbar a {
+		color: var(--dntopbar-fontclr) !important;
+	} /* NAVBAR */
+	*:has(img[alt="night Time"]) .navbar {
+		background-color: var(--dnnavbar-bgclr) !important;
+		background-image: var(--dnnavbar-bgimg) !important;
+	}
+	*:has(img[alt="night Time"]) .navbar a {
+		color: var(--dnnavbar-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--dnnavbar-fontclr) !important;
+	} /* ALERTS */
+	*:has(img[alt="night Time"]) .alert {
+		background-color: var(--dnalert-bgclr) !important;
+		color: var(--dnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert a {
+		color: var(--dnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert a:after {
+		color: var(--dnalert-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .alert button {
+		color: var(--dnalert-fontclr) !important;
+	} /* FEATURE LION */
+	*:has(img[alt="night Time"]) .breadcrumb {
+		background-image: var(--featurelion-nightbgimg) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b {
+		color: var(--dnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b a {
+		color: var(--dnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .top.center .xlarge.b a:hover {
+		text-shadow: 0px 0px 10px var(--dnfeaturelion-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .floatright form {
+		color: var(--dnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table .left {
+		background-color: var(--dnfeaturelion-lefttableclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table .right {
+		background-color: var(--dnfeaturelion-righttableclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table {
+		color: var(--dnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about table a {
+		color: var(--dnfeaturelion-tablefontclr) !important;
+	} 
+	*:has(img[alt="night Time"]) #about .bottom a {
+		color: var(--dnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about .bottom a:hover {
+		text-shadow: 0px 0px 5px var(--dnfeaturelion-tablefontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #about .bottom a:hover b {
+		text-shadow: 0px 0px 5px var(--dnfeaturelion-tablefontclr) !important;
+	}
+	/* ABOUT */
+	*:has(img[alt="night Time"]) .player-card {
+		background-color: var(--dnplayercard-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #player {
+		color: var(--dnplayercard-headingfontclr)
+	}
+	*:has(img[alt="night Time"]) #player.table .top .floatright {
+		color: var(--dnplayercard-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .member-online:after {
+	    background-color: var(--dnplayercard-onlinebadgeclr) !important;
+	}
+	*:has(img[alt="night Time"]) .member-offline:after {
+	    background-color: var(--dnplayercard-offlinebadgeclr) !important;
+	}
+	*:has(img[alt="night Time"]) #player span:after {
+		color: var(--dnplayercard-fontclr)
+	}
+	*:has(img[alt="night Time"]) #player a:before, #player a:after {
+		color: var(--dnplayercard-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) #player hr {
+		background-color: var(--dnplayercard-headingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) .info-box {
+		background-color: var(--dninfo-infoboxbgclr) !important
+	}
+	*:has(img[alt="night Time"]) .info-box h2 {
+		color: var(--dninfo-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .info-box p {
+		color: var(--dninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box {
+		background-color: var(--dninfo-linkboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box h3 {
+		color: var(--dninfo-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box a {
+		color: var(--dninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .link-box p {
+		color: var(--dninfo-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .image-box {
+		background-color: var(--dncomment-imageboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .comment-box {
+		background-color: var(--dncomment-commentboxbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) .comment {
+		color: var(--dncomment-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) .comment small {
+		color: var(--dncomment-fontclr) !important
+	}
+	*:has(img[alt="night Time"]) .comment a {
+		color: var(--dncomment-userfontclr) !important
+	}
+	*:has(img[alt="night Time"]) #makeComment input {
+		background-color: var(--dncomment-commentbarbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #makeComment:after {
+		color: var(--dncomment-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #commentBox input {
+		color: var(--dncomment-userfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #comment::placeholder {
+		color: var(--dncomment-fontclr);
+		opacity: 0.5;
+	} /* CAVES AND MOUNDS */
+	*:has(img[alt="night Time"]) #fraCaveList > div.col-md-4.col-xs-6.center {
+		background-color: var(--dnmainpanel-bgclr) !important;
+	}
+	*:has(img[alt="night Time"]) #fraOrganizationBlock .cave-grid {
+		background-color: var(--dncaves-bgclr) !important;
+		color: var(--dncaves-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #fraMoundList .mound-grid {
+		background-color: var(--dncaves-bgclr) !important;
+		color: var(--dncaves-fontclr) !important;
+	} /* ATTACK */
+	*:has(img[alt="night Time"]) #attack {
+		background-color: var(--dntable-bgclr) !important;
+		color: var(--dncaves-bgclrtable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #attack th, #attack .bottom {
+		background: var(--dntable-headingbgclr) !important;
+		color: var(--dntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #attack .bottom a {
+		color: var(--dntable-headingfontclr) !important;
+	} /* FEED ALL, PLAY ALL */
+	*:has(img[alt="night Time"]) .col-sm-6 .feature {
+		background-color: var(--dnfapa-bgclr) !important;
+		color: var(--dnfapa-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-sm-6 .feature h3 {
+		color: var(--dnfapa-headingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) .col-sm-6 .feature select {
+		background-color: var(--dnfapa-dropdownclr) !important;
+		color: var(--dnfapa-fontclr) !important; 
+	} /* SPARRING */
+	*:has(img[alt="night Time"]) #sparring {
+		background-color: var(--dntable-bgclr) !important;
+		color: var(--dntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring .right_odd {
+		background-color: var(--dntable-bgclr) !important;
+		color: var(--dntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring th {
+		background: var(--dntable-headingbgclr) !important;
+		color: var(--dntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #sparring select {
+		background-color: var(--dntable-dropdownclr) !important;
+		color: var(--dntable-fontclr) !important; 
+	} /* RECLAIM */
+	*:has(img[alt="night Time"]) #reclaim {
+		background-color: var(--dntable-bgclr) !important;
+		color: var(--dntable-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #reclaim th, #reclaim .bottom {
+		background: var(--dntable-headingbgclr) !important;
+		color: var(--dntable-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #reclaim select {
+		background-color: var(--dntable-dropdownclr) !important;
+		color: var(--dntable-fontclr) !important; 
+	} /* DYNASTY */
+	*:has(img[alt="night Time"]) .dynastylist .left {
+		background-color: var(--dndynasty-bgclr) !important;
+	} /* USER SETTINGS */
+	*:has(img[alt="night Time"]) .col-sm-4 div {
+		background-color: var(--dnusersettings-bgclr) !important;
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table {
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) th:has(a[onclick*="toggle_visibility('editdetailspanel')"]) {
+		background-color: var(--dnusersettings-headingbgclr) !important;
+	}
+	*:has(img[alt="night Time"]) a[onclick*="toggle_visibility('editdetailspanel')"] {
+		color: var(--dnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table td {
+		background-color: var(--dnusersettings-bgclr) !important;
+		color: var(--dnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table td.bottom {
+		background-color: var(--dnusersettings-headingbgclr) !important;
+		color: var(--dnusersettings-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table select {
+		background-color: var(--dnusersettings-dropdownclr) !important;
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table textarea {
+		background-color: var(--dnusersettings-dropdownclr) !important;
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table input:not([name="update"]) {
+		background-color: var(--dnusersettings-dropdownclr) !important;
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table a {
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) #editdetailspanel table .left {
+		background-color: var(--dnusersettings-subheadingbgclr) !important;
+		color: var(--dnusersettings-subheadingfontclr) !important
+	}
+	*:has(img[alt="night Time"]) form:has(input[name="atid"]) > div.left {
+		background: var(--dnusersettings-bgclr) !important;
+		color: var(--dnusersettings-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) form:has(input[name="atid"]) > div.left a {
+		color: var(--dnusersettings-fontclr) !important;
+	} /* SIDE PANEL */
+	*:has(img[alt="night Time"]) .panel-body {
+		background-color: var(--dnsidepanel-panelbgclr) !important;
+		color: var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .panel-body a {
+		color: var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .sidebar h3 {
+		color: var(--dnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-md-12 h3 .floatright:after {
+		color: var(--dnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) a[href="./chat.php"]:after {
+		color: var(--dnsidepanel-headingfontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress div {
+		color: var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-5 .progress div {
+		color: var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .progress {
+		background-color: color-mix(in srgb, var(--dnsidepanel-panelbgclr), #fff 25%) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar {
+		background-color: var(--dnsidepanel-impressionbarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-warning {
+		background-color: var(--dnsidepanel-energybarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-danger {
+		background-color: var(--dnsidepanel-hungerbarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-6 .progress-bar-success {
+		background-color: var(--dnsidepanel-experiencebarclr) !important;
+	}
+	*:has(img[alt="night Time"]) .col-xs-5 .progress-bar {
+		background-color: var(--dnsidepanel-achievementbarclr) !important;
+		color: var(--dnsidepanel-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .sidebar input:hover {
+		text-shadow: 0px 0px 2.5px var(--dnsidepanel-fontclr) !important;
+	}
+	/* FEBRUARY / THOUGHTS */
+	/* SEPTEMBER / LOCUST SWARMS */
+	/* OCTOBER / TRICK OR TREATING */
+	*:has(img[alt="night Time"]) .feature.auto input {
+		color: var(--dnfeaturelion-fontclr) !important;
+	}
+	*:has(img[alt="night Time"]) .feature.auto input:hover {
+		text-shadow: 0px 0px 2.5px var(--dnfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
+	} /* DECEMBER / GIFTING */
+}
