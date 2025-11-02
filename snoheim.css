@@ -2174,6 +2174,7 @@ form[action="/account-link.php"]:hover:after {
 	}
 	#sparring .right_odd {
 	    background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
 	}
 	#sparring select,
 	#reclaim select,
