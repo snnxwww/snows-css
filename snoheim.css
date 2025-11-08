@@ -188,10 +188,10 @@
 	--logoimg: url('https://github.com/snnxwww/snoheim-css/blob/main/logo.png?raw=true');
 	--sbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/iceshard.png?raw=true');
 	--gbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/snowshard.png?raw=true');
-	--dayicon: url('');
-	--nighticon: url('');
-	--dryseasonicon: url('');
-	--wetseasonicon: url('');
+	--dayicon: url('https://github.com/snnxwww/snoheim-css/blob/main/day.png?raw=true');
+	--nighticon: url('https://github.com/snnxwww/snoheim-css/blob/main/night.png?raw=true');
+	--dryseasonicon: url('https://github.com/snnxwww/snoheim-css/blob/main/dry.png?raw=true');
+	--wetseasonicon: url('https://github.com/snnxwww/snoheim-css/blob/main/wet.png?raw=true');
 	--pinnedmessageicon: url('');
 	--ltopbar-bgimg: url('');
 	--dtopbar-bgimg: url('');
@@ -2429,6 +2429,26 @@ img[src*="icon-beetle-silver.png"] {
 }
 img[src*="icon-beetle-gold.png"] {
 	content: var(--gbicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-time-day.png"] {
+	content: var(--dayicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-time-night.png"] {
+	content: var(--nighticon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-season-dry.png"] {
+	content: var(--dryseasonicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-season-wet.png"] {
+	content: var(--wetseasonicon) !important;
 	height: 20px !important;
 	width: 20px !important
 }
