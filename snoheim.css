@@ -2,6 +2,7 @@
 
 :root {
 	/* FONT */
+	--font: "Jim Nightshade";
 	--topbar-font: "Lovers Quarrel";
 	--navbar-font: "Jim Nightshade";
 	--featurelion-headingfont: "Whisper";
@@ -45,19 +46,19 @@
 	--l-bgclr: #97b0c5;
 	--lmainpanel-bgclr: #a5bccf;
 	--ltopbar-bgclr: #afc2d2;
-	--ltopbar-fontclr: #eaf0f5;
+	--ltopbar-fontclr: #dde4e9;
 	--lnavbar-bgclr: #a0b3c3;
 	--lnavbar-fontclr: #5c6770;
 	--lalert-bgclr: #b7c9d9;
 	--lalert-fontclr: #4f5961;
-	--lfeaturelion-headingfontclr: #dce3ea;
-	--lfeaturelion-fontclr: #cedae4;
+	--lfeaturelion-headingfontclr: #ced7da;
+	--lfeaturelion-fontclr: #d0dde7;
 	--lfeaturelion-lefttableclr: #bccede;
 	--lfeaturelion-righttableclr: #c5d3e0;
 	--lfeaturelion-tablefontclr: #4f5962;
 	--lplayercard-bgclr: #7d95a8;
-	--lplayercard-headingfontclr: #161f28;
-	--lplayercard-fontclr: #313e4a;
+	--lplayercard-headingfontclr: #b6c7d8;
+	--lplayercard-fontclr: #b5cadd;
 	--lplayercard-onlinebadgeclr: #c2cdd6;
 	--lplayercard-offlinebadgeclr: #92a5b6;
 	--linfo-infoboxbgclr: #9bb2c5;
@@ -121,8 +122,8 @@
 	--dnavbar-fontclr: #858e99;
 	--dalert-bgclr: #272e37;
 	--dalert-fontclr: #8e96a1;
-	--dfeaturelion-headingfontclr: #c5cfdc;
-	--dfeaturelion-fontclr: #c0c8d3;
+	--dfeaturelion-headingfontclr: #8d9caf;
+	--dfeaturelion-fontclr: #a7b2c2;
 	--dfeaturelion-lefttableclr: #1e2227;
 	--dfeaturelion-righttableclr: #282e36;
 	--dfeaturelion-tablefontclr: #6b6e72;
@@ -178,8 +179,8 @@
 	--dchatbox-settingsactiveclr: #a5b6cf;
 	--dchatbox-claimclr: #495463;
 	--dchatbox-claimmenubgclr: #49546380;
-	--dchatbox-headingfontclr: #d1dae6;
-	--dchatbox-fontclr: #d3dde8;
+	--dchatbox-headingfontclr: #c5cfdc;
+	--dchatbox-fontclr: #9da6b0;
 	--dchatbox-subtextfontclr: #848f9d;
 	
 	
@@ -226,6 +227,7 @@
 body {
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
+	font-family: var(--font) !important;
 }
 
 
