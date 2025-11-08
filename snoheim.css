@@ -589,7 +589,7 @@ h1 {
 }
 #player.table .top .floatright {
 	position: relative !important;
-	left: -25% !important;
+	left: -35% !important;
 	margin-bottom: -20px !important;
 	font-size: calc(var(--playercard-headingfontsize)*0.8) !important;
 	font-family: var(--playercard-headingfont) !important;
