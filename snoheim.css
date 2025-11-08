@@ -185,9 +185,9 @@
 	
 	
 	/* IMAGES */
-	--logoimg: url('');
-	--sbicon: url('');
-	--gbicon: url('');
+	--logoimg: url('https://github.com/snnxwww/snoheim-css/blob/main/logo.png?raw=true');
+	--sbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/iceshard.png?raw=true');
+	--gbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/snowshard.png?raw=true');
 	--dayicon: url('');
 	--nighticon: url('');
 	--dryseasonicon: url('');
@@ -201,8 +201,6 @@
 	--featurelion-nightbgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/frozenvallynight.png?raw=true');
 	--l-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestday.png?raw=true');
 	--d-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestnight.png?raw=true');
-	
-
 }
 	
 
@@ -2417,4 +2415,20 @@ form[action="/account-link.php"]:hover:after {
 	.feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--dfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
+}
+
+img[src*="logo-full-2.png"] {
+	content: var(--logoimg) !important;
+	height: 120px !important;
+	width: 192px !important
+}
+img[src*="icon-beetle-silver.png"] {
+	content: var(--sbicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-beetle-gold.png"] {
+	content: var(--gbicon) !important;
+	height: 20px !important;
+	width: 20px !important
 }
