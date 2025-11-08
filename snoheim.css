@@ -123,10 +123,10 @@
 	--dalert-bgclr: #272e37;
 	--dalert-fontclr: #8e96a1;
 	--dfeaturelion-headingfontclr: #8d9caf;
-	--dfeaturelion-fontclr: #a7b2c2;
+	--dfeaturelion-fontclr: #acb8ca;
 	--dfeaturelion-lefttableclr: #1e2227;
 	--dfeaturelion-righttableclr: #282e36;
-	--dfeaturelion-tablefontclr: #6b6e72;
+	--dfeaturelion-tablefontclr: #acadae;
 	--dplayercard-bgclr: #272e37;
 	--dplayercard-headingfontclr: #687280;
 	--dplayercard-fontclr: #687688;
@@ -2009,6 +2009,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.topbar a {
 		color: var(--dtopbar-fontclr) !important;
+	}
+	.topbar img {
+		filter: brightness(0.8) !important;
 	} /* NAVBAR */
 	.navbar {
 		background-color: var(--dnavbar-bgclr) !important;
@@ -2019,7 +2022,10 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
 		background-color: var(--dnavbar-fontclr) !important;
-	} /* ALERTS */
+	}
+	.navbar img {
+		filter: brightness(0.8) !important;
+	}/* ALERTS */
 	.alert {
 		background-color: var(--dalert-bgclr) !important;
 		color: var(--dalert-fontclr) !important;
@@ -2250,6 +2256,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.panel-body a {
 		color: var(--dsidepanel-fontclr) !important;
+	}
+	.panel-body img {
+		filter: brightness(0.8) !important;
 	}
 	.sidebar h3 {
 		color: var(--dsidepanel-headingfontclr) !important;
