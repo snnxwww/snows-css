@@ -1181,22 +1181,22 @@ form[action="/account-link.php"]:hover:after {
 }
 *:has(a[href*="refer.php"]) .center a[href^="/wishlist.php"]:after {
     content: "View Bounties";
-	margin-left: -105px !important;
+	margin-left: -80px !important;
 	transition: 0.5s !important;
 }
 *:has(a[href*="refer.php"]) .center a[href^="/wishlist.php"]:hover:after {
-	margin-left: -100px !important;
+	margin-left: -75px !important;
 	margin: 5px;
 }
 *:has(a[href*="refer.php"]) .center a[href^="/refer.php"]:after {
 	content: "Recruit an Ally";
-	margin-left: -100px !important;
-	margin-right: 10px !important;
+	margin-left: -50px !important;
+	margin-right: 20px !important;
 	transition: 0.5s !important;
 }
 *:has(a[href*="refer.php"]) .center a[href^="/refer.php"]:hover:after {
-	margin-left: -105px !important;
-	margin-right: 20px !important;
+	margin-left: -45px !important;
+	margin-right: 25px !important;
 }
 *:has(a[href*="refer.php"]) b:has(span)  {
 	display: none !important;
