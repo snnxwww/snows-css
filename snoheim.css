@@ -30,7 +30,7 @@
 	--featurelion-fontsize: 16px;
 	--alert-fontsize: 16px;
 	--playercard-headingfontsize: 32px;
-	--playercard-fontsize: 18px;
+	--playercard-fontsize: 14.5px;
 	--about-headingfontsize: 26px;
 	--comments-fontsize: 14px;
 	--about-fontsize: 16px;
@@ -678,7 +678,7 @@ h1 {
 }
 .xlarge a[href^="/compose.php"]:after {
     content: "Leave a Whisper";
-	margin-left: -70px !important;
+	margin-left: 0px !important;
     margin-right: 15px !important;
 	transition: 0.5s !important;
 }
@@ -687,18 +687,18 @@ h1 {
 } 
 .xlarge a[href^="/transfers.php"]:after {
     content: "Send a Parcel";
-    margin-left: -65px !important;
+    margin-left: -45px !important;
 	margin-right: 15px !important;
 	transition: 0.5s !important;
 }
 .xlarge a[href^="/transfers.php"]:hover:after {
-    margin-left: -55px !important;
+    margin-left: -35px !important;
 	margin-right: 25px !important;
 } 
 .xlarge a[href^="/trading_center.php?p=create"]:before {
     content: "Propose a Deal";
-	margin-left: 20px !important;
-    margin-right: -100px !important;
+	margin-left: 15px !important;
+    margin-right: 0px !important;
 	transition: 0.5s !important;
 }
 .xlarge a[href^="/trading_center.php?p=create"]:hover:before {
@@ -707,23 +707,23 @@ h1 {
 .center a[href^="/wishlist.php"]:after {
     content: "View Bounties";
     margin-left: -95px !important;
-	margin-right: 15px !important;
+	margin-right: 20px !important;
 	transition: 0.5s !important;
 }
 .center a[href^="/wishlist.php"]:hover:after {
-    margin-right: 25px !important;
+    margin-right: 30px !important;
 }
 .center a[href^="/trading_center.php?s=users"]:after {
     content: "View Listings";
-    margin-left: -85px !important;
+    margin-left: -55px !important;
 	transition: 0.5s !important;
 }
 .center a[href^="/trading_center.php?s=users"]:hover:after {
-    margin-left: -75px !important;
+    margin-left: -45px !important;
 } 
 .right_odd a[href^="/allies.php?p=blocked"]:after {
-    content: "Banish";
-    margin-left: -110px !important; 
+    content: "Banish into the Abyss";
+    margin-left: -60px !important; 
 	transition: 0.5s !important;
 }
 .right_odd a[href^="/allies.php?p=blocked"]:hover:after {
