@@ -287,6 +287,7 @@ body {
 	position: relative !important; 
 	top: -4.5px !important;  
 	left: -2px !important; 
+	border-radius: 8px !important;
 }
 
 
@@ -1582,6 +1583,10 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.topbar a {
 		color: var(--ltopbar-fontclr) !important;
+	}
+	.badge {
+		background-color: var(--lalert-bgclr) !important;
+		color: var(--ltopbar-fontclr) !important;
 	} /* NAVBAR */
 	.navbar {
 		background-color: var(--lnavbar-bgclr) !important;
@@ -2012,6 +2017,10 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.topbar img {
 		filter: brightness(0.8) !important;
+	}
+	.badge {
+		background-color: var(--dalert-bgclr) !important;
+		color: var(--dtopbar-fontclr) !important;
 	} /* NAVBAR */
 	.navbar {
 		background-color: var(--dnavbar-bgclr) !important;
