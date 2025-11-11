@@ -1,0 +1,1104 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Island+Moments&family=Italianno&family=Jim+Nightshade&family=Lovers+Quarrel&family=Whisper&display=swap');
+
+:root {
+	/* FONT */
+	--font: "Jim Nightshade";
+	--topbar-font: "Lovers Quarrel";
+	--navbar-font: "Jim Nightshade";
+	--featurelion-headingfont: "Whisper";
+	--featurelionbutton-font: "Beau Rivage";
+	--featurelion-font: "Jim Nightshade";
+	--alert-font: "Island Moments";
+	--playercard-headingfont: "Whisper";
+	--playercard-font: "Jim Nightshade";
+	--about-headingfont: "Lovers Quarrel";
+	--about-font: "Jim Nightshade";
+	--comments-font: "Jim Nightshade";
+	--caves-font: "Island Moments";
+	--tables-headingfont: "Island Moments";
+	--tables-font: "Jim Nightshade";
+	--sidebarpanels-headingfont: "Beau Rivage";
+	--sidebarpanels-font: "Jim Nightshade";
+	--chatbox-headingfont: "Island Moments";
+	--chatbox-font: "Jim Nightshade";
+
+	/* FONT SIZE */
+	--topbar-fontsize: 18px;
+	--navbar-fontsize: 24px;
+	--featurelion-headingfontsize: 56px;
+	--featurelionbutton-fontsize: 26px;
+	--featurelion-fontsize: 16px;
+	--alert-fontsize: 16px;
+	--playercard-headingfontsize: 32px;
+	--playercard-fontsize: 14.5px;
+	--about-headingfontsize: 26px;
+	--comments-fontsize: 14px;
+	--about-fontsize: 16px;
+	--caves-fontsize: 18px;
+	--tables-headingfontsize: 22px;
+	--tables-fontsize: 14px;
+	--sidebarpanels-headingfontsize: 24px;
+	--sidebarpanels-fontsize: 14px;
+	--chatbox-headingfontsize: 16px;
+	--chatbox-fontsize: 16px;
+
+	/* LIGHT MODE */
+	--l-bgclr: #97b0c5;
+	--lmainpanel-bgclr: #a5bccf;
+	--ltopbar-bgclr: #afc2d2;
+	--ltopbar-fontclr: #dde4e9;
+	--lnavbar-bgclr: #a0b3c3;
+	--lnavbar-fontclr: #5c6770;
+	--lalert-bgclr: #b7c9d9;
+	--lalert-fontclr: #4f5961;
+	--lfeaturelion-headingfontclr: #ced7da;
+	--lfeaturelion-fontclr: #d0dde7;
+	--lfeaturelion-lefttableclr: #bccede;
+	--lfeaturelion-righttableclr: #c5d3e0;
+	--lfeaturelion-tablefontclr: #4f5962;
+	--lplayercard-bgclr: #7d95a8;
+	--lplayercard-headingfontclr: #b6c7d8;
+	--lplayercard-fontclr: #b5cadd;
+	--lplayercard-onlinebadgeclr: #c2cdd6;
+	--lplayercard-offlinebadgeclr: #92a5b6;
+	--linfo-infoboxbgclr: #9bb2c5;
+	--linfo-linkboxbgclr: #8aa2b6;
+	--linfo-headingfontclr: #1b2329;
+	--linfo-fontclr: #39444c;
+	--lcomment-imageboxbgclr: #8aa2b6;
+	--lcomment-commentboxbgclr: #7d95a8;
+	--lcomment-commentbarbgclr: #95afc4;
+	--lcomment-fontclr: #2c343b;
+	--lcomment-userfontclr: #344552;
+	--lcaves-bgclr: #95afc4;
+	--lcaves-fontclr: #4a535b;
+	--ltable-headingbgclr: #7d95a8;
+	--ltable-bgclr: #bbccd9;
+	--ltable-headingfontclr: #e5ebef;
+	--ltable-fontclr: #3c444a;
+	--ltable-dropdownclr: #a5b8c7;
+	--lfapa-bgclr: #7d95a8;
+	--lfapa-headingfontclr: #38434b;
+	--lfapa-fontclr: #425d72;
+	--lfapa-dropdownclr: #a5b8c7;
+	--ldynasty-bgclr: #7d95a8;
+	--lusersettings-bgclr: #657a8b;
+	--lusersettings-headingbgclr: #526473;
+	--lusersettings-subheadingbgclr: #465867;
+	--lusersettings-headingfontclr: #dae2e9;
+	--lusersettings-subheadingfontclr: #b5c6d5;
+	--lusersettings-fontclr: #23282c;
+	--lusersettings-dropdownclr: #a5b8c7;
+	--lsidepanel-bgclr: #c3d2de;
+	--lsidepanel-panelbgclr: #e7eff6;
+	--lsidepanel-headingfontclr: #373e44;
+	--lsidepanel-fontclr: #647786;
+	--lsidepanel-energybarclr: #aec0cd;
+	--lsidepanel-hungerbarclr: #8fb0cb;
+	--lsidepanel-experiencebarclr: #99b3c8;
+	--lsidepanel-impressionbarclr: #bdcddb;
+	--lsidepanel-achievementbarclr: #8398a8;
+	--lchatbox-headingbgclr: #8b9faf;
+	--lchatbox-bgclr: #e7eff6;
+	--lchatbox-activebgclr: #bbccd9;
+	--lchatbox-activeclr: #a3b4c1;
+	--lchatbox-dropdownclr: #a5b8c7;
+	--lchatbox-dropdownactiveclr: #bfccd7;
+	--lchatbox-settingsclr: #c6d5e1;
+	--lchatbox-settingsactiveclr: #a5b3be;
+	--lchatbox-claimclr: #a5b3be;
+	--lchatbox-claimmenubgclr: #c3d2de80;
+	--lchatbox-headingfontclr: #5e656a;
+	--lchatbox-fontclr: #3c4953;
+	--lchatbox-subtextfontclr: #a1a5a8;
+
+	
+	/* DARK MODE */
+	--d-bgclr: #464d57;
+	--dmainpanel-bgclr: #2e3641;
+	--dtopbar-bgclr: #1c2128;
+	--dtopbar-fontclr: #727a85;
+	--dnavbar-bgclr: #1e252d;
+	--dnavbar-fontclr: #858e99;
+	--dalert-bgclr: #272e37;
+	--dalert-fontclr: #8e96a1;
+	--dfeaturelion-headingfontclr: #8d9caf;
+	--dfeaturelion-fontclr: #c6d2e3;
+	--dfeaturelion-lefttableclr: #1e2227;
+	--dfeaturelion-righttableclr: #282e36;
+	--dfeaturelion-tablefontclr: #acadae;
+	--dplayercard-bgclr: #272e37;
+	--dplayercard-headingfontclr: #687280;
+	--dplayercard-fontclr: #687688;
+	--dplayercard-onlinebadgeclr: #38414f;
+	--dplayercard-offlinebadgeclr: #14181e;
+	--dinfo-infoboxbgclr: #313943;
+	--dinfo-linkboxbgclr: #2b323c;
+	--dinfo-headingfontclr: #94989f;
+	--dinfo-fontclr: #7b8089;
+	--dcomment-imageboxbgclr: #2b323c;
+	--dcomment-commentboxbgclr: #272e37;
+	--dcomment-commentbarbgclr: #3d434f;
+	--dcomment-fontclr: #b2b9c6;
+	--dcomment-userfontclr: #828790;
+	--dcaves-bgclr: #272e37;
+	--dcaves-fontclr: #828992;
+	--dtable-headingbgclr: #272e37;
+	--dtable-bgclr: #3e4651;
+	--dtable-headingfontclr: #9da3ab;
+	--dtable-fontclr: #828d9c;
+	--dtable-dropdownclr: #4c5663;
+	--dfapa-bgclr: #272e37;
+	--dfapa-headingfontclr: #afb8c4;
+	--dfapa-fontclr: #8996a7;
+	--dfapa-dropdownclr: #4c5663;
+	--ddynasty-bgclr: #272e37;
+	--dusersettings-bgclr: #22262b;
+	--dusersettings-headingbgclr: #191c20;
+	--dusersettings-subheadingbgclr: #2e333b;
+	--dusersettings-headingfontclr: #a5abb3;
+	--dusersettings-subheadingfontclr: #8f9296;
+	--dusersettings-fontclr: #768291;
+	--dusersettings-dropdownclr: #2b343f;
+	--dsidepanel-bgclr: #272f3a;
+	--dsidepanel-panelbgclr: #323c49;
+	--dsidepanel-headingfontclr: #a7afba;
+	--dsidepanel-fontclr: #8d939b;
+	--dsidepanel-energybarclr: #637082;
+	--dsidepanel-hungerbarclr: #575e67;
+	--dsidepanel-experiencebarclr: #4d5e75;
+	--dsidepanel-impressionbarclr: #415066;
+	--dsidepanel-achievementbarclr: #495463;
+	--dchatbox-headingbgclr: #495463;
+	--dchatbox-bgclr: #565f6c;
+	--dchatbox-activebgclr: #2f3845;
+	--dchatbox-activeclr: #141c27;
+	--dchatbox-dropdownclr: #334051;
+	--dchatbox-dropdownactiveclr: #687b95;
+	--dchatbox-settingsclr: #353f4c;
+	--dchatbox-settingsactiveclr: #a5b6cf;
+	--dchatbox-claimclr: #495463;
+	--dchatbox-claimmenubgclr: #49546380;
+	--dchatbox-headingfontclr: #c5cfdc;
+	--dchatbox-fontclr: #9da6b0;
+	--dchatbox-subtextfontclr: #848f9d;
+	
+	
+	/* IMAGES */
+	--logoimg: url('https://github.com/snnxwww/snoheim-css/blob/main/logo.png?raw=true');
+	--sbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/iceshard.png?raw=true');
+	--gbicon: url('https://github.com/snnxwww/snoheim-css/blob/main/snowshard.png?raw=true');
+	--dayicon: url('https://github.com/snnxwww/snoheim-css/blob/main/day.png?raw=true');
+	--nighticon: url('https://github.com/snnxwww/snoheim-css/blob/main/night.png?raw=true');
+	--dryseasonicon: url('https://github.com/snnxwww/snoheim-css/blob/main/dry.png?raw=true');
+	--wetseasonicon: url('https://github.com/snnxwww/snoheim-css/blob/main/wet.png?raw=true');
+	--leftarrow: url('https://github.com/snnxwww/snoheim-css/blob/main/leftarrow.png?raw=true');
+	--rightarrow: url('https://github.com/snnxwww/snoheim-css/blob/main/rightarrow.png?raw=true');
+	--pinnedmessageicon: url('');
+	--ltopbar-bgimg: url('');
+	--dtopbar-bgimg: url('');
+	--lnavbar-bgimg: url('');
+	--dnavbar-bgimg: url('');
+	--featurelion-daybgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/frozenvallyday.png?raw=true');
+	--featurelion-nightbgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/frozenvallynight.png?raw=true');
+	--l-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestday.png?raw=true');
+	--d-bgimg: url('https://github.com/snnxwww/snoheim-css/blob/main/snowyforestnight.png?raw=true');
+}
+	
+
+*:-webkit-scrollbar {
+    display: none !important;
+}
+* {
+	border: none !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	background-repeat: no-repeat !important;
+	transition: 0.5s !important;
+	scrollbar-width: none !important;
+    -ms-overflow-style: none !important; 
+}
+.col-md-9 {
+	overflow-x: hidden;
+	padding: 0px !important;
+	background-size: cover !important;
+}
+body {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	font-family: var(--font) !important;
+}
+
+
+/* TOPBAR */
+.topbar {
+	height: 35px !important;
+	font-family: var(--topbar-font) !important;
+	font-size: var(--topbar-fontsize) !important;
+}
+.topbar a:hover {
+	font-size: calc(var(--topbar-fontsize)*1.05) !important;
+}
+.welcomeback {
+	font-size: 0 !important;
+}
+.welcomeback a {
+	font-size: var(--topbar-fontsize) !important;
+}
+.welcomeback:before {
+	content: "Halt! You dare tread on these frozen grounds, ";
+	font-size: var(--topbar-fontsize) !important;
+}
+.welcomeback:after {
+	content: "?";
+	font-size: var(--topbar-fontsize) !important;
+}
+@keyframes shake {
+	0%, 70%, 100% { 
+		transform: translate3d(0, 0, 0);  
+  }
+	71% { 
+		transform: translate3d(-0.5px, 0, 0); 
+  }
+	73% { 
+		transform: translate3d(1px, 0, 0); 
+  }
+	75% { 
+		transform: translate3d(-1px, 0, 0); 
+  }
+	77% { 
+		transform: translate3d(2px, 0, 0); 
+  }
+	79% { 
+		transform: translate3d(-1px, 0, 0); 
+  }
+	81% { 
+		transform: translate3d(1px, 0, 0); 
+  }
+	83% { 
+		transform: translate3d(-0.5px, 0, 0); 
+  }
+	85% { 
+		transform: translate3d(0, 0, 0); 
+  } 
+}
+.topbar .badge {
+	animation: shake 3s cubic-bezier(.36,.07,.19,.97) both !important;
+	animation-iteration-count: infinite !important; 
+	position: relative !important; 
+	top: -4.5px !important;  
+	left: -2px !important; 
+	border-radius: 8px !important;
+}
+
+
+/* NAVBAR */
+.navbar {
+	font-family: var(--navbar-font) !important;
+}
+.navbar a {
+	font-size: var(--navbar-fontsize) !important;
+	padding-right: 30px !important;
+	padding-top: 18px !important;
+}
+.navbar a:hover {
+	background-color: transparent !important;
+	font-size: calc(var(--navbar-fontsize)*1.15) !important;
+	transition: 0.5s !important;
+}
+.navbar a:not(:has(img[src*="logo-full-2.png"])):before {
+	content: "";
+	position: absolute !important;
+	width: 0 !important;
+	height: 2px !important;
+	bottom: 0 !important;
+	left: 50% !important;
+	transition: 0.5s !important;
+}
+.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+	width: 87.5% !important;
+	left: 5% !important;
+	height: 2px !important;
+}
+button.navbar-toggle {
+  background-color: transparent !important;
+  border: none !important;    
+}
+button.navbar-toggle:hover {
+  background-color: transparent !important; 
+  border: none !important; 
+}
+
+/* ALERTS */
+.alert {
+	font-family: var(--alert-font) !important;
+	font-size: var(--alert-fontsize) !important;
+	border: none !important;
+	position: absolute !important;
+	top: 0.2% !important;
+	left: 0.75% !important;
+	width: 66% !important;
+	margin-bottom: 4px !important;
+	padding: 4px 10px !important;
+	z-index: 25 !important;
+	text-align: left !important;
+	border-radius: 0 !important;
+	height: 25px !important;
+	overflow-x: auto !important;
+	overflow-y: hidden !important;
+	white-space: nowrap !important;
+	scrollbar-width: none !important;
+	-ms-overflow-style: none !important;
+}
+.alert:has(a[href="/halloween.php?dismissrabies=1"]) div {
+	display: none;
+}
+.alert ~ .alert {
+	transform: translateY(110%) !important;
+}
+.alert ~ .alert ~ .alert {
+	transform: translateY(220%) !important;
+}
+.alert ~ .alert ~ .alert ~ .alert {
+	transform: translateY(330%) !important;
+}
+.alert ~ .alert ~ .alert ~ .alert ~ .alert {
+	transform: translateY(430%) !important;
+}
+.alert a {
+	transition: 0.5s !important;
+	display: inline-block !important;
+}
+.alert a:hover {
+	transform: translateX(4px) !important;
+}
+.alert + br {
+	display: none !important;
+}
+.alert br {
+	display: none !important;
+}
+.alert button {
+	background: transparent !important;
+}
+.alert button:hover {
+	transform: translateY(-1.5px) !important
+}
+h1 + br {
+	display: none !important;
+}
+.alert button {
+	padding: 1px !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+	padding-bottom: 0px !important;
+	margin-top: -1.5px !important;
+	margin-left: 5px !important;
+}
+center .alert {
+	font-family: var(--alert-font) !important;
+	font-size: var(--alert-fontsize) !important;
+	position: absolute !important;
+	border: none !important;
+	padding: 4px !important;
+	padding-left: 10px !important;
+	z-index: 25 !important;
+	top: 23.35% !important;
+	text-align: center !important;
+	border-radius: 0px !important;
+	width: 90% !important;
+	height: 24px !important;
+	left: 5% !important;
+}
+center .alert ~ .alert {
+	transform: translateY(-110%) !important;
+}
+center .alert ~ .alert ~ .alert {
+	transform: translateY(-220%) !important;
+}
+center .alert ~ .alert ~ .alert ~ .alert {
+	transform: translateY(-330%) !important;
+}
+.alert-success a[href="/hunting.php"] {
+	color: transparent !important;
+}
+.alert-success a[href="/patrol.php"] {
+	color: transparent !important;
+}
+.alert-success a[href="/hunting.php"]:after {
+	content: "Go and see what they've brought back ⟶";
+	margin-left: -50% !important;
+	pointer-events: none !important;
+}
+.alert-success a[href="/patrol.php"]:after {
+	content: "Go and see what they've found ⟶";
+	margin-left: -55% !important;
+	pointer-events: none !important;
+}
+
+
+/* FEATURE LION */
+h1 {
+	position: absolute !important;
+	left: 35% !important;
+	top: 55px !important;
+	text-align: right !important;
+	font-size: var(--featurelion-headingfontsize) !important;
+	font-family: var(--featurelion-headingfont) !important;
+}
+h1 small {
+	font-family: var(--featurelion-font) !important;
+	font-size: var(--featurelionbutton-fontsize) !important;
+	position: relative !important;
+	top: -20px;
+}
+.breadcrumb {
+	height: 600px !important;
+	background-size: cover !important;
+}
+.breadcrumb li:before {
+	content: none;
+	color: transparent !important;
+}
+.breadcrumb a {
+    content: none;
+	color: transparent !important;
+}
+.breadcrumb li {
+    content: none;
+	color: transparent !important;
+}
+.floatright form {
+	position: relative !important;
+    bottom: 400px !important;
+	background: transparent !important;
+	z-index: 20 !important;
+}
+.floatright form input[type="submit"] {
+	background: transparent !important;
+	border: none !important;
+	font-size: 0px !important;
+	width: 160px !important; 
+	height: 40px !important; 
+}
+.floatright form:before {
+	content: "Bookmark ⟶";
+	position: absolute !important;
+	transform: translate(0%, 20%) !important;
+	font-size: var(--featurelionbutton-fontsize) !important;
+	font-family: var(--featurelionbutton-font) !important;
+	pointer-events: none !important; 
+	transition: 0.5s !important; 
+}
+.floatright form:hover:before {
+	transform: translate(10%, 20%) !important; 
+}
+.featured-lion {
+	position: absolute !important;
+	top: 40px !important;
+	left: 0 !important;
+	right: 0 !important;
+	overflow: hidden !important;
+}
+.lionImage {
+	background: transparent !important;
+}
+img[src*="default.png"] {
+	display: none;
+}
+.lion-image-block {
+    padding-bottom: 0px !important;
+    max-width: 620px !important;
+    margin-top: 60px !important;
+	overflow: visible !important;
+}
+.center.b {
+	font-size: var(--featurelion-fontsize) !important;
+	position: relative !important;
+	top: -5px;
+}
+.table .bottom a {
+	text-decoration: none !important;
+}
+.floatright img[src*="arrow"], .floatleft img[src*="arrow"] {
+	position: relative !important;
+	top: -60px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+/* TABLE */
+table {
+	width: 95% !important;
+}
+table.table {
+	position: relative !important;
+	left: 2.5% !important;
+}
+table.table.auto {
+	left: 0% !important;
+}
+table .badge {
+	border-radius: 10px !important;
+}
+table button {
+	color: transparent !important;
+	background: transparent !important;
+}
+table button:after {
+	content: "Save ⟶" !important;
+	margin-left: -10px !important;
+	transition: 0.5s !important;
+}
+table button:hover:after {
+	content: "⟶" !important;
+	margin-left: -5px !important;
+}
+p.center button {
+	background: transparent !important;
+}
+p.center button:after {
+	content: "⟶";
+	margin-left: 5px !important;
+}
+p.center button:hover {
+	margin-left: 10px !important;
+}
+
+/* SIDEBAR */
+.panel-body {
+	font-size: var(--sidebarpanels-fontsize) !important;
+	font-family: var(--sidebarpanels-font) !important;
+}
+.col-md-12 h3 {
+	font-size: var(--sidebarpanels-headingfontsize) !important;
+	font-family: var(--sidebarpanels-headingfont) !important;
+}
+.col-md-12 h3 .floatright {
+	color: transparent !important;
+}
+.col-md-12 h3:hover {
+	margin-right: -5px !important;
+	padding-left: 2.5px !important;
+}
+.col-md-12 h3 .floatright:after {
+	content: "⟶";
+	pointer-events: none !important; 
+	transition: 0.5s !important
+}
+.col-md-12 input {
+	background: transparent !important;
+}
+a[href="./chat.php"] {
+	color: transparent !important;
+}
+a[href="./chat.php"]:after {
+	content: "Chat Room ⟶";	
+	pointer-events: none !important; 
+}
+#fra_chatContainer {
+	font-size: var(--chatbox-fontsize) !important;
+	font-family: var(--chatbox-font) !important;
+	overflow-x: hidden !important;
+}
+#label_currentChannel  {
+	height: 30px !important;
+}
+.chatMenu-container {
+	font-size: var(--chatbox-fontsize) !important;
+	font-family: var(--chatbox-font) !important;
+}
+.s-chat-message {
+	font-size: var(--chatbox-fontsize) !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.hasContext {
+	border-left: 5px solid !important;
+}
+.s-chat-message_timestamp {
+	padding-left: 5px !important
+}
+#chatMessagePinned {
+	font-size: var(--chatbox-headingfontsize) !important;
+	font-family: var(--chatbox-headingfont) !important
+}
+#fraChatSettingsMenu {
+	display: inline-block !important;
+	width: 180px !important;
+	transform: translateX(17.5px) !important;
+}
+#btnChatSend {
+    background: transparent !important;
+    color: transparent !important;
+}
+#chatMessagePinned {
+	margin-top: 10px !important;
+}
+#txtChatContainer:after {
+    content: "⟶"; 
+    pointer-events: none;
+	position: absolute !important;
+	margin-top: -25px !important;
+	right: 5px !important;
+	transition: 0.5s !important;
+}
+#txtChatContainer:hover:after {
+	right: 0px !important;
+}
+.s-chat-message_claim {
+	transition: 0.5s !important
+}
+#modalClaimList {
+	font-size: var(--chatbox-fontsize) !important;
+	font-family: var(--chatbox-font) !important;
+	transition: 0.5s !important;
+}
+#modalClaimList a:hover {
+	padding-left: 2.5px !important;
+}
+#modalClaimList h3 {
+	font-size: var(--chatbox-headingfontsize) !important;
+	font-family: var(--chatbox-headingfont) !important;
+}
+form[action="/account-link.php"] {
+	font-size: var(--chatbox-gfontsize) !important;
+	font-family: var(--chatbox-font) !important;
+}
+form[action="/account-link.php"] button {
+	background: transparent !important;
+	color: transparent !important;
+}
+form[action="/account-link.php"]:after {
+	content: "Switch Account ⟶";
+	position: absolute !important;
+	margin-top: -35px !important;
+	left: 35% !important;
+	display: inline-block !important;
+	transition: 0.5s !important;
+	pointer-events: none !important;
+}
+form[action="/account-link.php"]:hover:after {
+	margin-left: 5px !important;
+}
+.panel-body a:hover {
+	padding-left: 5px !important;
+}
+.col-md-12 input {
+	font-family: var(--sidebarpanels-font) !important;
+}
+
+@media (max-width: 1200px) {
+	.navbar a {
+		padding-right: 18px !important;
+	}
+}
+
+
+/* LAYOUT FIXES / SCREEN SIZE */
+@media (max-width: 992px) {
+	.navbar a {
+		padding-right: 12px !important;
+	}
+	form[action="/account-link.php"]:after {
+		left: 45% !important;
+	}
+}
+@media (max-width: 768px) {
+	.navbar a {
+		padding-right: 12px !important;
+	}
+}
+
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: var(--l-bgclr);
+		background-image: var(--l-bgimg);
+	}
+	.col-md-9 {
+		background-color: var(--lmainpanel-bgclr) !important;
+	}
+	.row:nth-child(2) {
+		background-color: var(--lsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	.topbar {
+		background-color: var(--ltopbar-bgclr) !important;
+		background-image: var(--ltopbar-bgimg) !important;
+		color: var(--ltopbar-fontclr) !important;
+	}
+	.topbar a {
+		color: var(--ltopbar-fontclr) !important;
+	}
+	.topbar img {
+		filter: brightness(0.8) !important;
+	}
+	.badge {
+		background-color: var(--lalert-bgclr) !important;
+		color: var(--ltopbar-fontclr) !important;
+	} /* NAVBAR */
+	.navbar {
+		background-color: var(--lnavbar-bgclr) !important;
+		background-image: var(--lnavbar-bgimg) !important;
+	}
+	.navbar a {
+		color: var(--dnavbar-fontclr) !important;
+	}
+	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--lnavbar-fontclr) !important;
+	} /* ALERTS */
+	.alert {
+		background-color: var(--lalert-bgclr) !important;
+		color: var(--lalert-fontclr) !important;
+	}
+	.alert-danger a, .alert-warning {
+		color: var(--lalert-fontclr) !important;
+	}
+	.alert a:after {
+		color: var(--lalert-fontclr) !important;
+	}
+	.alert button {
+		color: var(--lalert-fontclr) !important;
+	} /* FEATURE LION */
+	h1 {
+		color: var(--lfeaturelion-headingfontclr) !important;
+	}
+	h1 small, h1 small a {
+		color: var(--lfeaturelion-headingfontclr) !important;
+	}
+	.breadcrumb {
+		background-image: var(--featurelion-daybgimg) !important;
+	}
+	.floatright form {
+		color: var(--lfeaturelion-fontclr) !important;
+	}
+	.lion-image-block {
+		filter: brightness(0.7) !important;
+	}
+	.featured-lion p {
+		color: var(--lfeaturelion-fontclr) !important;
+	} /* TABLE */
+	table {
+		background-color: var(--ltable-bgclr) !important;
+	}
+	table a {
+		color: var(--ltable-fontclr) !important;
+	}
+	table .right_odd {
+		background-color: var(--ltable-bgclr) !important;
+	}
+	table. .badge {
+		background-color: var(--ltable-headingbgclr) !important;
+	}
+	table th {
+		background-color: var(--ltable-headingbgclr) !important;
+		color: var(--ltable-headingfontclr) !important;
+	}
+	table td.left.b {
+		background-color: var(--ltable-headingbgclr) !important;
+		opacity: 0.8 !important;
+	}
+	table .bottom {
+		background-color: var(--ltable-headingbgclr) !important;
+	}
+	table .bottom select {
+		background-color: var(--ltable-bgclr) !important;
+		color: var(--ltable-fontclr) !important;
+	}
+	.center.b, .center.b a {
+		color: var(--lfeaturelion-fontclr) !important;
+	}
+	table.auto  {
+		color: var(--ltable-fontclr) !important
+	}
+	table.auto td {
+		color: var(--ltable-headingfontclr) !important;
+	}
+	table.auto td.top {
+		background-color: var(--ltable-headingbgclr) !important;
+	}
+	table.auto input, table.auto select, table.auto textarea {
+		background-color: var(--ltable-headingbgclr) !important;
+		opacity: 0.8 !important;
+		color: var(--ltable-fontclr) !important;
+	}
+	table :after {
+		color: var(--ltable-fontclr) !important;
+	}
+	.col-md-9 p.center button {
+		color: var(--ltable-fontclr) !important;
+	}
+	/* SIDE PANEL */
+	.panel-body {
+		background-color: var(--lsidepanel-panelbgclr) !important;
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.panel-body a {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.panel-body img {
+		filter: brightness(0.8) !important;
+	}
+	.sidebar h3 {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	.col-md-12 input {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.col-md-12 h3 .floatright:after {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	a[href="./chat.php"]:after {
+		color: var(--lsidepanel-headingfontclr) !important;
+	}
+	.col-xs-6 .progress div {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.col-xs-5 .progress div {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	.progress {
+		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
+	}
+	.col-xs-6 .progress-bar {
+		background-color: var(--lsidepanel-impressionbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-warning {
+		background-color: var(--lsidepanel-energybarclr) !important;
+	}
+	.col-xs-6 .progress-bar-danger {
+		background-color: var(--lsidepanel-hungerbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-success {
+		background-color: var(--lsidepanel-experiencebarclr) !important;
+	}
+	.col-xs-5 .progress-bar {
+		background-color: var(--lsidepanel-achievementbarclr) !important;
+		color: var(--lsidepanel-fontclr) !important;
+	}
+	form {
+		color: var(--lsidepanel-fontclr) !important;
+	}
+}
+
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--d-bgclr);
+		background-image: var(--d-bgimg);
+	}
+	.col-md-9 {
+		background-color: var(--dmainpanel-bgclr) !important;
+	}
+	.row:nth-child(2) {
+		background-color: var(--dsidepanel-bgclr) !important;
+	}
+	/* TOPBAR */
+	.topbar {
+		background-color: var(--dtopbar-bgclr) !important;
+		background-image: var(--dtopbar-bgimg) !important;
+		color: var(--dtopbar-fontclr) !important;
+	}
+	.topbar a {
+		color: var(--dtopbar-fontclr) !important;
+	}
+	.topbar img {
+		filter: brightness(0.8) !important;
+	}
+	.badge {
+		background-color: var(--dalert-bgclr) !important;
+		color: var(--dtopbar-fontclr) !important;
+	} /* NAVBAR */
+	.navbar {
+		background-color: var(--dnavbar-bgclr) !important;
+		background-image: var(--dnavbar-bgimg) !important;
+	}
+	.navbar a {
+		color: var(--dnavbar-fontclr) !important;
+	}
+	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
+		background-color: var(--dnavbar-fontclr) !important;
+	}
+	.navbar img {
+		filter: brightness(0.8) !important;
+	}/* ALERTS */
+	.alert {
+		background-color: var(--dalert-bgclr) !important;
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert-danger a, .alert-warning {
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert a:after {
+		color: var(--dalert-fontclr) !important;
+	}
+	.alert button {
+		color: var(--dalert-fontclr) !important;
+	} /* FEATURE LION */
+	h1 {
+		color: var(--dfeaturelion-headingfontclr) !important;
+	}
+	h1 small, h1 small a {
+		color: var(--dfeaturelion-headingfontclr) !important;
+	}
+	.breadcrumb {
+		background-image: var(--featurelion-nightbgimg) !important;
+	}
+	.floatright form {
+		color: var(--dfeaturelion-fontclr) !important;
+	}
+	.lion-image-block {
+		filter: brightness(0.7) !important;
+	}
+	.featured-lion p {
+		color: var(--dfeaturelion-fontclr) !important;
+	}
+	img[src*="arrow"] {
+		filter: brightness(0.7) !important
+	} /* TABLE */
+	table {
+		background-color: var(--dtable-bgclr) !important;
+	}
+	table a {
+		color: var(--dtable-fontclr) !important;
+	}
+	table .right_odd {
+		background-color: var(--dtable-bgclr) !important;
+	}
+	table. .badge {
+		background-color: var(--dtable-headingbgclr) !important;
+	}
+	table th {
+		background-color: var(--dtable-headingbgclr) !important;
+		color: var(--dtable-headingfontclr) !important;
+	}
+	table td.left.b {
+		background-color: var(--dtable-headingbgclr) !important;
+		opacity: 0.8 !important;
+	}
+	table .bottom {
+		background-color: var(--dtable-headingbgclr) !important;
+	}
+	table .bottom select {
+		background-color: var(--dtable-bgclr) !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	.center.b, .center.b a {
+		color: var(--dfeaturelion-fontclr) !important;
+	}
+	table.auto  {
+		color: var(--dtable-fontclr) !important
+	}
+	table.auto td {
+		color: var(--dtable-headingfontclr) !important;
+	}
+	table.auto td.top {
+		background-color: var(--dtable-headingbgclr) !important;
+	}
+	table.auto input, table.auto select, table.auto textarea {
+		background-color: var(--dtable-headingbgclr) !important;
+		opacity: 0.8 !important;
+		color: var(--dtable-fontclr) !important;
+	}
+	table :after {
+		color: var(--dtable-fontclr) !important;
+	}
+	.col-md-9 p.center button {
+		color: var(--dtable-fontclr) !important;
+	}
+	/* SIDE PANEL */
+	.panel-body {
+		background-color: var(--dsidepanel-panelbgclr) !important;
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.panel-body a {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.panel-body img {
+		filter: brightness(0.8) !important;
+	}
+	.sidebar h3 {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	.col-md-12 input {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.col-md-12 h3 .floatright:after {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	a[href="./chat.php"]:after {
+		color: var(--dsidepanel-headingfontclr) !important;
+	}
+	.col-xs-6 .progress div {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.col-xs-5 .progress div {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	.progress {
+		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
+	}
+	.col-xs-6 .progress-bar {
+		background-color: var(--dsidepanel-impressionbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-warning {
+		background-color: var(--dsidepanel-energybarclr) !important;
+	}
+	.col-xs-6 .progress-bar-danger {
+		background-color: var(--dsidepanel-hungerbarclr) !important;
+	}
+	.col-xs-6 .progress-bar-success {
+		background-color: var(--dsidepanel-experiencebarclr) !important;
+	}
+	.col-xs-5 .progress-bar {
+		background-color: var(--dsidepanel-achievementbarclr) !important;
+		color: var(--dsidepanel-fontclr) !important;
+	}
+	form {
+		color: var(--dsidepanel-fontclr) !important;
+	}
+}
+
+img[src*="logo-full-2.png"] {
+	content: var(--logoimg) !important;
+	height: 120px !important;
+	width: 192px !important
+}
+img[src*="icon-beetle-silver.png"] {
+	content: var(--sbicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-beetle-gold.png"] {
+	content: var(--gbicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-time-day.png"] {
+	content: var(--dayicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-time-night.png"] {
+	content: var(--nighticon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-season-dry.png"] {
+	content: var(--dryseasonicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="icon-season-wet.png"] {
+	content: var(--wetseasonicon) !important;
+	height: 20px !important;
+	width: 20px !important
+}
+img[src*="arrowleft.png"] {
+	content: var(--leftarrow) !important;
+}
+img[src*="arrow.png"] {
+	content: var(--rightarrow) !important;
+}
