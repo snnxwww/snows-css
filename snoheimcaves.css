@@ -441,7 +441,7 @@ center .alert ~ .alert ~ .alert ~ .alert {
 /* FEATURE LION */
 h1 {
 	position: absolute !important;
-	left: 35% !important;
+	right: 6% !important;
 	top: 55px !important;
 	text-align: right !important;
 	font-size: var(--featurelion-headingfontsize) !important;
