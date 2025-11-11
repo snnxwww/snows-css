@@ -504,7 +504,7 @@ h1 small {
 .lionImage {
 	background: transparent !important;
 }
-.lion-image-block img:nth-child(1) {
+img[src*="default.png"] {
 	display: none;
 }
 .lion-image-block {
@@ -744,7 +744,7 @@ form[action="/account-link.php"]:hover:after {
 		background-image: var(--lnavbar-bgimg) !important;
 	}
 	.navbar a {
-		color: var(--dnavbar-fontclr) !important;
+		color: var(--lnavbar-fontclr) !important;
 	}
 	.navbar a:not(:has(img[src*="logo-full-2.png"])):hover:before {
 		background-color: var(--lnavbar-fontclr) !important;
@@ -773,9 +773,6 @@ form[action="/account-link.php"]:hover:after {
 	}
 	.floatright form {
 		color: var(--lfeaturelion-fontclr) !important;
-	}
-	.lion-image-block {
-		filter: brightness(0.7) !important;
 	}
 	.featured-lion p {
 		color: var(--lfeaturelion-fontclr) !important;
@@ -860,7 +857,7 @@ form[action="/account-link.php"]:hover:after {
 		color: var(--lsidepanel-fontclr) !important;
 	}
 	.progress {
-		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
+		background-color: color-mix(in srgb, var(--lsidepanel-panelbgclr), #fff 25%) !important;
 	}
 	.col-xs-6 .progress-bar {
 		background-color: var(--lsidepanel-impressionbarclr) !important;
