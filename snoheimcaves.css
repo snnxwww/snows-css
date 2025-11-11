@@ -504,7 +504,7 @@ h1 small {
 .lionImage {
 	background: transparent !important;
 }
-img[src*="default.png"] {
+.lion-image-block img:nth-child(1) {
 	display: none;
 }
 .lion-image-block {
