@@ -1960,6 +1960,9 @@ form[action="/account-link.php"]:hover:after {
 		color: var(--lchatbox-fontclr) !important;
 		background-color: var(--lchatbox-claimclr) !important
 	}
+	#btnChatSettings, #btnLoadNewMessages {
+	    filter: sepia(35%) hue-rotate(175deg) saturate(140%) brightness(1.5);
+	}
 	#modalClaimBG {
 		background-color: var(--lchatbox-claimmenubgclr) !important;
 	}
@@ -2403,6 +2406,9 @@ form[action="/account-link.php"]:hover:after {
 	.s-chat-message_claim {
 		color: var(--dchatbox-fontclr) !important;
 		background-color: var(--dchatbox-claimclr) !important
+	}
+	#btnChatSettings, #btnLoadNewMessages {
+    filter: sepia(30%) hue-rotate(190deg) saturate(120%) brightness(1.1);
 	}
 	#modalClaimBG {
 		background-color: var(--dchatbox-claimmenubgclr) !important;
