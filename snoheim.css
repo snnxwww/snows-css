@@ -1261,7 +1261,7 @@ form[action="/account-link.php"]:hover:after {
 }
 *:has(a[href*="refer.php"]) form:has(input[name="feedall"]) .feature {
 	position: absolute !important;
-	top: 1210px !important;
+	top: 1270px !important;
 	width: 87.5% !important;
 	left: 2.5% !important;
 	height: 190px !important;
@@ -1285,7 +1285,7 @@ form[action="/account-link.php"]:hover:after {
 }
 *:has(a[href*="refer.php"]) form:has(input[name="playall"]) .feature {
 	position: absolute !important;
-	top: 1210px !important;
+	top: 1270px !important;
 	width: 87.5% !important;
 	left: 10% !important;
 	height: 190px !important;
@@ -1545,13 +1545,13 @@ form[action="/account-link.php"]:hover:after {
 		width: 70% !important;
 	}
 	*:has(a[href*="refer.php"]) form:has(input[name="feedall"]) .feature {
-		top: 1190px !important;
+		top: 1250px !important;
 		width: 45% !important;
 		left: 50.5% !important;
 		height: 190px !important;		
 	}
 	*:has(a[href*="refer.php"]) form:has(input[name="playall"]) .feature {
-		top: 1210px !important;
+		top: 1270px !important;
 		width: 45% !important;
 		left: 4.5% !important;
 		height: 190px !important;
