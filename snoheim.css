@@ -1998,7 +1998,9 @@ form[action="/account-link.php"]:hover:after {
 	.feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--lfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
-
+	.col-xs-10 a {
+		color: var(--lchatbox-fontclr) !important;
+	}
 }
 
 
@@ -2455,6 +2457,9 @@ form[action="/account-link.php"]:hover:after {
 	.feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--dfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
+	.col-xs-10 a {
+		color: var(--dchatbox-fontclr) !important;
+	}
 }
 
 img[src*="logo-full-2.png"] {
