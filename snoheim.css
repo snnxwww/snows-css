@@ -1920,7 +1920,10 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lchatbox-settingsclr) !important
 	}
 	#fraChatSettingsMenu:after {
-		border-bottom-color: var(--lchatbox-settingsclr) !important;
+		display: none !important;
+	}
+	#fraChatSettingsMenu:before {
+		display: none !important;
 	}
 	#txtChatContainer a {
 		color: var(--lchatbox-fontclr) !important
@@ -1932,10 +1935,10 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--lchatbox-settingsclr) !important;
 	}
 	.emoteList:before {
-		border-top-color: var(--lchatbox-settingsclr) !important;
+		display: none !important;
 	}
-	.emoteList:aftter {
-		border-top-color: var(--lchatbox-settingsclr) !important;
+	.emoteList:after {
+		display: none !important;
 	}
 	#context-chatMenu {
 		background-color: var(--lchatbox-settingsclr) !important;
@@ -2363,11 +2366,18 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--dchatbox-settingsclr) !important;
 		color: var(--dchatbox-fontclr) !important;
 	}
+	#fraChatSettingsMenu label {
+		color: var(--dchatbox-fontclr) !important;
+	}
 	#fraChatSettingsMenu button {
+		color: var(--dchatbox-fontclr) !important;
 		background-color: var(--dchatbox-settingsclr) !important
 	}
 	#fraChatSettingsMenu:after {
-		border-bottom-color: var(--dchatbox-settingsclr) !important;
+		display: none !important;
+	}
+	#fraChatSettingsMenu:before {
+		display: none !important;
 	}
 	#txtChatContainer a {
 		color: var(--dchatbox-fontclr) !important
@@ -2379,10 +2389,10 @@ form[action="/account-link.php"]:hover:after {
 		background-color: var(--dchatbox-settingsclr) !important;
 	}
 	.emoteList:before {
-		border-top-color: var(--dchatbox-settingsclr) !important;
+		display: none;
 	}
-	.emoteList:aftter {
-		border-top-color: var(--dchatbox-settingsclr) !important;
+	.emoteList:after {
+		display: none;
 	}
 	#context-chatMenu {
 		background-color: var(--dchatbox-settingsclr) !important;
