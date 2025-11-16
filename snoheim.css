@@ -1928,6 +1928,9 @@ form[action="/account-link.php"]:hover:after {
 	#txtChatContainer a {
 		color: var(--lchatbox-fontclr) !important
 	}
+	#lblCharacterCounter {
+		color: var(--lchatbox-fontclr) !important;
+	}
 	#txtChatContainer:after {
 		color: var(--lchatbox-fontclr) !important
 	}
@@ -2381,6 +2384,9 @@ form[action="/account-link.php"]:hover:after {
 	}
 	#txtChatContainer a {
 		color: var(--dchatbox-fontclr) !important
+	}
+	#lblCharacterCounter {
+		color: var(--dchatbox-fontclr) !important;
 	}
 	#txtChatContainer:after {
 		color: var(--dchatbox-fontclr) !important
