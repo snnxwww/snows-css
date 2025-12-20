@@ -1546,9 +1546,6 @@ form[action="/account-link.php"]:hover:after {
 }
 
 
-*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
-	color: var(--dfapa-fontclr) !important;
-}
 
 /* LAYOUT FIXES / SCREEN SIZE */
 @media (max-width: 992px) {
@@ -2052,6 +2049,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input[type="checkbox"] {
 		accent-color: var(--lfapa-dropdownclr);
 	}
+	*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
+		color: var(--lfapa-fontclr) !important;
+	}
 }
 
 
@@ -2525,6 +2525,9 @@ form[action="/account-link.php"]:hover:after {
 	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input[type="checkbox"] {
 		accent-color: var(--dfapa-dropdownclr);
 	}
+	*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
+	color: var(--dfapa-fontclr) !important;
+}
 }
 
 img[src*="logo-full-2.png"] {
