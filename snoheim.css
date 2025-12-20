@@ -1512,7 +1512,43 @@ form[action="/account-link.php"]:hover:after {
 
 
 /* LAYOUT FIXES / DECEMBER / GIFTING OR POOPING */
+*:has(img[src*="icon_stinkbug.png"]) table:has(.right .auto) {
+	position: absolute !important;
+	top: 280px !important;
+	left: -150px !important;
+}
+*:has(img[src*="icon_stinkbug.png"]) table:has(form) td {
+	background: transparent !important;
+}
+*:has(img[src*="icon_stinkbug.png"]) table:has(form) td.top {
+	font-size: 0 !important;
+}
+*:has(img[src*="icon_stinkbug.png"]) table:has(form), *:has(img[src*="icon_stinkbug.png"]) table:has(form) a {
+	color: transparent !important;
+}
+*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to gift this?')"], *:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
+	background: transparent !important;	
+}
+*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to gift this?')"]:after, *:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"]:after {
+	content: " ⟶";	
+}
+*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to gift this?')"]:hover, *:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"]:hover {
+	padding-left: 20px;
+}
 
+*:has(img[src*="icon_stinkbug.png"]) form:has(button[onclick="return confirm('Are you sure you want to leave poop to this user?')"]) {
+	font-size: 0 !important;
+	margin-top: -225px !important;
+	margin-right: -300px !important;
+}	
+*:has(img[src*="icon_stinkbug.png"]) .feature.auto.center {
+	display: none !important;
+}
+
+
+*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
+	color: var(--dfapa-fontclr) !important;
+}
 
 /* LAYOUT FIXES / SCREEN SIZE */
 @media (max-width: 992px) {
@@ -1989,6 +2025,9 @@ form[action="/account-link.php"]:hover:after {
 	#fraInputMessage {
 		background-color: var(--lchatbox-headingbgclr) !important;
 		color: var(--lchatbox-fontclr) !important;
+	}
+	.col-xs-10 a {
+		color: var(--lchatbox-fontclr) !important;
 	} /* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
@@ -1998,8 +2037,20 @@ form[action="/account-link.php"]:hover:after {
 	.feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--lfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
-	.col-xs-10 a {
-		color: var(--lchatbox-fontclr) !important;
+	
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto {
+		color: var(--lfapa-fontclr) !important;
+		background: var(--lfapa-bgclr) !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input, *:has(img[src*="icon_stinkbug.png"]) form table.table.auto button {
+		color: var(--lfapa-fontclr) !important;
+		background: var(--lfapa-dropdownclr);
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input::placeholder {
+		color: var(--lfapa-fontclr) !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input[type="checkbox"] {
+		accent-color: var(--lfapa-dropdownclr);
 	}
 }
 
@@ -2448,6 +2499,9 @@ form[action="/account-link.php"]:hover:after {
 	#fraInputMessage {
 		background-color: var(--dchatbox-headingbgclr) !important;
 		color: var(--dchatbox-fontclr) !important;
+	}
+	.col-xs-10 a {
+		color: var(--dchatbox-fontclr) !important;
 	} /* FEBRUARY / THOUGHTS */
 	/* SEPTEMBER / LOCUST SWARMS */
 	/* OCTOBER / TRICK OR TREATING */
@@ -2457,8 +2511,19 @@ form[action="/account-link.php"]:hover:after {
 	.feature.auto input:hover {
 		text-shadow: 0px 0px 2.5px var(--dfeaturelion-fontclr), 0px 0px 5px var(--lfeaturelion-fontclr) !important;
 	} /* DECEMBER / GIFTING */
-	.col-xs-10 a {
-		color: var(--dchatbox-fontclr) !important;
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto {
+		color: var(--dfapa-fontclr) !important;
+		background: var(--dfapa-bgclr) !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input, *:has(img[src*="icon_stinkbug.png"]) form table.table.auto button {
+		color: var(--dfapa-fontclr) !important;
+		background: var(--dfapa-dropdownclr);
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input::placeholder {
+		color: var(--dfapa-fontclr) !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) form table.table.auto input[type="checkbox"] {
+		accent-color: var(--dfapa-dropdownclr);
 	}
 }
 
