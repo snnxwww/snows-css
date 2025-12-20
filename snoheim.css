@@ -1515,7 +1515,7 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_stinkbug.png"]) table:has(.right .auto) {
 	position: absolute !important;
 	top: 280px !important;
-	left: -150px !important;
+	left: -220px !important;
 }
 *:has(img[src*="icon_stinkbug.png"]) table:has(form) td {
 	background: transparent !important;
@@ -1535,7 +1535,6 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to gift this?')"]:hover, *:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"]:hover {
 	padding-left: 20px;
 }
-
 *:has(img[src*="icon_stinkbug.png"]) form:has(button[onclick="return confirm('Are you sure you want to leave poop to this user?')"]) {
 	font-size: 0 !important;
 	margin-top: -225px !important;
@@ -1544,10 +1543,25 @@ form[action="/account-link.php"]:hover:after {
 *:has(img[src*="icon_stinkbug.png"]) .feature.auto.center {
 	display: none !important;
 }
+*:has(img[src*="icon_stinkbug.png"]):has(a[href*="refer.php"]) table:has(.top):has(.right) {
+	background: transparent !important;
+	color: transparent !important;
+}
+*:has(img[src*="icon_stinkbug.png"]):has(a[href*="refer.php"]) table .top {
+	background: transparent !important;
+	color: transparent !important;
+}
 
 
 
 /* LAYOUT FIXES / SCREEN SIZE */
+@media (max-width: 1200px) {
+	*:has(img[src*="icon_stinkbug.png"]) table:has(.right .auto) {
+		position: absolute !important;
+		top: 280px !important;
+		left: -150px !important;
+	}
+}
 @media (max-width: 992px) {
 	.navbar a {
 		padding-right: 12px !important;
@@ -1594,6 +1608,11 @@ form[action="/account-link.php"]:hover:after {
 	}
 	*:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) form:has(input[name="playall"]) .feature {
 		top: 1170px !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) table:has(.right .auto) {
+		position: absolute !important;
+		top: 260px !important;
+		left: -150px !important;
 	}
 }
 
