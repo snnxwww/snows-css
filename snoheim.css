@@ -500,11 +500,17 @@ h1 {
 	left: 0 !important;
 	right: 0 !important;
 }
-.lion-image-block {
+.lion-image {
     padding-bottom: 0px !important;
     max-width: 620px !important;
     margin-top: 60px !important;
 	overflow: visible !important;
+}
+.lion-image img {
+    position: absolute !important;
+	max-width: 100% !important;
+	top: 75px !important;
+	left: 15% !important;
 }
 #about td.right > table.inner-table.auto {
     width: 100% !important;
@@ -1463,6 +1469,9 @@ a[href="/bugbox"] {
 		top: 280px !important;
 		left: -150px !important;
 	}
+	.lion-image img {
+		left: 5% !important;
+	}
 }
 @media (max-width: 992px) {
 	.navbar a {
@@ -1519,6 +1528,9 @@ a[href="/bugbox"] {
 	}
 	*:has(a[href*="refer.php"]) .col-sm-4:first-of-type {
 		margin-top: -15px !important;
+	}
+	.lion-image img {
+		left: 2.5% !important;
 	}
 }
 
