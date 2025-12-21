@@ -1024,12 +1024,14 @@ h1 {
 .dynastycollection {
 	width: 95% !important;
 	left: 2.5% !important;
+	margin-top: 15px !important;
 }
 .dynastylist h3 {
 	display: none !important;
 }
 .dynastylist img {
-	height: 40px !important;
+	height: 75px !important;
+	object-fit: cover !important;
 }
 .dynastylist {
 	width: 20% !important;
@@ -1313,7 +1315,6 @@ a[href="/bugbox"] {
 	left: 2.5% !important;
 	font-size: var(--tables-fontsize) !important;
 	font-family: var(--tables-font) !important;
-	margin-top: -40px !important;
 }
 *:has(a[href*="refer.php"]) form:has(input[name="atid"]) table.table:first-of-type {
 	width: 95% !important;
@@ -1506,6 +1507,16 @@ a[href="/bugbox"] {
 		position: absolute !important;
 		top: 260px !important;
 		left: -15% !important;
+	}
+	*:has(a[href*="refer.php"]) .col-sm-4 {
+		width: 95% !important;
+		left: 0% !important;
+		font-size: var(--tables-fontsize) !important;
+		font-family: var(--tables-font) !important;
+		margin-top: -10px !important;
+	}
+	*:has(a[href*="refer.php"]) .col-sm-4:first-of-type {
+		margin-top: -15px !important;
 	}
 }
 
