@@ -165,7 +165,7 @@
 	--dsidepanel-headingfontclr: #a7afba;
 	--dsidepanel-fontclr: #8d939b;
 	--dsidepanel-energybarclr: #637082;
-	--dsidepanel-hungerbarclr: #575e67;
+	--dsidepanel-hungerbarclr: #454f5c;
 	--dsidepanel-experiencebarclr: #4d5e75;
 	--dsidepanel-impressionbarclr: #415066;
 	--dsidepanel-achievementbarclr: #495463;
@@ -218,7 +218,6 @@
     -ms-overflow-style: none !important; 
 }
 .col-md-9 {
-	overflow-x: hidden;
 	padding: 0px !important;
 	background-size: cover !important;
 }
@@ -443,6 +442,7 @@ h1 {
 .breadcrumb {
 	height: 600px !important;
 	background-size: cover !important;
+	margin-bottom: 950px !important;
 }
 .breadcrumb li:before {
 	content: none;
@@ -470,7 +470,7 @@ h1 {
 }
 .floatright form {
 	position: relative !important;
-    bottom: 400px !important;
+    bottom: 1340px !important;
 	background: transparent !important;
 	z-index: 20 !important;
 }
@@ -833,8 +833,6 @@ h1 {
 
 /* CAVES AND MOUNDS */
 #fraOrganizationBlock {
-	position: absolute !important;
-	top: 1750px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 	font-size: var(--caves-fontsize) !important;
@@ -934,16 +932,16 @@ h1 {
 	width: 180px !important;
 	height: 80px !important;
 }
-#fraMoundList .mound-grid {
+#fraMoundList .col-md-3 a[href="unsorted-beetles.php?id=553411"] .mound-grid {
 	top: -160px !important;
 	left: 15% !important;
 	position: relative !important;
 	height: 100px !important;
 	z-index: 0 !important;
-	width: 100% !important;
 	padding: 0 !important;
 	line-height: 12.5px !important;
 	right: 5% !important;
+	margin-bottom: -80px !important;
 }
 #fraMoundList .mound-grid:hover {
 	font-size: calc(var(--caves-fontsize)*1.05) !important;
@@ -964,8 +962,6 @@ h1 {
 
 /* ATTACK */
 #attack {
-	position: absolute !important;
-	top: 2025px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 	font-size: var(--tables-fontsize) !important;
@@ -1026,8 +1022,6 @@ h1 {
 
 /* DYNASTY */
 .dynastycollection {
-	position: absolute !important;
-	top: 2245px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 }
@@ -1040,11 +1034,6 @@ h1 {
 .dynastylist {
 	width: 20% !important;
 	height: 100px !important;
-}
-
-.col-md-9 {
-	height: 2310px !important;
-	overflow-y: hidden !important;
 }
 
 
@@ -1167,6 +1156,9 @@ form[action="/account-link.php"]:hover:after {
 .col-md-12 input {
 	font-family: var(--sidebarpanels-font) !important;
 }
+a[href="/bugbox"] {
+	display: none !important;
+}
 
 
 /* LAYOUT FIXES / OWNER VIEW */
@@ -1201,56 +1193,6 @@ form[action="/account-link.php"]:hover:after {
 *:has(a[href*="refer.php"]) b:has(span)  {
 	display: none !important;
 }
-*:has(a[href*="refer.php"]) .fapa {
-	height: 200px !important;
-	position: absolute !important;
-	top: 2025px !important;
-	width: 95% !important;
-	left: 2.5% !important;
-	padding-top: 90px !important;
-	font-size: var(--tables-fontsize) !important;
-	font-family: var(--tables-font) !important;
-}
-*:has(a[href*="refer.php"]) .fapa:after {
-	content: "You do not have feed all, play all active" !important;
-	font-size: var(--tables-fontsize) !important;
-}
-*:has(a[href*="refer.php"]) *:has(.feature) .fapa:after {
-	color: transparent !important;
-}
-*:has(a[href*="refer.php"]) .sparring {
-	position: absolute !important;
-	top: 2255px !important;
-	width: 95% !important;
-	left: 2.5% !important;
-	padding-top: 65px !important;
-	font-size: var(--tables-fontsize) !important;
-	font-family: var(--tables-font) !important;
-}
-*:has(a[href*="refer.php"]) .sparring:after {
-	content: "You have no available sub males to spar with." !important;
-	font-size: var(--tables-fontsize) !important;
-}
-*:has(a[href*="refer.php"]) *:has(#sparring) .sparring:after {
-	color: transparent !important;
-}
-*:has(a[href*="refer.php"]) .reclaim {
-	height: 150px !important;
-	position: absolute !important;
-	top: 2437.5px !important;
-	width: 95% !important;
-	left: 2.5% !important;
-	padding-top: 65px !important;
-	font-size: var(--tables-fontsize) !important;
-	font-family: var(--tables-font) !important;
-}
-*:has(a[href*="refer.php"]) .reclaim:after {
-	content: "You have no lions to reclaim." !important;
-	font-size: var(--tables-fontsize) !important;
-}
-*:has(a[href*="refer.php"]) *:has(#reclaim) .reclaim:after {
-	color: transparent !important;
-}
 *:has(a[href*="refer.php"]) #reclaim .left {
 	background: transparent !important;
 	color: transparent !important;
@@ -1260,10 +1202,7 @@ form[action="/account-link.php"]:hover:after {
 	top: -20px !important;
 }
 *:has(a[href*="refer.php"]) form:has(input[name="feedall"]) .feature {
-	position: absolute !important;
-	top: 1270px !important;
 	width: 87.5% !important;
-	left: 2.5% !important;
 	height: 190px !important;
 	padding-top: 25px !important;
 	font-size: var(--tables-fontsize) !important;
@@ -1284,8 +1223,6 @@ form[action="/account-link.php"]:hover:after {
 	transform: translateX(5px);
 }
 *:has(a[href*="refer.php"]) form:has(input[name="playall"]) .feature {
-	position: absolute !important;
-	top: 1270px !important;
 	width: 87.5% !important;
 	left: 10% !important;
 	height: 190px !important;
@@ -1316,8 +1253,6 @@ form[action="/account-link.php"]:hover:after {
 	font-family: var(--tables-font) !important;
 }
 *:has(a[href*="refer.php"]) #sparring {
-	position: absolute !important;
-	top: 2255px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 	height: 150px !important;
@@ -1341,7 +1276,6 @@ form[action="/account-link.php"]:hover:after {
 	transform: translateX(5px) translateY(4px) !important;
 }
 *:has(a[href*="refer.php"]) #reclaim {
-	position: absolute !important;
 	top: 2437.5px !important;
 	width: 95% !important;
 	left: 2.5% !important;
@@ -1369,47 +1303,32 @@ form[action="/account-link.php"]:hover:after {
 *:has(a[href*="refer.php"]) td.right.center:has(input[name="reclaim"]):hover:before {
 	transform: translateX(25px) translateY(5px);
 }
-
 *:has(a[href*="refer.php"]) .dynastycollection {
-	position: absolute !important;
-	top: 2600px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 }
 *:has(a[href*="refer.php"]) .col-sm-4 {
-	position: absolute !important;
-	top: 2662.5px !important;
 	width: 95% !important;
+	width: 31.66% !important;
 	left: 2.5% !important;
-	width: 33% !important;
 	font-size: var(--tables-fontsize) !important;
 	font-family: var(--tables-font) !important;
-}
-*:has(a[href*="refer.php"]) .col-sm-4:nth-child(1) {
-	transform: translateX(92.5%);
-}
-*:has(a[href*="refer.php"]) .col-sm-4:nth-child(2) {
-	transform: translateX(185%);
+	margin-top: -40px !important;
 }
 *:has(a[href*="refer.php"]) form:has(input[name="atid"]) table.table:first-of-type {
-	position: absolute !important;
-	top: 2700px !important;
 	width: 95% !important;
 	left: 2.5% !important;	
 	font-size: var(--tables-fontsize) !important;
 	font-family: var(--tables-font) !important;
 }	
 *:has(a[href*="refer.php"]) form:has(input[name="atid"]) > div.left {
-	position: absolute !important;
-	top: 2750px !important;
 	width: 95% !important;
 	left: 2.5% !important;
 	font-size: var(--tables-fontsize) !important;
 	font-family: var(--tables-font) !important;
+	margin-bottom: -80px !important;
 }
 *:has(a[href*="refer.php"]) #editdetailspanel {
-	position: absolute !important;
-	top: 37.25px !important;
 	left: 0.125%;
 	width: 95% !important;
 	z-index: 10 !important;
@@ -1420,47 +1339,22 @@ form[action="/account-link.php"]:hover:after {
 	width: 100% !important;
 	padding-bottom: 100px !important;
 }
-*:has(a[href*="refer.php"]) .col-md-9 {
-	height: 2800px !important;
-}
-*:has(a[href*="refer.php"]) .col-md-9:has(#editdetailspanel[style*="display: block"]) {
-	height: 3250px !important;
-}
 *:has(a[href*="refer.php"]) td.bottom input[name="update"] {
-	transform: translateX(380px) !important;
+	margin-left: 80% !important;
 	background: transparent !important;
-	color: transparent !important;
+}
+*:has(a[href*="refer.php"]) td.bottom input[name="update"]:hover {
+	margin-left: 82% !important;
+	background: transparent !important;
 }
 *:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):after {
-	content: "Save ⟶";
-	position: absolute !important;
-	transform: translateX(340px) translateY(2.5px);
+	content: " ⟶";
 	pointer-events: none !important;
 	transition: 0.5s !important;
-}
-*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):hover:after {
-	transform: translateX(345px) translateY(2.5px);
+	margin-left: -7.5px !important;
 }
 *:has(a[href*="refer.php"]) .col-md-9:has(#editdetailspanel[style*="display: block"]) center .alert {
 	top: 16.5% !important;
-}
-
-@media (max-width: 1200px) {
-	.navbar a {
-		padding-right: 18px !important;
-	}
-	*:has(a[href*="refer.php"]) td.bottom input[name="update"] {
-		transform: translateX(310px) !important;
-	}
-	*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):after {
-		transform: translateX(270px) translateY(2.5px);
-	}
-	*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):hover:after {
-		transform: translateX(275px) translateY(2.5px);
-	}
-	*:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) .feature.auto form {
-		left: 11% !important;
-	}
 }
 
 
@@ -1555,6 +1449,12 @@ form[action="/account-link.php"]:hover:after {
 
 /* LAYOUT FIXES / SCREEN SIZE */
 @media (max-width: 1200px) {
+	.navbar a {
+		padding-right: 18px !important;
+	}
+	*:has(img[src*="icon_beetleblood.png"]):has(a[href*="refer.php"]):has(img[src*="pumpkin"]) .feature.auto form {
+		left: 11% !important;
+	}
 	*:has(img[src*="icon_stinkbug.png"]) table:has(.right .auto) {
 		position: absolute !important;
 		top: 280px !important;
@@ -1569,17 +1469,11 @@ form[action="/account-link.php"]:hover:after {
 		left: -2.5% !important;
 		width: 70% !important;
 	}
-	*:has(a[href*="refer.php"]) td.bottom input[name="update"] {
-		transform: translateX(320px) !important;
-	}
-	*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):after {
-		transform: translateX(278px) translateY(2.5px);
-	}
-	*:has(a[href*="refer.php"]) td.bottom:has(input[name="update"]):hover:after {
-		transform: translateX(285px) translateY(2.5px);
-	}
 	form[action="/account-link.php"]:after {
 		left: 45% !important;
+	}
+	#fraMoundList .col-md-3 a[href="unsorted-beetles.php?id=553411"] .mound-grid {
+		left: 0% !important;
 	}
 }
 @media (max-width: 768px) {
@@ -1868,6 +1762,12 @@ form[action="/account-link.php"]:hover:after {
 	}
 	form:has(input[name="atid"]) > div.left a {
 		color: var(--lusersettings-fontclr) !important;
+	}
+	*:has(a[href*="refer.php"]) td.bottom input[name="update"] {
+		color: var(--lusersettings-headingfontclr) !important;
+	}
+	*:has(a[href*="refer.php"]) td.bottom input[name="update"]:after {
+		color: var(--lusersettings-headingfontclr) !important;
 	} /* SIDE PANEL */
 	.panel-body {
 		background-color: var(--lsidepanel-panelbgclr) !important;
@@ -1885,25 +1785,25 @@ form[action="/account-link.php"]:hover:after {
 	a[href="./chat.php"]:after {
 		color: var(--lsidepanel-headingfontclr) !important;
 	}
-	.col-xs-6 .progress div {
+	.progress div {
 		color: var(--lsidepanel-fontclr) !important;
 	}
-	.col-xs-5 .progress div {
+	.progress div {
 		color: var(--lsidepanel-fontclr) !important;
 	}
 	.progress {
 		background-color: color-mix(in srgb, var(--lsidepanel-panelbgclr), #fff 25%) !important;
 	}
-	.col-xs-6 .progress-bar {
+	.progress-bar {
 		background-color: var(--lsidepanel-impressionbarclr) !important;
 	}
-	.col-xs-6 .progress-bar-warning {
+	.progress-bar-warning {
 		background-color: var(--lsidepanel-energybarclr) !important;
 	}
-	.col-xs-6 .progress-bar-danger {
+	.progress-bar-danger {
 		background-color: var(--lsidepanel-hungerbarclr) !important;
 	}
-	.col-xs-6 .progress-bar-success {
+	.progress-bar-success {
 		background-color: var(--lsidepanel-experiencebarclr) !important;
 	}
 	.col-xs-5 .progress-bar {
@@ -2338,6 +2238,12 @@ form[action="/account-link.php"]:hover:after {
 	}
 	form:has(input[name="atid"]) > div.left a {
 		color: var(--dusersettings-fontclr) !important;
+	} 
+	*:has(a[href*="refer.php"]) td.bottom input[name="update"] {
+		color: var(--dusersettings-fontclr) !important;
+	}
+	*:has(a[href*="refer.php"]) td.bottom input[name="update"]:after {
+		color: var(--dusersettings-fontclr) !important;
 	} /* SIDE PANEL */
 	.panel-body {
 		background-color: var(--dsidepanel-panelbgclr) !important;
@@ -2367,16 +2273,16 @@ form[action="/account-link.php"]:hover:after {
 	.progress {
 		background-color: color-mix(in srgb, var(--dsidepanel-panelbgclr), #fff 25%) !important;
 	}
-	.col-xs-6 .progress-bar {
+	.progress-bar {
 		background-color: var(--dsidepanel-impressionbarclr) !important;
 	}
-	.col-xs-6 .progress-bar-warning {
+	.progress-bar-warning {
 		background-color: var(--dsidepanel-energybarclr) !important;
 	}
-	.col-xs-6 .progress-bar-danger {
+	.progress-bar-danger {
 		background-color: var(--dsidepanel-hungerbarclr) !important;
 	}
-	.col-xs-6 .progress-bar-success {
+	.progress-bar-success {
 		background-color: var(--dsidepanel-experiencebarclr) !important;
 	}
 	.col-xs-5 .progress-bar {
