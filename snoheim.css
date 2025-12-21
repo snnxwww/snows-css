@@ -402,7 +402,7 @@ center .alert {
 	padding: 4px !important;
 	padding-left: 10px !important;
 	z-index: 25 !important;
-	top: 23.35% !important;
+	top: 22.75% !important;
 	text-align: center !important;
 	border-radius: 0px !important;
 	width: 90% !important;
@@ -1166,7 +1166,7 @@ a[href="/bugbox"] {
 
 /* LAYOUT FIXES / OWNER VIEW */
 *:has(a[href*="refer.php"]) center .alert {
-	top: 19.25% !important;
+	top: 17.25% !important;
 }
 *:has(a[href*="refer.php"]) #player .center.h3 {
 	margin-top: 30px !important;
@@ -1412,6 +1412,7 @@ a[href="/bugbox"] {
 	position: absolute !important;
 	top: 280px !important;
 	left: -220px !important;
+	z-index: 100 !important;
 }
 *:has(img[src*="icon_stinkbug.png"]) table:has(form) td {
 	background: transparent !important;
