@@ -1172,7 +1172,7 @@ a[href="/bugbox"] {
 
 /* LAYOUT FIXES / OWNER VIEW */
 *:has(a[href*="refer.php"]) center .alert {
-	top: 17.25% !important;
+	top: 540px !important;
 }
 *:has(a[href*="refer.php"]) #player .center.h3 {
 	margin-top: 30px !important;
