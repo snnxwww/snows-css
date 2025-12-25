@@ -1995,6 +1995,12 @@ a[href="/bugbox"] {
 	*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
 		color: var(--lfapa-fontclr) !important;
 	}
+	*:has(img[src*="icon_stinkbug.png"]) table .right form button {
+		background: var(--lfapa-dropdownclr) !important;
+		color: var(--lfapa-fontclr) !important;
+		margin-left: 7.5% !important;
+		margin-top: -200px !important;
+	}
 }
 
 
@@ -2475,8 +2481,14 @@ a[href="/bugbox"] {
 		accent-color: var(--dfapa-dropdownclr);
 	}
 	*:has(img[src*="icon_stinkbug.png"]) button[onclick="return confirm('Are you sure you want to leave poop to this user?')"] {
-	color: var(--dfapa-fontclr) !important;
-}
+		color: var(--dfapa-fontclr) !important;
+	}
+	*:has(img[src*="icon_stinkbug.png"]) table .right form button {
+		background: var(--dfapa-dropdownclr) !important;
+		color: var(--dfapa-fontclr) !important;
+		margin-left: 7.5% !important;
+		margin-top: -200px !important;
+	}
 }
 
 img[src*="logo-full-2.png"] {
