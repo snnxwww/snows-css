@@ -1446,10 +1446,10 @@ a[href="/bugbox"] {
 *:has(img[src*="icon_stinkbug.png"]) .feature.auto.center {
 	display: none !important;
 }
-*:has(img[src*="icon_stinkbug.png"]):has(a[href*="refer.php"]) table:has(.top[colspan="2"]):has(.right):not(#player) {
+*:has(img[src*="icon_stinkbug.png"]) table:has(.top[colspan="2"]):has(.right):not(#player) {
 	color: transparent !important;
 }
-*:has(img[src*="icon_stinkbug.png"]):has(a[href*="refer.php"]) table .top {
+*:has(img[src*="icon_stinkbug.png"]) table .top {
 	background: transparent !important;
 	color: transparent !important;
 }
