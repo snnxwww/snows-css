@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6, h7, .top a {
     position: absolute;
     top: 35px;
     right: 210px;
+    z-index: 1;
 }
 
 h1 {
@@ -105,7 +106,6 @@ div.linkbox  {
     margin-top: -120px;
     right: 0px;
 }
-
 div.aboutbox {
     background: #fff;
     width: 70%;
@@ -126,20 +126,9 @@ div.aboutbox {
     margin-right: 60%;
     right: 0px;
 }
-
 .boxlayout img {
     position: absolute;
     right: 25px;
     top: 550px;
     pointer-events: none;
-}
-
-.sticker {
-    height: 200px;
-    width: 280px;
-    position: absolute;
-    background: url('https://static.lioden.com/images/decors/male/over/norwegiancat.png');
-    background-position: bottom right;
-    right: 20px;
-    margin-top: -200px;
 }
