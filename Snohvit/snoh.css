@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6, h7, .top a {
     left: 0;
     border: none;
 }
-#about .bottom, #about img {
-    display: none;
+#about .bottom, #lion_image {
+    display: none
 }
 .floatright form {
     position: absolute;
