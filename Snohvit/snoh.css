@@ -26,38 +26,10 @@ h1, h2, h3, h4, h5, h6, h7, .top a {
 .lion-image-block img {
     width: 100%;
 }
-@media(max-width: 1200px) {
-    .lion-image-block  {
-        width: 52.5%;
-        top: 50px;
-    }
-    .breadcrumb {
-        height: 400px;
-    }
-}
-
-@media(max-width: 700px) {
-    .lion-image-block  {
-        width: 50%;
-        top: 50px;
-    }
-}
-@media(max-width: 675px) {
-    .lion-image-block  {
-        width: 47.5%;
-        top: 75px;
-    }
-}
-@media(max-width: 650px) {
-    .lion-image-block  {
-        width: 45%;
-        top: 100px;
-    }
-}
 #about .inner-table {
     width: 20%;
     position: absolute;
-    right: 25px;
+    left: 57.5%;;
     top: -15px;
     height: 30px;
 }
@@ -81,6 +53,50 @@ h1, h2, h3, h4, h5, h6, h7, .top a {
     top: 35px;
     right: 210px;
     z-index: 1;
+}
+@media(max-width: 1200px) {
+    .lion-image-block  {
+        width: 52.5%;
+        top: 50px;
+    }
+    .breadcrumb {
+        height: 400px;
+    }
+    #about .inner-table {
+        left: 45%;
+    }
+}
+@media(max-width: 700px) {
+    .lion-image-block  {
+        width: 50%;
+        top: 50px;
+    }
+    #about .inner-table {
+        left: 40%;
+    }
+}
+@media(max-width: 675px) {
+    .lion-image-block  {
+        width: 47.5%;
+        top: 75px;
+    }
+    #about .inner-table {
+        left: 37.5%;
+    }
+}
+@media(max-width: 650px) {
+    .lion-image-block  {
+        width: 45%;
+        top: 100px;
+    }
+    #about .inner-table {
+        left: 35%;
+    }
+}
+@media(max-width: 625px) {
+    #about .inner-table {
+        left: 30%;
+    }
 }
 
 h1 {
@@ -132,3 +148,13 @@ div.aboutbox {
     top: 550px;
     pointer-events: none;
 }
+.sticker {
+    height: 200px;
+    width: 400px;
+    background: url('https://static.lioden.com/images/decors/male/over/norwegiancat.png');
+    background-position: bottom right;
+    position: absolute;
+    right: 20px;
+    margin-top: -180px;
+}
+
