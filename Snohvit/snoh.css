@@ -223,7 +223,7 @@ body {
 }
 
 .alert {
-    z-index: 2;
+    z-index: 3;
 }
 @media(max-width: 1200px) {
     .lion-image-block  {
