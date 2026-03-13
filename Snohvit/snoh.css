@@ -74,7 +74,7 @@ body {
     border: none;
     width: 97.5% !important
 }
-#player .top {
+#player .top, #player hr {
     display: none;
 }
 #player .right img {
@@ -222,6 +222,9 @@ body {
     background: transparent;
 }
 
+.alert {
+    z-index: 2;
+}
 @media(max-width: 1200px) {
     .lion-image-block  {
         width: 52.5%;
