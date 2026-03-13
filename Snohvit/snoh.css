@@ -222,10 +222,12 @@ body {
     height: 35px;
 }
 #player .right_odd {
-    background: transparent;
+    padding: 0px;
 }
 
-
+.alert {
+    z-index: 10;
+}
 @media(max-width: 1200px) {
     .lion-image-block  {
         width: 52.5%;
