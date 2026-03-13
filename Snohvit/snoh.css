@@ -17,7 +17,7 @@ body {
     margin-right: -15px;
     margin-top: -25px;
     height: 600px;
-    margin-bottom: 40px !important;
+    margin-bottom: 25px !important;
 }
 .breadcrumb:after {
     content: '';
@@ -36,9 +36,11 @@ body {
     top: 25px;
     left: 25px;
     width: 60%;
+    pointer-events: none;
 }
 .lion-image-block img {
     width: 100%;
+    pointer-events: none;
 }
 #about .inner-table {
     width: 20%;
@@ -73,7 +75,7 @@ body {
     position: absolute;
     top: 455px;
     border: none;
-    width: 97.5% !important
+    width: 97.5% !important;
 }
 #player .top, #player hr {
     display: none;
