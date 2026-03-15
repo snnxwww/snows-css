@@ -21,6 +21,10 @@ a, b span {
     color: #fafcfc;
     box-shadow: 7.5px 10px #a8cbd0;
 }
+.badge {
+    background: #51838a;
+    color: #fafcfc;
+}
 .topbar a {
     color: #f2f6f6 !important;
     transition: 0.4s
@@ -28,12 +32,6 @@ a, b span {
 .topbar a:hover {
     padding-left: 4px;
     padding-right: 4px;
-}
-img[src*='icon-beetle-silver.png'] {
-    filter: hue-rotate(10deg) saturate(0.8) brightness(1)
-}
-img[src*='icon-beetle-gold.png'] {
-    filter: hue-rotate(180deg) saturate(0.9) brightness(1.1)
 }
 
 .navbar {
@@ -849,18 +847,6 @@ form:has(#editdetailspanel) input[type='submit']:hover {
     box-shadow: 8px 8px #98b6b9 !important;
     border: none !important;
     border-radius: 0 !important;
-}
-img[src*='icon-time-day.png'] {
-    filter: hue-rotate(150deg) saturate(0.2) brightness(1)
-}
-img[src*='icon-time-night.png'] {
-    filter: hue-rotate(10deg) saturate(0.7) brightness(1.2)
-}
-img[src*='icon-season-dry.png'] {
-    filter: hue-rotate(150deg) saturate(0.2) brightness(1)
-}
-img[src*='icon-season-wet.png'] {
-    filter: hue-rotate(-20deg) saturate(0.4) brightness(1.2)
 }
 .sidebar h3 {
     color: #edf3f3;
