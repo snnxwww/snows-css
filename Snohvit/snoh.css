@@ -12,18 +12,64 @@ body {
     background: #d5e3e5;
 }
 
+.topbar {
+    background: #85a7ac;
+    color: #ffffff;
+    box-shadow: 7.5px 10px #a8cbd0;
+}
+.topbar a {
+    color: #f2f6f6 !important;
+    transition: 0.4s
+}
+.topbar a:hover {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navbar {
+    background: #86b1b7;
+}
+.navbar a {
+    transition: 0.4s;
+    color: #eef3f3 !important;
+}
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
+    background: #86b1b7 !important;
+    border-bottom: 4px solid #dbe4e5;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    filter: brightness(1.1);
+    color: #dbe4e5 !important;
+}
+img[src*='logo-full-2.png'] {
+    filter: hue-rotate(150deg) saturate(0.2) brightness(1.25) 
+}
+
+.col-md-9 {
+    background: transparent;
+}
+.main {
+    background: #c1d3d5;
+    box-shadow: 10px 10px #85a7ac;
+}
+
 .breadcrumb {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -25px;
     height: 600px;
     margin-bottom: 25px !important;
+    border-radius: 0px;
+    background: #c1d3d5;
+    box-shadow: 10px 15px #abc3c5;
 }
 .breadcrumb:after {
     content: '';
     height: 125px;
     width: 100%;
-    background: #dddddd;
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
     position: absolute;
     top: 475px;
     left: 0;
@@ -42,12 +88,23 @@ body {
     width: 100%;
     pointer-events: none;
 }
+.lion-image-block img:first-of-type {
+    width: 100%;
+    pointer-events: none;
+    border: 10px double #e0ebec;
+}
 #about .inner-table {
     width: 20%;
     position: absolute;
     left: 57.5%;;
     top: -15px;
     height: 30px;
+}
+#about .inner-table .left {
+    background: #87a4a7;
+}
+#about .inner-table .right {
+    background: #98b6b9;
 }
 #about .top, #about .top a {
     background: none;
@@ -64,11 +121,32 @@ body {
 #about .bottom, #lion_image {
     display: none
 }
+.xlarge.b a {
+    color: #eff4f4 !important;
+    transition: 0.4s;
+}
+.xlarge.b a:hover {
+    text-shadow: 1px 1px #fff;
+}
 .floatright form {
     position: absolute;
     top: 35px;
     right: 210px;
     z-index: 1;
+}
+.floatright input {
+    background: #a7c2c2;
+    border-radius: 0px !important;
+    box-shadow: 4px 4px #9cb6b6;
+    border: none !important;
+    text-shadow: none !important;
+    color: #d8e3e3 !important;
+    transition: 0.4s !important
+}
+.floatright input:hover {
+    background: #9fbcbc;
+    box-shadow: 4px 6px #91abab;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
 
 #player {
