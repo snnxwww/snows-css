@@ -517,6 +517,20 @@ center .alert img {
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
 
+.cave-grid, .mound-grid {
+    background: #a7c2c2;
+    box-shadow: 6px 6px #9cb6b6;
+    border-radius: 0px;
+    border: none;
+    color: #d8e3e3;
+    transition: 0.4s
+}
+.cave-grid:hover, .mound-grid:hover {
+    background: #9fbcbc;
+    box-shadow: 6px 8px #91abab;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+
 @media(max-width: 1200px) {
     .lion-image-block  {
         width: 52.5%;
