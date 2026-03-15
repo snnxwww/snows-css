@@ -126,10 +126,12 @@ img[src*='logo-full-2.png'] {
 #about .inner-table .left {
     background: #87a4a7;
     border-radius: 0px;
+    box-shadow: 6px 6px #a1bdc0 !important;
 }
 #about .inner-table .right {
     background: #98b6b9;
     border-radius: 0px;
+    box-shadow: 6px 6px #87a5a8 !important;
 }
 #about .top, #about .top a {
     background: none;
