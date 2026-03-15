@@ -104,6 +104,10 @@ img[src*='logo-full-2.png'] {
 }
 #about .inner-table a {
     color: #d7e3e3;
+    transition: 0.4s
+}
+#about .inner-table a:hover {
+    text-shadow: 0.5px 0.5px #ecf4f4;
 }
 #about .inner-table .left {
     background: #87a4a7;
@@ -529,6 +533,111 @@ center .alert img {
     background: #9fbcbc;
     box-shadow: 6px 8px #91abab;
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+    filter: brightness(1.1)
+}
+img[src*="unsortedlionsbanner.png"] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Kilimandzaro.png');
+    object-fit: cover;
+    object-position: 0px -100px;
+    height: 60px;
+    width: 500px;
+    filter: brightness(1.2) saturate(0.45) hue-rotate(-20deg);
+}
+img[src*="nestingbanner.png"] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Kilimandzaro.png');
+    object-fit: cover;
+    object-position: -240px -100px;
+    height: 60px;
+    width: 500px;
+    filter: brightness(1.2) saturate(0.45) hue-rotate(-20deg);
+}
+img[src*="prideoverviewbanner.png"] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Kilimandzaro.png');
+    object-fit: cover;
+    object-position: 30px -100px;
+    height: 60px;
+    width: 500px;
+    filter: brightness(1.2) saturate(0.45) hue-rotate(-20deg);
+    transform: scaleX(-1)
+}
+#fraCaveList .col-md-4:nth-child(1) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: 0px 0px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(2) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -240px 0px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(3) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -20px 0px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(4) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: 0px -120px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(5) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -240px -120px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(6) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -20px -120px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(7) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: 0px -240px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(8) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -240px -240px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+#fraCaveList .col-md-4:nth-child(9) .cave-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
+    object-fit: cover;
+    object-position: -20px -240px;
+    height: 120px;
+    width: 500px;
+    filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+}
+.mound-grid img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/glaciercave.png');
+    object-fit: cover;
+    height: 80px;
+    width: 120px;
+    filter: brightness(1.2) saturate(0.25) hue-rotate(-15deg);
 }
 
 @media(max-width: 1200px) {
