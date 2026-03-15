@@ -495,7 +495,7 @@ center .alert img {
 #makeComment input {
     background: #afc6c8;
     box-shadow: 6px 6px #98b6b9;
-    color: #e7f0f0;
+    color: #e6eded;
     border: none;
     margin-top: 10px;
     text-shadow: none;
@@ -524,18 +524,18 @@ center .alert img {
     width: 33%;
 }
 .cave-grid, .mound-grid {
-    background: #a7c2c2;
-    box-shadow: 6px 6px #9cb6b6;
+    background: #afc6c8;
+    box-shadow: 6px 6px #98b6b9;
     border-radius: 0px;
     border: none;
-    color: #d8e3e3;
+    color: #e6eded;
     transition: 0.4s;
 }
 .cave-grid:hover, .mound-grid:hover {
     background: #9fbcbc;
     box-shadow: 6px 8px #91abab;
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
-    filter: brightness(1.1)
+    backdrop-filter: brightness(1.1)
 }
 img[src*="unsortedlionsbanner.png"] {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Kilimandzaro.png');
@@ -643,6 +643,40 @@ img[src*="prideoverviewbanner.png"] {
     height: 80px;
     width: 120px;
     filter: brightness(1.2) saturate(0.25) hue-rotate(-15deg);
+}
+
+.feature {
+    background: #afc6c8 !important;
+    box-shadow: 6px 6px #98b6b9;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #e6eded;
+}
+.feature span {
+    font-size: 15px;
+}
+.feature h3 {
+    font-size: 40px;
+    color: #edf3f3
+}
+.feature input, .feature select {
+    background: #cfddde !important;
+    box-shadow: 6px 6px #8caaac;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #486868;
+    text-shadow: none;
+    transition: 0.4s
+}
+.feature input {
+    margin-left: 10px !important;
+}
+.feature input:hover {
+    background: #c1d4d5 !important;
+    box-shadow: 6px 6px #8aafb2;
+    border: none !important;
+    border-radius: 0px !important;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
 
 @media(max-width: 1200px) {
