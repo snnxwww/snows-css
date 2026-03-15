@@ -161,6 +161,7 @@ img[src*='logo-full-2.png'] {
     top: 455px;
     border: none;
     width: 97.5% !important;
+    pointer-events: none;
 }
 #player .top, #player hr {
     display: none;
@@ -174,6 +175,7 @@ img[src*='logo-full-2.png'] {
     height: 24px;
     margin-right: 0px;
     margin-top: 0px;
+    pointer-events: all;
 }
 #player .center.h3 {
     font-size: 32px;
@@ -216,6 +218,7 @@ img[src*='logo-full-2.png'] {
 #player a {
     color: #e7f0f0;
     transition: 0.4s;
+    pointer-events: all
 }
 #player a:hover {
     transform: scale(1.025) rotate(0deg) translate(-2px, -2px) skewX(0deg);
@@ -362,6 +365,158 @@ img[src*='logo-full-2.png'] {
     padding: 0px;
 }
 
+.alert {
+    background: #afc6c8;
+    box-shadow: 6px 6px #98b6b9;
+    color: #e7f0f0;
+    border-radius: 0;
+    border: none;
+}
+.alert a {
+    color: #dceaea;
+    padding: 6px;
+    transition: 0.4s;
+}
+.alert a:hover {
+    color: #dceaea;
+    padding-left: 10px
+}
+
+h1 {
+    display: none;
+}
+div.linkbox  {
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
+    color: #e7f0f0;
+    width: 70%;
+    margin-left: 30%;
+    height: 150px;
+    padding: 12px;
+    font-size: 24px;
+    overflow-y: auto;
+}
+div.linkbox a {
+    color: #e7f0f0;
+    transition: 0.4s;
+    font-weight: 200;
+    font-style: italic
+}
+div.linkbox a:hover {
+    color: #e7f0f0;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.boxlayout:before {
+    content: '';
+    height: 160px;
+    width: 400px;
+    background: url('https://static.lioden.com/images/decors/female/kind//over/mainecoon.png');
+    background-position: bottom right;
+    position: absolute;
+    margin-top: -120px;
+    right: 0px;
+    filter: brightness(1.2) saturate(0.3) hue-rotate(150deg);
+    pointer-events: none;
+}
+div.aboutbox {
+    background: #afc6c8;
+    box-shadow: 6px 6px #98b6b9;
+    color: #e7f0f0;    
+    width: 70%;
+    margin-right: 30%;
+    height: 150px;
+    padding: 12px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+.boxlayout:after {
+    content: '';
+    height: 160px;
+    width: 400px;
+    background: url('https://static.lioden.com/images/decors/female//over/turkangora.png');
+    background-position: bottom left;
+    position: absolute;
+    margin-top: -300px;
+    margin-right: 60%;
+    right: 0px;
+    filter: brightness(1.0) saturate(0.1) hue-rotate(150deg);
+    pointer-events: none;
+}
+.boxlayout img {
+    position: absolute;
+    right: 25px;
+    top: 550px;
+    pointer-events: none;
+}
+.sticker {
+    height: 250px;
+    width: 400px;
+    background: url('https://static.lioden.com/images/decors/female/jolly//over/leucisticfox.png');
+    background-position: bottom right;
+    background-size: 140%;
+    position: absolute;
+    right: 50px;
+    margin-top: -220px;
+    filter: brightness(1.05) saturate(0.2) hue-rotate(150deg);
+    pointer-events: none;
+}
+
+center .alert img {
+    filter: hue-rotate(150deg) saturate(0.15) brightness(1.2);
+    padding-right: 6px;
+}
+
+#commentBox {
+    background: #afc6c8;
+    box-shadow: 6px 6px #98b6b9;
+    color: #e7f0f0;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-top: 20px;
+}
+.comment {
+    background: #afc6c8 !important;
+    border-top: 2px solid #98b6b9; 
+}
+.comment:first-of-type {
+    border-top: none;
+}
+.comment a, .comment small {
+    color: #d6e6e6;
+}
+.comment img {
+    filter: saturate
+}
+#makeComment input {
+    background: #afc6c8;
+    box-shadow: 6px 6px #98b6b9;
+    color: #e7f0f0;
+    border: none;
+    margin-top: 10px;
+    text-shadow: none;
+    transition: 0.4s
+}
+#makeComment input::placeholder {
+    color: #e7f0f0;
+    padding-left: 4px;
+}
+#makeComment input[type='submit'] {
+    background: #a7c2c2;
+    border-radius: 0px !important;
+    box-shadow: 4px 4px #9cb6b6;
+    border: none !important;
+    text-shadow: none !important;
+    color: #d8e3e3 !important;
+    transition: 0.4s !important;
+    margin-left: 10px;
+}
+#makeComment input:hover {
+    background: #9fbcbc;
+    box-shadow: 4px 6px #91abab;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+
 @media(max-width: 1200px) {
     .lion-image-block  {
         width: 52.5%;
@@ -419,67 +574,3 @@ img[src*='logo-full-2.png'] {
         left: 27.5%;
     }
 }
-
-h1 {
-    display: none;
-}
-
-div.linkbox  {
-    background: #fff;
-    width: 70%;
-    margin-left: 30%;
-    height: 150px;
-    border: 8px solid #000;
-    padding: 12px;
-    font-size: 24px;
-}
-.boxlayout:before {
-    content: '';
-    height: 160px;
-    width: 400px;
-    background: url('https://static.lioden.com/images/decors/female/kind//over/mainecoon.png');
-    background-position: bottom right;
-    position: absolute;
-    margin-top: -120px;
-    right: 0px;
-    filter: brightness(1.2) saturate(0.3) hue-rotate(150deg)
-}
-div.aboutbox {
-    background: #fff;
-    width: 70%;
-    margin-right: 30%;
-    height: 150px;
-    border: 8px solid #000;
-    padding: 12px;
-    font-size: 18px;
-}
-.boxlayout:after {
-    content: '';
-    height: 160px;
-    width: 400px;
-    background: url('https://static.lioden.com/images/decors/female//over/turkangora.png');
-    background-position: bottom left;
-    position: absolute;
-    margin-top: -300px;
-    margin-right: 60%;
-    right: 0px;
-    filter: brightness(1.0) saturate(0.1) hue-rotate(150deg)
-}
-.boxlayout img {
-    position: absolute;
-    right: 25px;
-    top: 550px;
-    pointer-events: none;
-}
-.sticker {
-    height: 250px;
-    width: 400px;
-    background: url('https://static.lioden.com/images/decors/female/jolly//over/leucisticfox.png');
-    background-position: bottom right;
-    background-size: 140%;
-    position: absolute;
-    right: 50px;
-    margin-top: -220px;
-    filter: brightness(1.05) saturate(0.2) hue-rotate(150deg)
-}
-
