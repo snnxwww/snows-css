@@ -573,7 +573,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(2) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -240px 0px;
+    object-position: -200px 0px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
@@ -581,7 +581,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(3) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: 290px 0px;
+    object-position: 240px 0px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
@@ -598,7 +598,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(5) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -240px -120px;
+    object-position: -200px -120px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
@@ -606,7 +606,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(6) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: 290px -120px;
+    object-position: 240px -120px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
@@ -623,7 +623,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(8) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -240px -240px;
+    object-position: -200px -240px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
@@ -631,7 +631,7 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(9) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: 290px -240px;
+    object-position: 240px -240px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
