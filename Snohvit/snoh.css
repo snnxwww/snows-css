@@ -520,14 +520,16 @@ center .alert img {
     box-shadow: 4px 6px #91abab;
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
-
+.col-md-4 {
+    width: 33%;
+}
 .cave-grid, .mound-grid {
     background: #a7c2c2;
     box-shadow: 6px 6px #9cb6b6;
     border-radius: 0px;
     border: none;
     color: #d8e3e3;
-    transition: 0.4s
+    transition: 0.4s;
 }
 .cave-grid:hover, .mound-grid:hover {
     background: #9fbcbc;
@@ -579,10 +581,11 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(3) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -20px 0px;
+    object-position: 290px 0px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+    transform: scaleX(-1);
 }
 #fraCaveList .col-md-4:nth-child(4) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
@@ -603,10 +606,11 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(6) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -20px -120px;
+    object-position: 290px -120px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+    transform: scaleX(-1);
 }
 #fraCaveList .col-md-4:nth-child(7) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
@@ -627,10 +631,11 @@ img[src*="prideoverviewbanner.png"] {
 #fraCaveList .col-md-4:nth-child(9) .cave-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/Frozen_Cave_Mouth.png');
     object-fit: cover;
-    object-position: -20px -240px;
+    object-position: 290px -240px;
     height: 120px;
     width: 500px;
     filter: brightness(1.1) saturate(0.25) hue-rotate(-10deg);
+    transform: scaleX(-1)
 }
 .mound-grid img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/glaciercave.png');
