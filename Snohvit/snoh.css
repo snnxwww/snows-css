@@ -10,11 +10,15 @@ h1, h2, h3, h4, h5, h6, h7, .top a {
 
 body {
     background: #d5e3e5;
+    color: #edf3f3;
+}
+a, b span {
+    color: #edf3f3 !important;
 }
 
 .topbar {
     background: #85a7ac;
-    color: #ffffff;
+    color: #fafcfc;
     box-shadow: 7.5px 10px #a8cbd0;
 }
 .topbar a {
@@ -38,7 +42,7 @@ body {
 .navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
     background: #86b1b7 !important;
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
-    box-shadow: 5px 5px #dbe4e5;
+    box-shadow: 5px 5px #b1ced2;
     opacity: 1;
     filter: brightness(1.1);
     color: #dbe4e5 !important;
@@ -137,7 +141,7 @@ img[src*='logo-full-2.png'] {
     transition: 0.4s;
 }
 .xlarge.b a:hover {
-    text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px #fafcfc;
 }
 .floatright form {
     position: absolute;
@@ -425,7 +429,7 @@ div.linkbox a:hover {
 }
 div.aboutbox {
     background: #afc6c8;
-    box-shadow: 6px 6px #98b6b9;
+    box-shadow: 10px 10px #98b6b9;
     color: #e7f0f0;    
     width: 70%;
     margin-right: 30%;
@@ -473,7 +477,7 @@ center .alert img {
 
 #commentBox {
     background: #afc6c8;
-    box-shadow: 6px 6px #98b6b9;
+    box-shadow: 10px 10px #98b6b9;
     color: #e7f0f0;
     border: none !important;
     border-radius: 0px !important;
@@ -525,7 +529,7 @@ center .alert img {
 }
 .cave-grid, .mound-grid {
     background: #afc6c8;
-    box-shadow: 6px 6px #98b6b9;
+    box-shadow: 8px 8px #98b6b9;
     border-radius: 0px;
     border: none;
     color: #e6eded;
@@ -647,7 +651,7 @@ img[src*="prideoverviewbanner.png"] {
 
 .feature {
     background: #afc6c8 !important;
-    box-shadow: 6px 6px #98b6b9;
+    box-shadow: 10px 10px #98b6b9;
     border: none !important;
     border-radius: 0px !important;
     color: #e6eded;
@@ -657,7 +661,7 @@ img[src*="prideoverviewbanner.png"] {
 }
 .feature h3 {
     font-size: 40px;
-    color: #edf3f3
+    color: #edf3f3;
 }
 .feature input, .feature select {
     background: #cfddde !important;
@@ -674,10 +678,144 @@ img[src*="prideoverviewbanner.png"] {
 .feature input:hover {
     background: #c1d4d5 !important;
     box-shadow: 6px 6px #8aafb2;
+    text-shadow: none !important;
     border: none !important;
     border-radius: 0px !important;
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
+
+#attack, #sparring {
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
+    border: none !important;
+    color: #e6eded !important;
+    margin-top: 20px;
+}
+#sparring .right_odd {
+    background: none;
+    box-shadow: 10px 10px #a4c1c3;
+    border: none !important;
+    color: #e6eded !important;
+}
+#sparring .right_odd .xsmall {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+#attack p, #sparring p {
+    margin-top: 10px !important;
+}
+#allies, #clans {
+    display: none;
+}
+#attack a, #attack .bottom a,  {
+    color: #d3e1e1 !important;
+    text-decoration: none;
+    transition: 0.4s;
+}
+#attack a:hover, #attack .bottom a:hover {
+    letter-spacing: 0.5px
+}
+#attack a[onclick] {
+    display: none;
+}
+#attack th, #attack .bottom, #sparring th {
+    background: #8ba4a7;
+    box-shadow: 10px 10px #7d9598;
+    border: none !important;
+    color: #edf3f3 !important;
+}
+#attack input, #attack select, #sparring input, #sparring select {
+    background: #cfddde !important;
+    box-shadow: 6px 6px #8caaac;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #486868;
+    text-shadow: none;
+    transition: 0.4s
+}
+#attack input, #sparring input {
+    margin-left: 5px !important;
+}
+#attack input:hover, #sparring input:hover {
+    background: #c1d4d5 !important;
+    box-shadow: 6px 6px #8aafb2;
+    text-shadow: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+
+.col-sm-6 div, .col-sm-4 div {
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
+}
+.col-sm-6 div, .col-sm-4 div, div .left:has(a[href="/account-settings.php"]) {
+    background: #a7c2c2;
+    border-radius: 0px !important;
+    box-shadow: 8px 8px #9cb6b6;
+    border: none !important;
+    text-shadow: none !important;
+    color: #d8e3e3 !important;
+    transition: 0.4s !important
+}
+.col-sm-6 div:not(.feature):hover, .col-sm-4 div:hover, div .left:has(a[href="/account-settings.php"]):hover {
+    background: #9fbcbc;
+    box-shadow: 8px 10px #91abab;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+div .left:has(a[href="/account-settings.php"]) a {
+    color: #d8e3e3 !important
+}
+.col-sm-6:not(:has(.feature)) {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+
+form:has(#editdetailspanel) table {
+    border: none ;
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
+}
+form:has(#editdetailspanel) table th, form:has(#editdetailspanel) table .bottom {
+    background: #8ba4a7;
+    box-shadow: 10px 10px #7d9598;
+}
+form:has(#editdetailspanel) table th a {
+    color: #edf3f3 !important;
+}
+.col-sm-6 div h3  {
+    color: #edf3f3 !important;
+    font-size: 28px !important;
+}
+form:has(#editdetailspanel) input, form:has(#editdetailspanel) select, form:has(#editdetailspanel) textarea {
+    background: #cfddde;
+    box-shadow: 6px 6px #8caaac !important;
+    border-radius: 0px !important;
+    color: #486868;
+    border: none !important;
+    text-shadow: none !important;
+    transition: 0.4s !important
+}
+form:has(#editdetailspanel) input[type='submit'] {
+    background: #a9c4c4;
+    border-radius: 0px !important;
+    box-shadow: 6px 6px #7a9191 !important;
+    color: #edf3f3;
+    border: none !important;
+    text-shadow: none !important;
+    transition: 0.4s !important
+}
+form:has(#editdetailspanel) input[type='submit']:hover {
+    background: #9fbcbc;
+    box-shadow: 8px 10px #6e8484;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+#editdetailspanel .left {
+    background: #9bb7b7;
+}
+
 
 @media(max-width: 1200px) {
     .lion-image-block  {
