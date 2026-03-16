@@ -69,6 +69,71 @@ img[src*='logo-full-2.png'] {
     box-shadow: 10px 10px #85a7ac;
 }
 
+table:not(:has(.inner-table)) {
+    background: #afc6c8;
+    box-shadow: 10px 10px #98b6b9;
+    border: none !important;
+    color: #e6eded !important;
+}
+#sparring .right_odd, #reclaim .left {
+    background: none;
+    box-shadow: 10px 10px #a4c1c3;
+    border: none !important;
+    color: #e6eded !important;
+}
+#sparring .right_odd .xsmall {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+#attack p, #sparring p {
+    margin-top: 10px !important;
+}
+#reclaim .left {
+    padding-top: 15px !important;
+}
+#allies, #clans {
+    display: none;
+}
+table a  {
+    color: #d3e1e1 !important;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+table a:hover:not(.inner-table a) {
+    letter-spacing: 0.5px;
+}
+#attack a[onclick] {
+    display: none;
+}
+table .top, table th, table .bottom {
+    background: #8ba4a7 !important;
+    box-shadow: 10px 10px #7d9598;
+    border: none !important;
+    color: #edf3f3 !important;
+}
+table input, table select {
+    background: #cfddde !important;
+    box-shadow: 6px 6px #8caaac;
+    border: none !important;
+    border-radius: 0px !important;
+    color: #486868 !important;
+    text-shadow: none;
+    transition: 0.4s;
+}
+table input {
+    margin-left: 5px !important;
+}
+table input:hover, table select:hover {
+    background: #c1d4d5 !important;
+    box-shadow: 6px 6px #8aafb2;
+    text-shadow: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
+}
+
 .breadcrumb {
     margin-left: -15px;
     margin-right: -15px;
@@ -77,7 +142,7 @@ img[src*='logo-full-2.png'] {
     margin-bottom: 25px !important;
     border-radius: 0px;
     background: #c1d3d5;
-    box-shadow: 10px 15px #abc3c5;
+    box-shadow: 10px 10px #abc3c5;
 }
 .breadcrumb:after {
     content: '';
@@ -115,6 +180,9 @@ img[src*='logo-full-2.png'] {
     top: -15px;
     height: 30px;
     color: #ecf4f4;
+    border: none;
+    box-shadow: none;
+    background: none;
 }
 #about .inner-table a {
     color: #d7e3e3;
@@ -134,7 +202,8 @@ img[src*='logo-full-2.png'] {
     box-shadow: 6px 6px #87a5a8 !important;
 }
 #about .top, #about .top a {
-    background: none;
+    background: none !important;
+    box-shadow: none;
     font-size: 60px;
     text-align: right;
     padding-right: 15px;
@@ -144,9 +213,11 @@ img[src*='logo-full-2.png'] {
     top: 0;
     left: 0;
     border: none;
+    background: none !important;
+    box-shadow: none;
 }
 #about .bottom, #lion_image {
-    display: none
+    display: none;
 }
 .xlarge.b a {
     color: #eff4f4 !important;
@@ -245,6 +316,7 @@ img[src*='logo-full-2.png'] {
     color: #e7f0f0;
     box-shadow: 4px 4px #c6d6d8;
     background: #b5cbcc;
+    letter-spacing: 10px !important;
 }
 #player a[href='/compose.php?to=553411']  {
     position: absolute;
@@ -388,7 +460,7 @@ img[src*='logo-full-2.png'] {
 .alert {
     background: #afc6c8;
     box-shadow: 6px 6px #98b6b9;
-    color: #e7f0f0;
+    color: #e7f0f0 !important;
     border-radius: 0;
     border: none;
 }
@@ -704,71 +776,6 @@ img[src*="prideoverviewbanner.png"] {
     transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
 }
 
-#attack, #sparring, #reclaim {
-    background: #afc6c8;
-    box-shadow: 10px 10px #98b6b9;
-    border: none !important;
-    color: #e6eded !important;
-    margin-top: 20px;
-}
-#sparring .right_odd, #reclaim .left {
-    background: none;
-    box-shadow: 10px 10px #a4c1c3;
-    border: none !important;
-    color: #e6eded !important;
-}
-#sparring .right_odd .xsmall {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: -20px;
-}
-#attack p, #sparring p {
-    margin-top: 10px !important;
-}
-#reclaim .left {
-    padding-top: 15px !important;
-}
-#allies, #clans {
-    display: none;
-}
-#attack a, #attack .bottom a  {
-    color: #d3e1e1 !important;
-    text-decoration: none;
-    transition: 0.4s;
-}
-#attack a:hover, #attack .bottom a:hover {
-    letter-spacing: 0.5px
-}
-#attack a[onclick] {
-    display: none;
-}
-#attack th, #attack .bottom, #sparring th, #reclaim th {
-    background: #8ba4a7;
-    box-shadow: 10px 10px #7d9598;
-    border: none !important;
-    color: #edf3f3 !important;
-}
-#attack input, #attack select, #sparring input, #sparring select, #reclaim input, #reclaim select {
-    background: #cfddde !important;
-    box-shadow: 6px 6px #8caaac;
-    border: none !important;
-    border-radius: 0px !important;
-    color: #486868;
-    text-shadow: none;
-    transition: 0.4s
-}
-#attack input, #sparring input {
-    margin-left: 5px !important;
-}
-#attack input:hover, #attack select:hover, #sparring input:hover, #sparring select:hover, #reclaim input:hover, #reclaim select:hover {
-    background: #c1d4d5 !important;
-    box-shadow: 6px 6px #8aafb2;
-    text-shadow: none !important;
-    border: none !important;
-    border-radius: 0px !important;
-    transform: scale(1.025) rotate(0deg) translate(0px, -2px) skewX(0deg);
-}
-
 .col-sm-6 div, .col-sm-4 div {
     background: #afc6c8;
     box-shadow: 10px 10px #98b6b9;
@@ -853,6 +860,7 @@ form:has(#editdetailspanel) input[type='submit']:hover {
 .panel {
     background: #afc6c8 !important;
     box-shadow: 8px 8px #98b6b9 !important;
+    color: #edf3f3 !important;
     border: none !important;
     border-radius: 0 !important;
 }
