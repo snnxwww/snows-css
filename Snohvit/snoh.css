@@ -101,7 +101,7 @@ table a  {
     transition: 0.4s;
 }
 
-table a:hover:not(.inner-table a) {
+table a:hover {
     letter-spacing: 0.5px;
 }
 #attack a[onclick] {
@@ -316,7 +316,6 @@ table input:hover, table select:hover {
     color: #e7f0f0;
     box-shadow: 4px 4px #c6d6d8;
     background: #b5cbcc;
-    letter-spacing: 10px !important;
 }
 #player a[href='/compose.php?to=553411']  {
     position: absolute;
