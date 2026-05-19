@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    font-family: 'cormorant garamond'
+}
+
+html {
+    scroll-timeline: --page-scroll block;
+}
+
+.topbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.navbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    left: 50%;
+    z-index: 2;
+    top: 85px; 
+    transform: translate(-50%, -50%); 
+    animation: stickToTopbar linear both;
+    animation-timeline: --page-scroll;
+    animation-range: 0px 70px; 
+}
+@keyframes stickToTopbar {
+  to {
+    top: 59px; 
+  }
+}
+
+.main {
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 50px;
+    position: relative;
+}
+
+
+
 .opacity-5 {
     opacity: 5%;
 }
