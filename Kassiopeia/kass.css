@@ -1,50 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 * {
-    font-family: 'cormorant garamond'
+    font-family: 'cormorant garamond';
 }
 
+html {
+    scroll-timeline: --page-scroll block;
+}
 
-@media (min-width: 678px) {
-    html {
-        scroll-timeline: --page-scroll block;
-    }
-    
+.topbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.navbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    left: 50%;
+    z-index: 2;
+    top: 85px; 
+    transform: translate(-50%, -50%); 
+    animation: stickToTopbar linear both;
+    animation-timeline: --page-scroll;
+    animation-range: 0px 70px; 
+}
+@keyframes stickToTopbar {
+  to {
+    top: 60px; 
+  }
+}
+.main {
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 50px;
+    position: relative;
+}
+
+@media (max-width: 778px) {
     .topbar {
-        position: fixed;
-        width: 90%;
-        max-width: 1200px;
-        top: 0px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-    }
-    
+        width: 100%;
+    } 
     .navbar {
+        width: 100%;
+        top: 60px; 
+    }
+    .navbar-collapse {
         position: fixed;
-        width: 90%;
-        max-width: 1200px;
-        left: 50%;
-        z-index: 2;
-        top: 85px; 
-        transform: translate(-50%, -50%); 
-        animation: stickToTopbar linear both;
-        animation-timeline: --page-scroll;
-        animation-range: 0px 70px; 
+        width: 100%;
+        top: 50px;
+        border: none;
     }
-    @keyframes stickToTopbar {
-      to {
-        top: 59px; 
-      }
-    }
-    
     .main {
-        width: 90%;
-        max-width: 1200px;
-        padding-top: 50px;
-        position: relative;
+        width: 100%;
+        padding-top: 80px;
     }
 }
+@media (min-width: 992px) {
+    .sidebar {
+        position: sticky !important;
+        top: 0;
+        height: 90vh;
+        overflow: auto;
+    }
+
+}
+
+
 
 
 .opacity-5 {
