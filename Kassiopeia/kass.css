@@ -2,6 +2,10 @@
 
 * {
     font-family: 'cormorant garamond';
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
 }
 
 html {
@@ -81,7 +85,7 @@ html {
 }
 
 .breadcrumb {
-    margin-bottom: 750px;
+    margin-bottom: 780px;
 }
 form input[value='Bookmark'] {
     position: absolute;
