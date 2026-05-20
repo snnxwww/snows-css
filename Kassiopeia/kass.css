@@ -78,7 +78,6 @@ html {
         overflow: auto;
         padding-bottom: 300px;
     }
-
 }
 
 .breadcrumb {
@@ -146,6 +145,38 @@ h1 {
     display: none
 }
 
+.boxsection {
+    margin-top: -80px;
+    text-align: left;
+}
+.contentheader {
+    font-size: 24px;
+    padding-left: 12px;
+}
+.contentsubheader {
+    font-size: 20px;
+    padding-left: 12px;
+}
+.contentsection {
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+}
+.contentbox {
+    flex: 3;
+}
+.contentsubsubheader {
+    font-size: 18px;
+}
+.maincontent {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 300px;
+    overflow: auto;
+}
+.imagecontent {
+    flex: 2;
+}
 
 #commentBox {
     width: 70%;
