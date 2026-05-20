@@ -15,6 +15,7 @@ html {
     z-index: 99;
     width: 400px;
     max-width: 50%;
+    pointer-events: none;
 }
 
 .topbar {
@@ -26,7 +27,6 @@ html {
     transform: translateX(-50%);
     z-index: 1;
 }
-
 .navbar {
     position: fixed;
     width: 90%;
@@ -80,17 +80,70 @@ html {
 
 }
 
-.feature-display {
-    height: 300px;
+.breadcrumb {
+    margin-bottom: 750px;
 }
-
+form input[value='Bookmark'] {
+    position: absolute;
+    top: 515px;
+    right: 25px;
+    z-index: 1;
+}
+.feature-display {
+    height: 280px;
+    width: 96%;
+    background: #fff;
+    margin-top: 150px;
+    position: absolute;
+    top: 120px;
+}
 .feature-display img {
     position: absolute !important;
     left: 0;
     top: 0;
     max-width: 100%;
+    margin-top: -200px;
+}
+#about img {
+    display: none;
+}
+#about {
+    position: absolute;
+    top: 60px;
+    border: none;
+}
+#about .top, #about .bottom {
+    background: none
+}
+.xlarge.b a {
+    font-size: 60px;
 }
 
+.xlarge.b {
+    font-size: 0px;
+    text-align: right;
+    margin-right: 20px;
+}
+.xlarge.b:after {
+    content: ', Mother of Stars';
+    font-size: 40px;
+}
+#about .inner-table {
+    position: absolute;
+    top: 400px;
+    left: -200px;
+    width: 100%;
+}
+#about .bottom {
+    position: absolute;
+    top: 460px;
+}#about .bottom a {
+    color: #000
+}
+
+h1 {
+    display: none
+}
 
 
 
