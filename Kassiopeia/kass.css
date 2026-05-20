@@ -76,6 +76,7 @@ html {
         top: 0;
         height: 90vh;
         overflow: auto;
+        padding-bottom: 300px;
     }
 
 }
@@ -145,6 +146,23 @@ h1 {
     display: none
 }
 
+
+#commentBox {
+    width: 70%;
+    margin-left: 30%;
+}
+#commentBox:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    margin-top: -40px;
+    height: 380px;
+    width: 400px;
+    background: url('https://snnxwww.github.io/snows-css/Kassiopeia/kassiopeia-352746.png');;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
 
 
 .opacity-5 {
