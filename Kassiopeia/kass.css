@@ -80,6 +80,17 @@ html {
 
 }
 
+.feature-display {
+    height: 300px;
+}
+
+.feature-display img {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+}
+
 
 
 
