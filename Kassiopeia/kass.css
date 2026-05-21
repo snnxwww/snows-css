@@ -23,6 +23,7 @@ input:hover, .button:hover, select:hover, textarea:hover {
 }
 
 a {
+    color: #f2f0ec !important;
     display: inline;
     transition: 0.4s;
 }
@@ -386,7 +387,6 @@ table td[colspan='100%'].left {
     background: #938880;
 }
 
-
 #fraOrganizationBlock .col-md-4 {
     width: 33%
 }
@@ -406,6 +406,47 @@ span[style="color: #ff0000;"] {
     color: #d7d4cf !important;
 }
 
+.panel {
+    background: #665b52 !important;
+    color: #f2f0ec;
+}
+.panel a, .sidebar h3, .sidebar a, #txtChatContainer a {
+    color: #f2f0ec;
+}
+.progress {
+    background: #c1b1a4;
+}
+.progress-bar {
+    background: #94887d;
+}
+
+#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
+    background: #665b52 !important;
+    color: #f2f0ec !important;
+}
+.channelSwitcher.active {
+    background: #908780 !important;
+}
+
+#chatMessagePinned {
+    background-color: #665b52 !important;
+    color: #f2f0ec !important;
+}
+#chatMessagePinned a {
+    color: #f2f0ec !important;
+}
+.s-chat-message {
+    padding-left: 6px !important;
+    background-color: #aa9c90 !important;
+    color: #f2f0ec !important;
+}
+.s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
+    color: #e1ddd5 !important;
+}
+
+#btnChatSettings, #btnLoadNewMessages {
+    filter: sepia(200%)
+}
 
 
 .opacity-5 {
