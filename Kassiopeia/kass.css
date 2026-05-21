@@ -19,7 +19,7 @@ input, .button, select, textarea {
 }
 input:hover, .button:hover, select:hover, textarea:hover {
     transform: rotate(1deg) translateY(1px);
-    filter: drop-shadow(1px 1px 4px #cdc1bc)
+    filter: drop-shadow(0px 0px 4px #cdc1bc)
 }
 
 a {
@@ -129,7 +129,7 @@ a:hover {
 }
 .navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
     background: none !important;
-    filter: drop-shadow(1px 1px 3px #fff);
+    filter: drop-shadow(0x 0px 3px #fff);
     box-shadow: 0px 0px 4px #83735d !important;
     transform: rotate(-1deg) translateY(-1px) translateX(1px);
 }
@@ -139,7 +139,7 @@ a:hover {
   }
 }
 .main {
-    width: 89.99999%;
+    width: 89.999996185303%;
     max-width: 1200px;
     padding-top: 50px;
     position: relative;
@@ -237,7 +237,7 @@ form input[value='Bookmark'] {
     text-align: right;
     margin-right: 20px;
     color: #c7b7ac;
-    filter: drop-shadow(1px 1px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3)
 }
 .xlarge.b:after {
     content: ', Mother of Stars';
@@ -271,7 +271,7 @@ form input[value='Bookmark'] {
     transition: 0.4s
 }
 #about .bottom a:hover {
-    filter: drop-shadow(1px 1px 4px #ffffff);
+    filter: drop-shadow(0px 0px 4px #ffffff);
 }
 
 .alert {
@@ -297,11 +297,13 @@ h1 {
 .contentheader {
     font-size: 24px;
     padding-left: 12px;
+    padding-right: 6px;
     background: #796d66;
 }
 .contentsubheader {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 12px;
+    padding-right: 6px;
     background: #847a74;
 }
 .contentsection {
@@ -315,6 +317,7 @@ h1 {
 .contentsubsubheader {
     font-size: 18px;
     padding-left: 6px;
+    padding-right: 6px;
     background: #796d66;
 }
 .maincontent {
@@ -429,8 +432,15 @@ span[style="color: #ff0000;"] {
 }
 
 #chatMessagePinned {
-    background-color: #665b52 !important;
+    background: #665b52 !important;
     color: #f2f0ec !important;
+}
+#chatMessagePinned.s-chat-message__pinned:before {
+	content: url(//static.lioden.com/images/layout/sticky.png);
+    position:absolute;
+    top: 5px;
+    left: -25px;
+    filter: hue-rotate(-20deg) saturate(20%);
 }
 #chatMessagePinned a {
     color: #f2f0ec !important;
@@ -446,6 +456,37 @@ span[style="color: #ff0000;"] {
 
 #btnChatSettings, #btnLoadNewMessages {
     filter: sepia(200%)
+}
+
+.member-online {
+    background: url('https://snnxwww.github.io/snows-css/Kassiopeia/icononline.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+.member-offline {
+    background: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconoffline.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #766c65)
+}
+img[src*='icon-beetle-silver.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconsb.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon-beetle-gold.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icongb.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
 }
 
 
