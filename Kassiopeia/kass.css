@@ -19,7 +19,7 @@ input, .button, select, textarea {
 }
 input:hover, .button:hover, select:hover, textarea:hover {
     transform: rotate(1deg) translateY(1px);
-    filter: drop-shadow(0px 0px 4px #cdc1bc)
+    filter: drop-shadow(1px 1px 4px #cdc1bc)
 }
 
 a {
@@ -129,7 +129,7 @@ a:hover {
 }
 .navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
     background: none !important;
-    filter: drop-shadow(0x 0px 3px #fff);
+    filter: drop-shadow(1px 1px 3px #fff);
     box-shadow: 0px 0px 4px #83735d !important;
     transform: rotate(-1deg) translateY(-1px) translateX(1px);
 }
@@ -139,7 +139,7 @@ a:hover {
   }
 }
 .main {
-    width: 89.999996185303%;
+    width: 89.99999%;
     max-width: 1200px;
     padding-top: 50px;
     position: relative;
@@ -237,7 +237,7 @@ form input[value='Bookmark'] {
     text-align: right;
     margin-right: 20px;
     color: #c7b7ac;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(1px 1px 4px #e8dab3)
 }
 .xlarge.b:after {
     content: ', Mother of Stars';
@@ -271,7 +271,7 @@ form input[value='Bookmark'] {
     transition: 0.4s
 }
 #about .bottom a:hover {
-    filter: drop-shadow(0px 0px 4px #ffffff);
+    filter: drop-shadow(1px 1px 4px #ffffff);
 }
 
 .alert {
@@ -301,7 +301,7 @@ h1 {
     background: #796d66;
 }
 .contentsubheader {
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 12px;
     padding-right: 6px;
     background: #847a74;
@@ -370,11 +370,11 @@ table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #
     color: #f2f0ec;
     text-decoration: none;
 }
-table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div {
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, *:has(.featured-lion) table td.right_odd{
     background: #a59d97;
     color: #f2f0ec;
 }
-#sparring .right_odd {
+#sparring .right_odd, *:has(.featured-lion) table .left.b {
     background: #978d86;
 }
 .col-sm-4 div {
@@ -386,8 +386,8 @@ table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:ha
 table td[colspan='100%'].left {
     background: #f2f0ec !important;
 }
-#editdetailspanel .left.b {
-    background: #938880;
+#editdetailspanel .left.b, *:has(.featured-lion) table td .left.b {
+    background: #938880 !important;
 }
 
 #fraOrganizationBlock .col-md-4 {
@@ -432,15 +432,8 @@ span[style="color: #ff0000;"] {
 }
 
 #chatMessagePinned {
-    background: #665b52 !important;
+    background-color: #665b52 !important;
     color: #f2f0ec !important;
-}
-#chatMessagePinned.s-chat-message__pinned:before {
-	content: url(//static.lioden.com/images/layout/sticky.png);
-    position:absolute;
-    top: 5px;
-    left: -25px;
-    filter: hue-rotate(-20deg) saturate(20%);
 }
 #chatMessagePinned a {
     color: #f2f0ec !important;
@@ -456,6 +449,15 @@ span[style="color: #ff0000;"] {
 
 #btnChatSettings, #btnLoadNewMessages {
     filter: sepia(200%)
+}
+*:has(.featured-lion) .breadcrumb {
+    margin-bottom: 30px;
+}
+*:has(.featured-lion)  form input[value='Bookmark'] {
+    position: absolute !important;
+    top: 28.5px;
+    right: 20px;
+    z-index: 10;
 }
 
 .member-online {
@@ -488,7 +490,48 @@ img[src*='icon-beetle-gold.png'] {
     width: 20px;
     filter: drop-shadow(0px 0px 4px #e8dab3)
 }
-
+img[src*='icon_den_friend.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconfriend.png');
+    height: 24px;
+    width: 24px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_wishlist.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconwishlist.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_message.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconmessage.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_gift.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icontransfer.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_trade.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icontrade.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_viewtrade.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconseetrade.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon_den_block.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconblock.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3)
+}
 
 .opacity-5 {
     opacity: 5%;
