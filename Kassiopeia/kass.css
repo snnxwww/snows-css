@@ -12,6 +12,24 @@ html {
     scroll-timeline: --page-scroll block;
 }
 
+input, .button, select, textarea {
+    background: #78655d !important;
+    color: #f2f0ec !important;
+    transition: 0.4s;
+}
+input:hover, .button:hover, select:hover, textarea:hover {
+    transform: rotate(1deg) translateY(1px);
+    filter: drop-shadow(1px 1px 4px #cdc1bc)
+}
+
+a {
+    display: inline;
+    transition: 0.4s;
+}
+a:hover {
+    transform: rotate(0.5deg) translateX(2px);
+}
+
 .particle {
     position: fixed;
     width: 4px;
@@ -61,8 +79,6 @@ html {
 .particle:nth-child(12) { top: 10%; right: -1%; animation: shoot 11.5s linear 9.2s infinite; }
 
 
-
-
 .pagedoll {
     position: fixed;
     bottom: 0;
@@ -81,6 +97,16 @@ html {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+    background: #413530;
+    color: #f2f0ec;
+}
+.topbar a {
+    color: #f2f0ec !important;
+    transition: 0.4s
+}
+.topbar a:hover {
+    display: inline-block;
+    transform: rotate(-1deg) translateY(-2px) translateX(1px);
 }
 .navbar {
     position: fixed;
@@ -88,14 +114,23 @@ html {
     max-width: 1200px;
     left: 50%;
     z-index: 2;
-    top: 85px; 
+    top: 84px; 
     transform: translate(-50%, -50%); 
     animation: stickToTopbar linear both;
     animation-timeline: --page-scroll;
     animation-range: 0px 70px; 
+    background: #60524c;
 }
 .navbar a {
-    font-size: 16.5px !important
+    color: #f2f0ec !important;
+    font-size: 16.5px !important;
+    transition: 0.4s
+}
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
+    background: none !important;
+    filter: drop-shadow(1px 1px 3px #fff);
+    box-shadow: 0px 0px 4px #83735d !important;
+    transform: rotate(-1deg) translateY(-1px) translateX(1px);
 }
 @keyframes stickToTopbar {
   to {
@@ -103,10 +138,15 @@ html {
   }
 }
 .main {
-    width: 90%;
+    width: 89.99999%;
     max-width: 1200px;
     padding-top: 50px;
     position: relative;
+    background: #3b332f;
+}
+.col-md-9 {
+    margin-top: -1px;
+    background: #544a45;
 }
 
 @media (max-width: 768px) {
@@ -145,20 +185,27 @@ html {
 
 .breadcrumb {
     margin-bottom: 780px;
+    background: #998f89;
+}
+.breadcrumb a {
+    color: #f2f0ec !important;
+}
+.breadcrumb-item {
+    color: #e0dbd2 !important;
 }
 form input[value='Bookmark'] {
-    position: absolute;
+    position: absolute !important;
     top: 515px;
     right: 25px;
-    z-index: 1;
+    z-index: 10;
 }
 .feature-display {
     height: 280px;
     width: 96%;
-    background: #fff;
     margin-top: 150px;
     position: absolute;
     top: 120px;
+    background: #998f89
 }
 .feature-display img {
     position: absolute !important;
@@ -177,16 +224,19 @@ form input[value='Bookmark'] {
     left: 0;
 }
 #about .top, #about .bottom {
-    background: none
+    background: none;
 }
 .xlarge.b a {
     font-size: 60px;
+    color: #d3c6be !important;
+    filter: none
 }
-
 .xlarge.b {
     font-size: 0px;
     text-align: right;
     margin-right: 20px;
+    color: #c7b7ac;
+    filter: drop-shadow(1px 1px 4px #e8dab3)
 }
 .xlarge.b:after {
     content: ', Mother of Stars';
@@ -198,13 +248,40 @@ form input[value='Bookmark'] {
     left: -200px;
     width: 100%;
 }
+#about .inner-table a {
+    color: #f2f0ec;
+}
+.inner-table .left {
+    background: #807873;
+    color: #f2f0ec;
+}
+.inner-table .right {
+    background: #998f89;
+    color: #f2f0ec;
+}
 #about .bottom {
     position: absolute;
     top: 460px;
     margin-left: 20px;
 }
 #about .bottom a {
-    color: #000
+    color: #f2f0ec;
+    text-decoration: none;
+    transition: 0.4s
+}
+#about .bottom a:hover {
+    filter: drop-shadow(1px 1px 4px #ffffff);
+}
+
+.alert {
+    background: #998f89;
+    color: #f2f0ec;
+}
+.alert a {
+    color: #e3ded4;
+}
+.alert-danger, .alert-warning {
+    background: #796d65;
 }
 
 h1 {
@@ -214,14 +291,17 @@ h1 {
 .boxsection {
     margin-top: -80px;
     text-align: left;
+    color: #f2f0ec;
 }
 .contentheader {
     font-size: 24px;
     padding-left: 12px;
+    background: #796d66;
 }
 .contentsubheader {
     font-size: 20px;
     padding-left: 12px;
+    background: #847a74;
 }
 .contentsection {
     padding: 40px;
@@ -233,12 +313,16 @@ h1 {
 }
 .contentsubsubheader {
     font-size: 18px;
+    padding-left: 6px;
+    background: #796d66;
 }
 .maincontent {
     margin-top: 20px;
     font-size: 16px;
     height: 300px;
+    padding: 10px;
     overflow: auto;
+    background: #998c85;
 }
 .imagecontent {
     flex: 2;
@@ -247,6 +331,8 @@ h1 {
 #commentBox {
     width: 70% ;
     margin-left: 30%;
+    background: none;
+    color: #f2f0ec
 }
 #commentBox:before {
     content: '';
@@ -260,6 +346,46 @@ h1 {
     background-repeat: no-repeat;
     pointer-events: none;
 }
+.comment {
+    background: #ac9d93 !important;
+    border-bottom: 1px solid #f2f0ec !important;
+}
+.comment:last-of-type {
+    background: #8b7c72 !important;
+    border: none !important
+}
+.comment a, .comment small {
+    color: #e6e1d6;
+}
+
+table:not(#about) .top, table:not(#about) th, table:not(#about) .bottom, #player .right_odd, form .left:has(a[href='/account-settings.php']) {
+    background: #766c65;
+    color: #f2f0ec;
+}
+table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #player .right_odd a {
+    color: #f2f0ec;
+    text-decoration: none;
+}
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div {
+    background: #a59d97;
+    color: #f2f0ec;
+}
+#sparring .right_odd {
+    background: #978d86;
+}
+.col-sm-4 div {
+    width: 100% !important;
+}
+table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
+    color: #f2f0ec;
+}
+table td[colspan='100%'].left {
+    background: #f2f0ec !important;
+}
+#editdetailspanel .left.b {
+    background: #938880;
+}
+
 
 #fraOrganizationBlock .col-md-4 {
     width: 33%
@@ -270,6 +396,14 @@ h1 {
 
 .feature {
     height: 140px;
+    background: #a59d97 !important;
+    color: #f2f0ec;
+}
+.feature h3, b:has(span[style="color: #ff0000;"]) {
+    color: #f2f0ec;
+}
+span[style="color: #ff0000;"] {
+    color: #d7d4cf !important;
 }
 
 
