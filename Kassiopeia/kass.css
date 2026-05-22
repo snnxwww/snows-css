@@ -425,8 +425,12 @@ span[style="color: #ff0000;"] {
 .progress {
     background: #c1b1a4;
 }
+.progress div {
+    color: #f2f0ec !important;
+}
 .progress-bar {
     background: #94887d;
+    color: #f2f0ec !important;
 }
 
 #label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
