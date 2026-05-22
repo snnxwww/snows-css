@@ -450,11 +450,14 @@ span[style="color: #ff0000;"] {
 }
 .s-chat-message {
     padding-left: 6px !important;
+    padding-right: 6px !important;
     background-color: #aa9c90 !important;
     color: #f2f0ec !important;
 }
 .s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
     color: #e1ddd5 !important;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 #btnChatSettings, #btnLoadNewMessages {
