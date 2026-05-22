@@ -1,1 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
+* {
+    font-family: 'cormorant garamond';
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+html {
+    scroll-timeline: --page-scroll block;
+}
+
+body {
+    background: #dfe9ea url('https://snnxwww.github.io/snows-css/Skata/skatabg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+input, .button, select, textarea {
+    background: #4e757d !important;
+    color: #f2f7f8 !important;
+    transition: 0.4s;
+}
+input:hover, .button:hover, select:hover, textarea:hover {
+    transform: rotate(1deg) translateY(1px);
+    filter: drop-shadow(1px 1px 4px #cdc1bc)
+}
+
+a {
+    color: #f2f7f8 !important;
+    display: inline-block;
+    transition: 0.4s;
+}
+a:hover {
+    transform: rotate(0.5deg) translateX(2px) !important;
+}
+
+.particle {
+    position: fixed;
+    width: 1px;
+    height: 20px;
+    border-radius: 50px !important;
+    background: #ffffff80;
+    z-index: 10;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    animation: rain 3s linear infinite;
+}
+
+
+@keyframes rain {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    100% {
+        transform: translateY(100vh);
+    }
+}
+.particle:nth-child(1) { top: -10%; right: 0%; animation: rain 1.5s linear 1.4s infinite; }
+.particle:nth-child(2) { top: -10%; right: 2%; animation: rain 1.1s linear 0.3s infinite; }
+.particle:nth-child(3) { top: -10%; right: 4%; animation: rain 1.3s linear 2.1s infinite; }
+.particle:nth-child(4) { top: -10%; right: 6%; animation: rain 1.8s linear 0.8s infinite; }
+.particle:nth-child(5) { top: -10%; right: 9%; animation: rain 1.5s linear 1.9s infinite; }
+.particle:nth-child(6) { top: -10%; right: 11%; animation: rain 1.0s linear 0.2s infinite; }
+.particle:nth-child(7) { top: -10%; right: 13%; animation: rain 1.2s linear 1.1s infinite; }
+.particle:nth-child(8) { top: -10%; right: 15%; animation: rain 1.5s linear 2.4s infinite; }
+.particle:nth-child(9) { top: -10%; right: 16%; animation: rain 1.1s linear 0.6s infinite; }
+.particle:nth-child(10) { top: -10%; right: 19%; animation: rain 1.3s linear 1.7s infinite; }
+.particle:nth-child(11) { top: -10%; right: 21%; animation: rain 1.8s linear 0.4s infinite; }
+.particle:nth-child(12) { top: -10%; right: 23%; animation: rain 1.5s linear 2.2s infinite; }
+.particle:nth-child(13) { top: -10%; right: 26%; animation: rain 1.5s linear 1.0s infinite; }
+.particle:nth-child(14) { top: -10%; right: 28%; animation: rain 1.1s linear 1.5s infinite; }
+.particle:nth-child(15) { top: -10%; right: 30%; animation: rain 1.3s linear 0.1s infinite; }
+.particle:nth-child(16) { top: -10%; right: 32%; animation: rain 1.8s linear 1.3s infinite; }
+.particle:nth-child(17) { top: -10%; right: 34%; animation: rain 1.5s linear 0.7s infinite; }
+.particle:nth-child(18) { top: -10%; right: 36%; animation: rain 1.0s linear 2.0s infinite; }
+.particle:nth-child(19) { top: -10%; right: 38%; animation: rain 1.2s linear 0.5s infinite; }
+.particle:nth-child(20) { top: -10%; right: 40%; animation: rain 1.5s linear 0.9s infinite; }
+.particle:nth-child(21) { top: -10%; right: 43%; animation: rain 1.1s linear 1.2s infinite; }
+.particle:nth-child(22) { top: -10%; right: 45%; animation: rain 1.3s linear 0.7s infinite; }
+.particle:nth-child(23) { top: -10%; right: 47%; animation: rain 1.8s linear 2.3s infinite; }
+.particle:nth-child(24) { top: -10%; right: 49%; animation: rain 1.5s linear 1.1s infinite; }
+.particle:nth-child(25)  { top: -10%; right: 51%; animation: rain 1.5s linear 0.2s infinite; }
+.particle:nth-child(26)  { top: -10%; right: 55%; animation: rain 1.1s linear 1.4s infinite; }
+.particle:nth-child(27)  { top: -10%; right: 57%; animation: rain 1.3s linear 2.1s infinite; }
+.particle:nth-child(28)  { top: -10%; right: 60%; animation: rain 1.8s linear 0.5s infinite; }
+.particle:nth-child(29)  { top: -10%; right: 62%; animation: rain 1.5s linear 1.6s infinite; }
+.particle:nth-child(30)  { top: -10%; right: 64%; animation: rain 1.0s linear 0.9s infinite; }
+.particle:nth-child(31)  { top: -10%; right: 66%; animation: rain 1.2s linear 2.4s infinite; }
+.particle:nth-child(32)  { top: -10%; right: 68%; animation: rain 1.5s linear 0.1s infinite; }
+.particle:nth-child(33)  { top: -10%; right: 70%; animation: rain 1.1s linear 1.2s infinite; }
+.particle:nth-child(34) { top: -10%; right: 72%; animation: rain 1.3s linear 1.5s infinite; }
+.particle:nth-child(35) { top: -10%; right: 72% animation: rain 1.8s linear 0.4s infinite; }
+.particle:nth-child(36) { top: -10%; right: 77%; animation: rain 1.5s linear 1.2s infinite; }
+.particle:nth-child(37)  { top: -10%; right: 79%; animation: rain 1.5s linear 2.4s infinite; }
+.particle:nth-child(38)  { top: -10%; right: 81%; animation: rain 1.1s linear 0.1s infinite; }
+.particle:nth-child(39)  { top: -10%; right: 83%; animation: rain 1.3s linear 1.3s infinite; }
+.particle:nth-child(40)  { top: -10%; right: 85%; animation: rain 1.8s linear 9.8s infinite; }
+.particle:nth-child(41)  { top: -10%; right: 87%; animation: rain 1.5s linear 2.7s infinite; }
+.particle:nth-child(42)  { top: -10%; right: 89%; animation: rain 1.0s linear 1.5s infinite; }
+.particle:nth-child(43)  { top: -10%; right: 90%; animation: rain 1.2s linear 2.0s infinite; }
+.particle:nth-child(44)  { top: -10%; right: 92%; animation: rain 1.5s linear 1.5s infinite; }
+.particle:nth-child(45)  { top: -10%; right: 94%; animation: rain 1.1s linear 2.2s infinite; }
+.particle:nth-child(46) { top: -10%; right: 96%; animation: rain 1.3s linear 0.3s infinite; }
+.particle:nth-child(47) { top: -10%; right: 98%; animation: rain 1.8s linear 1.8s infinite; }
+.particle:nth-child(48) { top: -10%; right: 100%; animation: rain 1.5s linear 1.2s infinite; }
+
+
+.pagedoll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    width: 400px;
+    max-width: 50%;
+    pointer-events: none;
+}
+
+.topbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background: #2e6b77;
+    color: #f2f7f8;
+}
+.topbar a {
+    color: #f2f7f8 !important;
+    transition: 0.4s
+}
+.topbar a:hover {
+    display: inline-block;
+    transform: rotate(-1deg) translateY(-2px) translateX(1px);
+}
+.navbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    left: 50%;
+    z-index: 2;
+    top: 84px; 
+    transform: translate(-50%, -50%); 
+    animation: stickToTopbar linear both;
+    animation-timeline: --page-scroll;
+    animation-range: 0px 70px; 
+    background: #53818a;
+}
+.navbar a {
+    color: #f2f7f8 !important;
+    font-size: 16.5px !important;
+    transition: 0.4s
+}
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
+    background: none !important;
+    filter: drop-shadow(1px 1px 3px #fff);
+    box-shadow: 0px 0px 4px #b3c7cb !important;
+    transform: rotate(-1deg) translateY(-1px) translateX(1px);
+}
+@keyframes stickToTopbar {
+  to {
+    top: 59px; 
+  }
+}
+.main {
+    width: 89.99999%;
+    max-width: 1200px;
+    padding-top: 50px;
+    position: relative;
+    background: #6e969e;
+}
+.col-md-9 {
+    margin-top: -1px;
+    background: #87b1b9;
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        width: 100%;
+    } 
+    .navbar {
+        width: 100%;
+        top: 59px; 
+    }
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        border: none;
+    }
+    .main {
+        width: 100%;
+        padding-top: 80px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar a {
+        font-size: 1.5rem !important;
+    }
+}
+@media (min-width: 993px) {
+    .sidebar {
+        position: sticky !important;
+        top: 0;
+        height: 90vh;
+        overflow: auto;
+        padding-bottom: 300px;
+    }
+}
+
+.breadcrumb {
+    margin-bottom: 780px;
+    background: #66949d;
+}
+.breadcrumb a {
+    color: #f2f7f8 !important;
+}
+.breadcrumb-item {
+    color: #dfe6e7 !important;
+}
+form input[value='Bookmark'] {
+    position: absolute !important;
+    top: 515px;
+    right: 30px;
+    z-index: 10;
+}
+.feature-display {
+    height: 280px;
+    width: 96%;
+    margin-top: 150px;
+    position: absolute;
+    top: 120px;
+    background: #66949d;
+}
+.feature-display img {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    margin-top: -200px;
+}
+#about img {
+    display: none;
+}
+#about {
+    position: absolute;
+    top: 60px;
+    border: none;
+    left: 0;
+}
+#about .top, #about .bottom {
+    background: none;
+}
+.xlarge.b a {
+    font-size: 60px;
+    color: #dde6e7 !important;
+    filter: none
+}
+.xlarge.b {
+    font-size: 0px;
+    text-align: right;
+    margin-right: 20px;
+    color: #c4d6da;
+    filter: drop-shadow(1px 1px 4px #d1e5ea)
+}
+.xlarge.b:after {
+    content: ', Queen of the Sea';
+    font-size: 40px;
+}
+#about .inner-table {
+    position: absolute;
+    top: 400px;
+    left: -200px;
+    width: 100%;
+}
+#about .inner-table a {
+    color: #f2f7f8;
+}
+.inner-table .left {
+    background: #548189;
+    color: #f2f7f8;
+}
+.inner-table .right {
+    background: #6c9aa3;
+    color: #f2f7f8;
+}
+#about .bottom {
+    position: absolute;
+    top: 460px;
+    margin-left: 20px;
+}
+#about .bottom a {
+    color: #f2f7f8;
+    text-decoration: none;
+    transition: 0.4s
+}
+#about .bottom a:hover {
+    filter: drop-shadow(1px 1px 4px #ffffff);
+}
+
+.alert {
+    background: #66949d;
+    color: #f2f7f8;
+}
+.alert a {
+    color: #cdd9dc;
+}
+.alert-danger, .alert-warning {
+    background: #628c94;
+}
+
+h1 {
+    display: none
+}
+
+.boxsection {
+    margin-top: -80px;
+    text-align: left;
+    color: #f2f7f8;
+}
+.contentheader {
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 6px;
+    background: #527981;
+}
+.contentsubheader {
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 6px;
+    background: #638b93;
+}
+.contentsection {
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+}
+.contentbox {
+    flex: 3;
+}
+.contentsubsubheader {
+    font-size: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background: #628b93;
+}
+.maincontent {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 300px;
+    padding: 10px;
+    overflow: auto;
+    background: #66949d;
+}
+.imagecontent {
+    flex: 2;
+}
+
+#commentBox {
+    width: 70% ;
+    margin-left: 30%;
+    background: none;
+    color: #f2f7f8;
+}
+#commentBox:before {
+    content: '';
+    position: absolute;
+    left: -120px;
+    margin-top: -20px;
+    height: 380px;
+    width: 420px;
+    background: url('https://snnxwww.github.io/snows-css/Skata/skata.png');;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+.comment {
+    background: #537d86 !important;
+    border-bottom: 1px solid #f2f7f8 !important;
+}
+.comment:last-of-type {
+    background: #66949d !important;
+    border: none !important
+}
+.comment a, .comment small {
+    color: #d2dfe2;
+}
+
+table:not(#about) .top, table:not(#about) th, table:not(#about) .bottom, #player .right_odd, form .left:has(a[href='/account-settings.php']), .badge {
+    background: #66949d;
+    color: #f2f7f8;
+}
+table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #player .right_odd a {
+    color: #f2f7f8;
+    text-decoration: none;
+}
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd{
+    background: #73a0a9 !important;
+    color: #f2f7f8;
+}
+#sparring .right_odd, *:has(.featured-lion) table .left.b {
+    background: #84abb3 !important;
+}
+.col-sm-4 div {
+    width: 100% !important;
+}
+table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
+    color: #f2f7f8;
+}
+table td[colspan='100%'].left {
+    background: #f2f7f8 !important;
+}
+#editdetailspanel .left.b, table td .left.b {
+    background: #73a0a9 !important;
+}
+
+#fraOrganizationBlock .col-md-4 {
+    width: 33%
+}
+#fraMoundList .col-md-3 {
+    width: 25% !important
+}
+
+.feature {
+    height: 140px;
+    background: #73a0a9 !important;
+    color: #f2f7f8;
+}
+.feature h3, b:has(span[style="color: #ff0000;"]) {
+    color: #f2f7f8;
+}
+span[style="color: #ff0000;"] {
+    color: #d2dde0 !important;
+}
+
+.panel {
+    background: #82abb3 !important;
+    color: #f2f7f8 !important;
+}
+.panel a, .sidebar h3, .sidebar a, #txtChatContainer a {
+    color: #f2f7f8;
+}
+.progress {
+    background: #9cc1c9;
+}
+.progress div {
+    color: #f2f7f8;
+}
+.progress-bar {
+    background: #5b8088;
+}
+
+#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
+    background: #82abb3 !important;
+    color: #f2f7f8 !important;
+}
+.channelSwitcher.active {
+    background: #82abb3 !important;
+}
+
+#chatMessagePinned {
+    background-color: #82abb3 !important;
+    color: #f2f7f8 !important;
+}
+#chatMessagePinned a {
+    color: #f2f7f8 !important;
+}
+.s-chat-message {
+    padding-left: 6px !important;
+    background-color: #9bb9bf !important;
+    color: #f2f7f8 !important;
+}
+.s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
+    color: #dde3e5 !important;
+    padding-left: 6px
+}
+
+#btnChatSettings, #btnLoadNewMessages {
+    filter: sepia(100%) hue-rotate(-220deg);
+}
+*:has(.featured-lion) .breadcrumb {
+    margin-bottom: 30px;
+}
+*:has(.featured-lion) form input[value='Bookmark'] {
+    position: absolute !important;
+    top: 28.5px;
+    right: 20px;
+    z-index: 10;
+}
+.featured-lion {
+    background: #66949d !important;
+}
+*:has(.featured-lion) #fraSidebarChat {
+    filter: grayscale(100%) sepia(100%) hue-rotate(-220deg) saturate(60%) brightness(90%) contrast(70%);
+}
+.col-sm-4 {
+    display: inline-block !important;
+}
+.member-online {
+    background: #d9e4e6;
+    border-radius: 30px !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+.member-offline {
+    background: #66949d;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 4px #87b1b9);
+}
+img[src*='icon-beetle-silver.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon-beetle-gold.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_friend.png'] {
+    height: 24px;
+    width: 24px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_wishlist.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_message.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_gift.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_trade.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_viewtrade.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon_den_block.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon-time-day.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon-time-night.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon-season-dry.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='icon-season-wet.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+a[href="/event.php"] img, a[href='/treasure-hunt.php'] img {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+a[href='/treasure-hunt.php'] img {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #b6ccd1);
+}
+img[src*='logo-full-2.png'] {
+    filter: hue-rotate(-200deg) saturate(40%)
+}
+
+.lionImage img:first-of-type {
+    background: #a0c3ca;
+}
+
+*:has(.featured-lion):not(.panel) .right_odd img, *:has(.featured-lion):not(.panel) .right img, *:has(.featured-lion):not(.panel) .right_cub img {
+    filter: grayscale(100%) sepia(100%) hue-rotate(-230deg) saturate(70%) brightness(70%);
+}
+
+.opacity-5 {
+    opacity: 5%;
+}
+.opacity-10 {
+    opacity: 10%;
+}
+.opacity-15 {
+    opacity: 15%;
+}
+.opacity-20 {
+    opacity: 20%;
+}
+.opacity-25 {
+    opacity: 25%;
+}
+.opacity-30 {
+    opacity: 30%;
+}
+.opacity-35 {
+    opacity: 35%;
+}
+.opacity-40 {
+    opacity: 40%;
+}
+.opacity-45 {
+    opacity: 45%;
+}
+.opacity-50 {
+    opacity: 50%;
+}
+.opacity-55 {
+    opacity: 55%;
+}
+.opacity-60 {
+    opacity: 60%;
+}
+.opacity-65 {
+    opacity: 65%;
+}
+.opacity-70 {
+    opacity: 70%;
+}
+.opacity-75 {
+    opacity: 75%;
+}
+.opacity-80 {
+    opacity: 80%;
+}
+.opacity-85 {
+    opacity: 85%;
+}
+.opacity-90 {
+    opacity: 90%;
+}
+.opacity-95 {
+    opacity: 95%;
+}
+.opacity-100 {
+    opacity: 100%;
+}
