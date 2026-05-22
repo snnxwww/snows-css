@@ -590,7 +590,7 @@ a[href='/treasure-hunt.php'] img {
     background: #b9aea5;
 }
 
-*:has(.featured-lion) .right_odd img, *:has(.featured-lion) .right img, *:has(.featured-lion) .right_cub img {
+*:has(.featured-lion) .right_odd img, *:has(.featured-lion) .right img, *:has(.featured-lion) .right_cub img, .alert img {
     filter: grayscale(100%) sepia(100%) hue-rotate(-30deg) saturate(40%) brightness(70%);
 }
 
