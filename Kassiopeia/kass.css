@@ -479,7 +479,7 @@ span[style="color: #ff0000;"] {
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 .member-offline {
     background: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconoffline.png');
@@ -488,98 +488,109 @@ span[style="color: #ff0000;"] {
     background-repeat: no-repeat;
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #766c65)
+    filter: drop-shadow(0px 0px 4px #766c65);
 }
 img[src*='icon-beetle-silver.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconsb.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon-beetle-gold.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icongb.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_friend.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconfriend.png');
     height: 24px;
     width: 24px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_wishlist.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconwishlist.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_message.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconmessage.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_gift.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icontransfer.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_trade.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icontrade.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_viewtrade.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconseetrade.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon_den_block.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconblock.png');
     height: 20px;
     width: 20px;
-    filter: drop-shadow(0px 0px 4px #e8dab3)
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon-time-day.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconday.png');
     display: inline-block; 
     height: 16px !important;
     width: 16px !important;
-    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon-time-night.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconnight.png');
     display: inline-block; 
     height: 16px !important;
     width: 16px !important;
-    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon-season-dry.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icondry.png');
     display: inline-block; 
     height: 16px !important;
     width: 16px !important;
-    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
 img[src*='icon-season-wet.png'] {
     content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconwet.png');
     display: inline-block; 
     height: 16px !important;
     width: 16px !important;
-    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+    filter: drop-shadow(0px 0px 4px #e8dab3);
 }
-
+a[href="/event.php"] img, a[href='/treasure-hunt.php'] img {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconsb.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3);
+}
+a[href='/treasure-hunt.php'] img {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icongb.png');
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #e8dab3);
+}
 
 .lionImage img:first-of-type {
     content: url(//static.lioden.com/images/blank.png);
     background: #b9aea5;
 }
 
-.right_odd img, .right img, .right_cub img {
+*:has(.featured-lion) .right_odd img, *:has(.featured-lion) .right img, *:has(.featured-lion) .right_cub img {
     filter: grayscale(100%) sepia(100%) hue-rotate(-30deg) saturate(40%) brightness(70%);
 }
 
