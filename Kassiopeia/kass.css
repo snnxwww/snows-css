@@ -12,6 +12,12 @@ html {
     scroll-timeline: --page-scroll block;
 }
 
+body {
+    background: #000000 url('https://snnxwww.github.io/snows-css/Kassiopeia/kassbg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
 input, .button, select, textarea {
     background: #78655d !important;
     color: #f2f0ec !important;
@@ -362,7 +368,7 @@ h1 {
     color: #e6e1d6;
 }
 
-table:not(#about) .top, table:not(#about) th, table:not(#about) .bottom, #player .right_odd, form .left:has(a[href='/account-settings.php']) {
+table:not(#about) .top, table:not(#about) th, table:not(#about) .bottom, #player .right_odd, form .left:has(a[href='/account-settings.php']), .badge {
     background: #766c65;
     color: #f2f0ec;
 }
@@ -370,12 +376,12 @@ table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #
     color: #f2f0ec;
     text-decoration: none;
 }
-table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, *:has(.featured-lion) table td.right_odd{
-    background: #a59d97;
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd{
+    background: #a59d97 !important;
     color: #f2f0ec;
 }
 #sparring .right_odd, *:has(.featured-lion) table .left.b {
-    background: #978d86;
+    background: #978d86 !important;
 }
 .col-sm-4 div {
     width: 100% !important;
@@ -386,7 +392,7 @@ table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:ha
 table td[colspan='100%'].left {
     background: #f2f0ec !important;
 }
-#editdetailspanel .left.b, *:has(.featured-lion) table td .left.b {
+#editdetailspanel .left.b, table td .left.b {
     background: #938880 !important;
 }
 
@@ -448,16 +454,22 @@ span[style="color: #ff0000;"] {
 }
 
 #btnChatSettings, #btnLoadNewMessages {
-    filter: sepia(200%)
+    filter: sepia(100%)
 }
 *:has(.featured-lion) .breadcrumb {
     margin-bottom: 30px;
 }
-*:has(.featured-lion)  form input[value='Bookmark'] {
+*:has(.featured-lion) form input[value='Bookmark'] {
     position: absolute !important;
     top: 28.5px;
     right: 20px;
     z-index: 10;
+}
+.featured-lion {
+    background: #aa9c90 !important;
+}
+*:has(.featured-lion) #fraSidebarChat {
+    filter: grayscale(100%) sepia(100%) hue-rotate(-30deg) saturate(20%) brightness(60%) contrast(150%);
 }
 
 .member-online {
@@ -531,6 +543,44 @@ img[src*='icon_den_block.png'] {
     height: 20px;
     width: 20px;
     filter: drop-shadow(0px 0px 4px #e8dab3)
+}
+img[src*='icon-time-day.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconday.png');
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+}
+img[src*='icon-time-night.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconnight.png');
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+}
+img[src*='icon-season-dry.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/icondry.png');
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+}
+img[src*='icon-season-wet.png'] {
+    content: url('https://snnxwww.github.io/snows-css/Kassiopeia/iconwet.png');
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #e8dab3) saturate(100%) hue-rotate(0deg) !important
+}
+
+
+.lionImage img:first-of-type {
+    content: url(//static.lioden.com/images/blank.png);
+    background: #b9aea5;
+}
+
+.right_odd img, .right img, .right_cub img {
+    filter: grayscale(100%) sepia(100%) hue-rotate(-30deg) saturate(40%) brightness(70%);
 }
 
 .opacity-5 {
