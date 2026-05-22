@@ -30,11 +30,11 @@ input:hover, .button:hover, select:hover, textarea:hover {
 
 a {
     color: #f2f0ec !important;
-    display: inline;
+    display: inline-block;
     transition: 0.4s;
 }
 a:hover {
-    transform: rotate(0.5deg) translateX(2px);
+    transform: rotate(0.5deg) translateX(2px) !important;
 }
 
 .particle {
