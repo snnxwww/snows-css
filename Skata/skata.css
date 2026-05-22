@@ -217,6 +217,12 @@ a:hover {
     margin-bottom: 780px;
     background: #66949d;
 }
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    color: #f2f7f8 !important;
+    position: absolute;
+    right: 30px;
+}
 .breadcrumb a {
     color: #f2f7f8 !important;
 }
