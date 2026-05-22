@@ -25,7 +25,7 @@ input, .button, select, textarea {
 }
 input:hover, .button:hover, select:hover, textarea:hover {
     transform: rotate(1deg) translateY(1px);
-    filter: drop-shadow(1px 1px 4px #cdc1bc)
+    filter: drop-shadow(1px 1px 4px #b9d6dc)
 }
 
 a {
@@ -216,12 +216,6 @@ a:hover {
 .breadcrumb {
     margin-bottom: 780px;
     background: #66949d;
-}
-.breadcrumb:after {
-    content: 'CSS by Snow #553411';
-    color: #f2f7f8 !important;
-    position: absolute;
-    right: 30px;
 }
 .breadcrumb a {
     color: #f2f7f8 !important;
