@@ -307,7 +307,7 @@ h1 {
     background: #796d66;
 }
 .contentsubheader {
-    font-size: 18px;
+    font-size: 20px;
     padding-left: 12px;
     padding-right: 6px;
     background: #847a74;
@@ -590,7 +590,7 @@ a[href='/treasure-hunt.php'] img {
     background: #b9aea5;
 }
 
-*:has(.featured-lion) .right_odd img, *:has(.featured-lion) .right img, *:has(.featured-lion) .right_cub img, .alert img {
+*:has(.featured-lion):not(.panel) .right_odd img, *:has(.featured-lion):not(.panel) .right img, *:has(.featured-lion):not(.panel) .right_cub img {
     filter: grayscale(100%) sepia(100%) hue-rotate(-30deg) saturate(40%) brightness(70%);
 }
 
