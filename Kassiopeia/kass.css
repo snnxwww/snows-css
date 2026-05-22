@@ -139,6 +139,9 @@ a:hover {
     box-shadow: 0px 0px 4px #83735d !important;
     transform: rotate(-1deg) translateY(-1px) translateX(1px);
 }
+.navbar-toggle {
+    background: none !important
+}
 @keyframes stickToTopbar {
   to {
     top: 59px; 
@@ -169,7 +172,8 @@ a:hover {
         width: 100%;
         top: 50px;
         border: none;
-    }
+        background: #60524c;
+        }
     .main {
         width: 100%;
         padding-top: 80px;
@@ -590,6 +594,9 @@ a[href='/treasure-hunt.php'] img {
     height: 20px;
     width: 20px;
     filter: drop-shadow(0px 0px 4px #e8dab3);
+}
+img[src*='logo-full-2.png'] {
+    filter: hue-rotate(-20deg) saturate(20%) brightness(60%)
 }
 
 .lionImage img:first-of-type {
