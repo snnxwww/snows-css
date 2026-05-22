@@ -600,6 +600,7 @@ img[src*='logo-full-2.png'] {
 }
 
 .lionImage img:first-of-type {
+    content: url(//static.lioden.com/images/blank.png);
     background: #a0c3ca;
 }
 
