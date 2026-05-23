@@ -218,8 +218,8 @@ a:hover {
 }
 
 .breadcrumb {
-    margin-bottom: 780px;
-    background: #66949d;
+    margin-bottom: 850px;
+    background: #66909d;
 }
 .breadcrumb a {
     color: #f2f7f8 !important;
@@ -314,14 +314,14 @@ form input[value='Bookmark'] {
 }
 
 .alert {
-    background: #66949d;
+    background: #578d86;
     color: #f2f7f8;
 }
 .alert a {
     color: #cdd9dc;
 }
 .alert-danger, .alert-warning {
-    background: #628c94;
+    background: #4d7c76;
 }
 
 h1 {
