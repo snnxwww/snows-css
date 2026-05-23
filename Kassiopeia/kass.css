@@ -460,6 +460,9 @@ span[style="color: #ff0000;"] {
 }
 .s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
     color: #e1ddd5 !important;
+}
+.s-chat-message_timestamp, #lblCharacterCounter {
+    color: #e1ddd5 !important;
     padding-left: 6px;
     padding-right: 6px;
 }
