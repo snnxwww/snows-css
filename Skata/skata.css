@@ -473,6 +473,7 @@ span[style="color: #ff0000;"] {
 }
 #chatMessagePinned a {
     color: #f2f7f8 !important;
+    display: block;
 }
 .s-chat-message {
     padding-left: 6px !important;
