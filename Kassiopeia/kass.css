@@ -43,7 +43,7 @@ a:hover {
     height: 4px;
     border-radius: 50px !important;
     background: #fff;
-    z-index: 10;
+    z-index: 100;
     border-radius: 50%;
     box-shadow: 0 0 0 1px #ffffff30, 0 0 0 2px #ffffff40, 0 0 0 4px #ffffff40 !important;
     transform: rotate(-45deg);
