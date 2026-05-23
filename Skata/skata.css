@@ -36,6 +36,9 @@ a:not(a[href*='stud_requests']):not(a[href*='userlog']):not(a[href*='attacks']) 
 a:hover {
     transform: rotate(0.5deg) translateX(2px) !important;
 }
+.sidebar a:has(h3), a[href*='cave'], a[href*='overview'], a[href*='unsorted'], a[href*='nesting'] {
+    display: block !important;
+}
 
 .particle {
     position: fixed;
@@ -622,6 +625,17 @@ img[src*='logo-full-2.png'] {
 
 *:has(.featured-lion):not(.panel) .right_odd img, *:has(.featured-lion):not(.panel) .right img, *:has(.featured-lion):not(.panel) .right_cub img {
     filter: grayscale(100%) sepia(100%) hue-rotate(-230deg) saturate(70%) brightness(70%);
+}
+
+img[src*='cave'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/drowned_pirates_01.png');
+    height: 120px !important;
+    object-fit: cover !important;
+}
+img[src*='banner'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/ghostship.png');
+    height: 60px !important;
+    object-fit: cover !important;
 }
 
 .opacity-5 {
