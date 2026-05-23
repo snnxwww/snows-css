@@ -384,7 +384,7 @@ table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 d
     background: #a59d97 !important;
     color: #f2f0ec;
 }
-#sparring .right_odd, *:has(.featured-lion) table .left.b {
+#sparring .right_odd, table .left.b {
     background: #978d86 !important;
 }
 .col-sm-4 div {
