@@ -227,6 +227,12 @@ a:hover {
 .breadcrumb-item {
     color: #dfe6e7 !important;
 }
+.breadcrumb:after {
+    content: "CSS by Snow #553411";
+    position: absolute;
+    right: 25px;
+    color: #f2f7f8;
+}
 form input[value='Bookmark'] {
     position: absolute !important;
     top: 515px;
