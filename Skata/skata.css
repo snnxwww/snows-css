@@ -279,8 +279,9 @@ form input[value='Bookmark'] {
     filter: drop-shadow(1px 1px 4px #d1e5ea)
 }
 .xlarge.b:after {
-    content: ', Queen of the Sea';
+    content: ' Queen of the Sea';
     font-size: 40px;
+    padding-left: 20px;
 }
 #about .inner-table {
     position: absolute;
