@@ -28,7 +28,7 @@ input:hover, .button:hover, select:hover, textarea:hover {
     filter: drop-shadow(1px 1px 4px #cdc1bc)
 }
 
-a {
+a:not(a[href*='stud_requests']):not(a[href*='userlog']):not(a[href*='attacks']) {
     color: #f2f0ec !important;
     display: inline-block;
     transition: 0.4s;
