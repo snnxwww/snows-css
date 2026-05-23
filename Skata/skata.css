@@ -481,8 +481,12 @@ span[style="color: #ff0000;"] {
 }
 .s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
     color: #dde3e5 !important;
-    padding-left: 6px
 }
+.s-chat-message_timestamp, #lblCharacterCounter {
+    padding-left: 6px
+    padding-right: 6px
+}
+
 
 #btnChatSettings, #btnLoadNewMessages {
     filter: sepia(100%) hue-rotate(-220deg);
