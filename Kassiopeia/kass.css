@@ -380,11 +380,11 @@ table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #
     color: #f2f0ec;
     text-decoration: none;
 }
-table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd{
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd, .sub_sub_menu {
     background: #a59d97 !important;
     color: #f2f0ec;
 }
-#sparring .right_odd, table .left.b {
+#sparring .right_odd, table .left.b, .sub_menu {
     background: #978d86 !important;
 }
 .col-sm-4 div {
