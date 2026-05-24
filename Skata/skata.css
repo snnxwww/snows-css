@@ -392,6 +392,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
+    transform: scaleX(-1);
 }
 .comment {
     background: #537d86 !important;
