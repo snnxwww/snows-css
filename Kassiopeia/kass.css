@@ -340,6 +340,7 @@ h1 {
 }
 .imagecontent {
     flex: 2;
+    margin-right: -50px;
 }
 
 #commentBox {
